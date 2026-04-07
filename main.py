@@ -1,11 +1,16 @@
+# main.py
 from app.pipeline import run_pipeline
 import json
 
 
 if __name__ == "__main__":
-    results = run_pipeline()
+    try:
+        results = run_pipeline()
 
-    with open("data/output.json", "w") as f:
-        json.dump(results, f, indent=2)
+        with open("data/output.json", "w", encoding="utf-8") as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
 
-    print("Pipeline completed!")
+        print(f"Pipeline completed! Saved {len(results)} article(s).")
+
+    except Exception as e:
+        print(f"Pipeline failed: {e}")

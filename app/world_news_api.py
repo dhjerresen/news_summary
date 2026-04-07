@@ -45,5 +45,5 @@ def fetch_news():
 
 
 if __name__ == "__main__":
-    result = my_custom_function()
+    result = fetch_news()
     print(result)

@@ -1,3 +1,4 @@
+# app/llm.py
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -41,9 +42,8 @@ Article:
 
 def extract_topic(text: str) -> str:
     prompt = f"""
-Extract the main topic of the following news article.
-
-Return ONLY a short topic (max 5 words).
+Extract the main entity or subject of the article.
+Return ONLY one short Wikipedia-friendly topic.
 
 Article:
 {text}
