@@ -1,32 +1,32 @@
 {
-  "run_id": "20260407_111427",
+  "run_id": "20260407_122443",
   "metadata": {
-    "run_id": "20260407_111427",
-    "started_at": "2026-04-07T11:14:27.794734+00:00",
-    "finished_at": "2026-04-07T11:15:01.819685+00:00",
+    "run_id": "20260407_122443",
+    "started_at": "2026-04-07T12:24:43.775180+00:00",
+    "finished_at": "2026-04-07T12:25:25.831410+00:00",
     "status": "success",
     "model_name": "llama-3.3-70b-versatile",
     "prompt_version": "v2_clustered_top_news",
     "max_clusters_requested": 5,
-    "num_raw_clusters": 18,
-    "num_raw_articles": 77,
+    "num_raw_clusters": 25,
+    "num_raw_articles": 112,
     "num_processed_clusters": 5,
     "num_successful_summaries": 5,
     "num_failed_clusters": 0,
     "wiki_miss_count": 0,
     "artifacts": {
-      "raw_news": "artifacts/runs/20260407_111427/raw_news.json",
-      "processed_clusters": "artifacts/runs/20260407_111427/processed_clusters.json",
-      "summaries": "artifacts/runs/20260407_111427/summaries.json",
-      "failed_clusters": "artifacts/runs/20260407_111427/failed_clusters.json",
-      "metadata": "artifacts/runs/20260407_111427/metadata.json",
-      "logs": "artifacts/runs/20260407_111427/logs.txt"
+      "raw_news": "artifacts/runs/20260407_122443/raw_news.json",
+      "processed_clusters": "artifacts/runs/20260407_122443/processed_clusters.json",
+      "summaries": "artifacts/runs/20260407_122443/summaries.json",
+      "failed_clusters": "artifacts/runs/20260407_122443/failed_clusters.json",
+      "metadata": "artifacts/runs/20260407_122443/metadata.json",
+      "logs": "artifacts/runs/20260407_122443/logs.txt"
     }
   },
   "summaries": [
     {
       "cluster_rank": 1,
-      "cluster_size": 15,
+      "cluster_size": 19,
       "title": "Cardi B’s Ex Offset Shot Outside Florida Casino: Everything to Know",
       "url": "https://www.usmagazine.com/celebrity-news/news/cardi-bs-ex-offset-shot-in-florida-everything-we-know/",
       "source_name": "usmagazine.com",
@@ -46,7 +46,11 @@
         "apnews.com",
         "usmagazine.com",
         "bostonglobe.com",
-        "upi.com"
+        "upi.com",
+        "newsweek.com",
+        "cbsnews.com",
+        "thedailybeast.com",
+        "abc13.com"
       ],
       "supporting_articles": [
         {
@@ -138,12 +142,36 @@
           "url": "https://www.usmagazine.com/celebrity-news/news/cardi-bs-ex-offset-hung-out-with-fans-before-shooting/",
           "source_name": "usmagazine.com",
           "published_at": "2026-04-07 04:37:15"
+        },
+        {
+          "title": "Rapper Offset Shot Near Florida Casino: What Happened To Lil Tjay?",
+          "url": "https://www.newsweek.com/offset-rapper-shot-near-florida-casino-what-happened-lil-tjay-11791165",
+          "source_name": "newsweek.com",
+          "published_at": "2026-04-07 07:34:30"
+        },
+        {
+          "title": "Offset shot at Hard Rock Casino in Florida; Atlanta rapper stable, rep says",
+          "url": "https://www.cbsnews.com/news/offset-shot-in-south-florida-near-hard-rock-casino-atlanta-rapper-hospitalized-stable/",
+          "source_name": "cbsnews.com",
+          "published_at": "2026-04-07 09:10:32"
+        },
+        {
+          "title": "Rapper Hospitalized After Casino Shooting",
+          "url": "https://www.thedailybeast.com/rapper-offset-hospitalized-after-casino-shooting/",
+          "source_name": "thedailybeast.com",
+          "published_at": "2026-04-07 09:15:32"
+        },
+        {
+          "title": "Rapper Offset hospitalized after being shot in Florida",
+          "url": "https://abc13.com/post/rapper-offset-hospitalized-being-shot-outside-hard-rock-hotel-florida/18850104/",
+          "source_name": "abc13.com",
+          "published_at": "2026-04-07 06:32:58"
         }
       ],
       "topic": "Offset (rapper)",
-      "summary": "Rapper Offset, the estranged husband of Cardi B, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. Two people have been detained in connection with the incident, which occurred near the casino's valet area and resulted in non-life-threatening injuries. The shooting is under investigation, with police stating that the situation was contained quickly and there is no threat to the public.",
+      "summary": "Offset, the estranged husband of Cardi B, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. Two people have been detained in connection with the incident, which occurred on Monday, and police have stated that no life-threatening injuries occurred. The shooting is still under investigation, and Offset's representative has confirmed that he is being closely monitored while receiving medical care.",
       "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
-      "enriched_summary": "Here is a concise and enriched summary:\n\nRapper Offset, the estranged husband of Cardi B, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. This incident comes over three years after his Migos bandmate Takeoff was fatally shot in Houston, Texas, in 2022. Two people have been detained in connection with the shooting, which resulted in non-life-threatening injuries. The investigation is ongoing, with police stating that the situation was contained quickly and there is no threat to the public. As a member of the now-disbanded hip-hop trio Migos, Offset has been open about struggling to cope with Takeoff's death, and this new incident may raise concerns about violence in the music industry."
+      "enriched_summary": "Here is an enriched summary of the article in 3-5 sentences, including relevant background context:\n\nOffset, a member of the former hip-hop trio Migos and estranged husband of Cardi B, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. This incident comes over three years after the fatal shooting of his former Migos bandmate Takeoff in Houston, Texas, in 2022. Two people have been detained in connection with the shooting, which occurred on Monday, and police have stated that no life-threatening injuries occurred. As a prominent figure in the music industry, Offset's shooting has raised concerns, and his representative has confirmed that he is being closely monitored while receiving medical care. This incident marks another challenge for Offset, who has been navigating his personal life, including his split from Cardi B, since their public separation in 2023."
     },
     {
       "cluster_rank": 2,
@@ -205,14 +233,14 @@
           "published_at": "2026-04-07 05:27:15"
         }
       ],
-      "topic": "2023 NCAA Men's Division I Basketball Championship",
-      "summary": "The Michigan Wolverines have won the NCAA men's basketball championship, defeating UConn with a strong defensive performance, holding the Huskies to 30.9% shooting. Led by Elliot Cadeau's 19 points, Michigan overcame struggles on offense, including a 2-for-15 shooting performance from 3-point range, to secure their second national title in program history. The Wolverines' victory marks the first men's basketball title for the Big Ten conference since 2000, and it is a testament to the team's resilience and determination under coach May.",
-      "wiki_context": "The 2023 NCAA Division I men's basketball championship game was the final game of the 2023 NCAA Division I men's basketball tournament. It determined the national champion for the 2022–23 NCAA Division I men's basketball season and was contested by the San Diego State Aztecs from the Mountain West Conference and the Connecticut (UConn) Huskies from the Big East Conference. The game was played on April 3, 2023, at NRG Stadium in Houston, Texas. In the game, UConn defeated San Diego State 76–59 to win their fifth national championship in five appearances. Adama Sanogo of UConn was named Most Outstanding Player (MOP) of the Final Four. Despite losing, San Diego State became the first team from the Mountain West Conference to reach the semifinals or the final.",
-      "enriched_summary": "Here is an enriched summary of the article in 3-5 sentences, including relevant background context:\n\nThe Michigan Wolverines have won the NCAA men's basketball championship, defeating UConn with a strong defensive performance, holding the Huskies to 30.9% shooting. Led by Elliot Cadeau's 19 points, Michigan overcame struggles on offense to secure their second national title in program history, with their first title coming in 1989, a few years before the Fab Five era. This victory marks the first men's basketball title for the Big Ten conference since 2000, showcasing the team's resilience and determination under coach May, who successfully formed a winning team through the transfer portal. The win is also a testament to the team's ability to overcome adversity, as they struggled with shooting and rebounding, but ultimately emerged victorious. Michigan's championship win comes a year after UConn won the title in 2023, and it solidifies the Wolverines' place in college basketball history."
+      "topic": "Michigan Wolverines men's basketball",
+      "summary": "The University of Michigan Wolverines have won the men's NCAA basketball championship, defeating UConn with a strong defensive performance that held their opponents to 30.9% shooting. Led by Elliot Cadeau, the Final Four's most outstanding player, and despite struggles from their best player Yaxel Lendeborg, the Wolverines secured their second title in program history. This championship marks the first men's basketball title for the Big Ten conference since Michigan State in 2000, and it was won with a team built largely through the transfer portal, showcasing the value of the team's coach and culture.",
+      "wiki_context": "The Michigan Wolverines men's basketball team is the intercollegiate men's basketball program representing the University of Michigan. The school competes in the Big Ten Conference in Division I of the National Collegiate Athletic Association (NCAA), and play their home games at Crisler Center in Ann Arbor, Michigan. The Wolverines have won one NCAA Championship, three National Invitation Tournaments (NIT), 16 Big Ten regular season titles and four Big Ten tournaments. One NIT title and one Big Ten tournament were later vacated by the NCAA due to sanctions.",
+      "enriched_summary": "The University of Michigan Wolverines have won their second men's NCAA basketball championship, defeating UConn  with a strong defensive performance that held their opponents to 30.9% shooting. Led by Elliot Cadeau, the Final Four's most outstanding player, the team overcame struggles from their best player Yaxel Lendeborg to secure the title. This championship marks the first men's basketball title for the Big Ten conference since Michigan State in 2000, and highlights the team's resilience and coach Juwan Howard's ability to build a winning team through the transfer portal. The win is also a notable achievement for the program, which had not won a title since 1989, and is a testament to the team's dedication and hard work. The championship is a significant milestone for the Wolverines, who have a rich basketball history, including their iconic Fab Five era, and adds to their legacy as a top-tier program in the NCAA."
     },
     {
       "cluster_rank": 3,
-      "cluster_size": 5,
+      "cluster_size": 6,
       "title": "4 Takeaways From The Dodgers’ Win Over Blue Jays In World Series Rematch",
       "url": "https://www.foxsports.com/stories/mlb/4-takeaways-from-dodgers-rout-over-blue-jays-world-series-rematch",
       "source_name": "foxsports.com",
@@ -254,60 +282,21 @@
           "url": "https://www.yardbarker.com/mlb/articles/los_angeles_dodgers_embarrass_toronto_blue_jays_in_world_series_rematch/s1_17396_43695762",
           "source_name": "yardbarker.com",
           "published_at": "2026-04-07 05:02:57"
+        },
+        {
+          "title": "Blue Jays Hit With Stern Warning After Dodgers Blowout in World Series Rematch",
+          "url": "https://www.newsweek.com/sports/mlb/blue-jays-hit-with-stern-warning-after-dodgers-blowout-in-world-series-rematch-11790504",
+          "source_name": "newsweek.com",
+          "published_at": "2026-04-07 10:00:00"
         }
       ],
       "topic": "2025 World Series",
-      "summary": "The Los Angeles Dodgers dominated the Toronto Blue Jays in a 14-2 win on Monday night, the first meeting between the two teams since the 2025 World Series. The Dodgers' offense exploded for 17 hits, including five home runs, with catcher Dalton Rushing going 4-for-4 with two homers. The Blue Jays, meanwhile, struggled with their pitching and defense, committing two errors and seeing their rotation woes continue with the early exit of starter Max Scherzer.",
+      "summary": "The Los Angeles Dodgers dominated the Toronto Blue Jays 14-2 in the series opener on Monday, with Teoscar Hernandez hitting a home run off Max Scherzer in the first inning. Scherzer was pulled from the game after just two innings, sparking concerns about the Blue Jays' rotation, which is already missing several key starters due to injury. The Dodgers' powerful lineup, which has scored double-digit runs in three of its last four games, bullied the Blue Jays' pitching staff for 17 hits, including five home runs.",
       "wiki_context": "The 2025 World Series was the championship series of Major League Baseball's (MLB) 2025 season. The 121st edition of the World Series, it was a best-of-seven playoff between the National League (NL) champion and defending World Series champion Los Angeles Dodgers and the American League (AL) champion Toronto Blue Jays. The series was played from October 24 to November 1. The Dodgers defeated the Blue Jays in seven games to win their second consecutive World Series and ninth overall. They became MLB's first back-to-back champions since 2000, the first from the NL since 1976, and the eighth franchise to win back-to-back titles. Dodgers pitcher Yoshinobu Yamamoto was named the World Series MVP, recording three wins and a 1.02 ERA.",
-      "enriched_summary": "The Los Angeles Dodgers dominated the Toronto Blue Jays 14-2 in their first meeting since the 2025 World Series, which the Dodgers won in seven games. The Dodgers' offense exploded for 17 hits, including five home runs, with catcher Dalton Rushing leading the way with a 4-for-4 performance and two homers. The Blue Jays struggled with their pitching and defense, committing two errors and seeing starter Max Scherzer exit early, exacerbating their rotation woes. The loss is a continuation of a difficult start to the season for the Blue Jays, who are dealing with injuries to several key pitchers and struggling to find consistency at the plate. The two teams will meet again on Tuesday, with the Blue Jays looking to bounce back behind starting pitcher Kevin Gausman."
+      "enriched_summary": "The Los Angeles Dodgers trounced the Toronto Blue Jays 14-2 in their highly anticipated rematch, with Teoscar Hernandez's first-inning home run off Max Scherzer setting the tone. This matchup was a repeat of last year's World Series, which the Dodgers won in seven games, earning their second consecutive championship title. The Blue Jays' rotation, already depleted by injuries to key starters, was further weakened by Scherzer's mysterious early exit, sparking concerns about their pitching depth. The Dodgers' potent lineup, which has scored double-digit runs in three of its last four games, capitalized on the Blue Jays' struggles, pounding out 17 hits, including five home runs. With the Blue Jays struggling to find their footing, having committed eight errors in 10 games, they will look to bounce back in the second game of the series."
     },
     {
       "cluster_rank": 4,
-      "cluster_size": 4,
-      "title": "Blue Jays RHP Scherzer leaves start against Dodgers after two innings because of forearm tendinitis",
-      "url": "https://www.nbcsports.com/mlb/news/blue-jays-rhp-scherzer-leaves-start-against-dodgers-after-two-innings-because-of-forearm-tendinitis",
-      "source_name": "nbcsports.com",
-      "published_at": "2026-04-07 03:48:38",
-      "text_length": 1440,
-      "supporting_sources": [
-        "clutchpoints.com",
-        "foxsports.com",
-        "nbcsports.com",
-        "yardbarker.com"
-      ],
-      "supporting_articles": [
-        {
-          "title": "Blue Jays’ Max Scherzer mysteriously exits Dodgers game after 2 innings",
-          "url": "https://clutchpoints.com/mlb/toronto-blue-jays/blue-jays-max-scherzer-mysteriously-exits-dodgers-game-after-2-innings",
-          "source_name": "clutchpoints.com",
-          "published_at": "2026-04-07 00:42:22"
-        },
-        {
-          "title": "Blue Jays RHP Max Scherzer Leaves Start Against Dodgers After Second Inning",
-          "url": "https://www.foxsports.com/stories/mlb/blue-jays-max-scherzer-injured-leaves-dodgers-two-innings",
-          "source_name": "foxsports.com",
-          "published_at": "2026-04-07 00:24:16"
-        },
-        {
-          "title": "Blue Jays RHP Scherzer leaves start against Dodgers after two innings because of forearm tendinitis",
-          "url": "https://www.nbcsports.com/mlb/news/blue-jays-rhp-scherzer-leaves-start-against-dodgers-after-two-innings-because-of-forearm-tendinitis",
-          "source_name": "nbcsports.com",
-          "published_at": "2026-04-07 03:48:38"
-        },
-        {
-          "title": "Slump: Max Scherzer exits after two innings",
-          "url": "https://www.yardbarker.com/mlb/articles/slump_max_scherzer_exits_after_two_innings/s1_17387_43695202",
-          "source_name": "yardbarker.com",
-          "published_at": "2026-04-07 00:30:00"
-        }
-      ],
-      "topic": "Max Scherzer",
-      "summary": "Max Scherzer, a three-time Cy Young Award winner, left the Blue Jays' game against the Los Angeles Dodgers after two innings due to forearm tendinitis. Despite the injury, Scherzer expressed optimism that it's not a major issue and hopes to make his next start. The Blue Jays are already dealing with a number of injuries to their starting pitchers, with four currently on the injured list, and recently signed veteran left-hander Patrick Corbin to a one-year contract.",
-      "wiki_context": "Maxwell Martin Scherzer, nicknamed \"Mad Max\", is an American professional baseball pitcher for the Toronto Blue Jays of Major League Baseball (MLB). He has previously played in MLB for the Arizona Diamondbacks, Detroit Tigers, Washington Nationals, Los Angeles Dodgers, New York Mets, and Texas Rangers. A right-handed starting pitcher, Scherzer is an eight-time MLB All-Star, has won three Cy Young Awards, has pitched two no-hitters, and is a two-time World Series champion, winning with the Nationals in 2019 and the Rangers in 2023. He is regarded as one of the best pitchers in baseball history.",
-      "enriched_summary": "Max Scherzer, a three-time Cy Young Award winner and one of the most accomplished pitchers in baseball history, left the Blue Jays' game against the Los Angeles Dodgers after two innings due to forearm tendinitis. Despite the injury, Scherzer remains optimistic, stating it's not a major issue and he hopes to make his next start. This development adds to the Blue Jays' existing pitching concerns, with four starters already on the injured list, including Cody Ponce, Trey Yesavage, Jose Berrios, and Shane Bieber. The team recently signed veteran left-hander Patrick Corbin to a one-year contract, potentially bolstering their pitching staff. Scherzer's injury will be closely monitored, given his importance to the team and his impressive career resume, which includes eight MLB All-Star appearances and two World Series championships."
-    },
-    {
-      "cluster_rank": 5,
       "cluster_size": 5,
       "title": "Trump speaks with NASA's Artemis II astronauts after historic moon flyby",
       "url": "https://www.scientificamerican.com/article/trump-speaks-with-nasas-artemis-ii-astronauts-after-historic-moon-flyby/",
@@ -353,9 +342,61 @@
         }
       ],
       "topic": "Artemis II",
-      "summary": "President Donald Trump called the Artemis II crew on Monday to congratulate them on their historic achievement of traveling the farthest distance from Earth, surpassing the record set by Apollo 13 in 1970. The crew, which includes NASA astronauts and a Canadian Space Agency astronaut, reached a distance of 252,756 miles from Earth and observed a solar eclipse. Meanwhile, the White House's proposed federal budget for FY 2027 includes significant cuts to NASA's funding, which has drawn criticism from space exploration advocates who say it would undermine the agency's ability to lead in space exploration.",
+      "summary": "President Donald Trump called the Artemis II crew to congratulate them on setting a record for the farthest human travel from Earth, reaching 252,756 miles away. The crew, which includes NASA astronauts and a Canadian Space Agency astronaut, completed hours of observations of the far side of the moon and witnessed a solar eclipse. However, the congratulatory call comes as the White House proposes to reduce NASA's overall funding by nearly a quarter and slash its science budget by nearly half in its federal budget proposal for FY 2027.",
       "wiki_context": "Artemis II is a planned lunar flyby mission under the Artemis program, scheduled to launch on April 1, 2026 from the Kennedy Space Center. The ten-day mission will carry NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with Canadian Space Agency astronaut Jeremy Hansen, on a free-return trajectory around the Moon and back to Earth. It will be the second flight of the Space Launch System (SLS), the first crewed mission of the Orion spacecraft, and the first crewed mission beyond low Earth orbit since Apollo 17 in 1972.",
-      "enriched_summary": "Here is a concise and enriched summary of the article, including relevant background context:\n\nThe Artemis II crew, consisting of NASA astronauts and a Canadian Space Agency astronaut, has made history by traveling the farthest distance from Earth, reaching 252,756 miles and surpassing the record set by Apollo 13 in 1970. As part of the Artemis program, a lunar exploration initiative aimed at returning humans to the Moon, the crew's achievement marks a significant milestone in space exploration. President Donald Trump congratulated the crew on their feat, despite the White House's proposed federal budget for FY 2027 including substantial cuts to NASA's funding, which could undermine the agency's ability to lead in space exploration. The cuts have been met with criticism from space exploration advocates, who argue that they would have a devastating impact on NASA's science budget and its mission priorities. The Artemis II mission is a crucial step towards the ultimate goal of establishing a sustainable presence on the Moon and beyond."
+      "enriched_summary": "Here is an enriched summary of the news article, including relevant background context:\n\nThe Artemis II crew, consisting of NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and Canadian Space Agency astronaut Jeremy Hansen, has set a record for the farthest human travel from Earth, reaching 252,756 miles away as part of their 10-day lunar flyby mission. President Donald Trump congratulated the crew on their achievement, which marks a significant milestone in the Artemis program, a US effort to return humans to the lunar surface by 2025. However, the celebratory call comes at a time when the White House is proposing significant budget cuts to NASA, including a nearly 25% reduction in overall funding and a nearly 50% cut to its science budget, which could undermine the agency's future missions. The Artemis II mission is a crucial step in NASA's plans for deep space exploration, and the proposed budget cuts have raised concerns among space exploration advocates. Despite the uncertainty surrounding NASA's funding, the Artemis II crew's achievement marks a notable success for the agency and the US space program."
+    },
+    {
+      "cluster_rank": 5,
+      "cluster_size": 5,
+      "title": "Taiwan's opposition leader arrives in China for a 'Journey of Peace'",
+      "url": "https://www.npr.org/2026/04/07/nx-s1-5776401/taiwan-opposition-arrives-china",
+      "source_name": "npr.org",
+      "published_at": "2026-04-07 09:49:38",
+      "text_length": 3988,
+      "supporting_sources": [
+        "apnews.com",
+        "bloomberg.com",
+        "abcnews.com",
+        "nbcnews.com",
+        "npr.org"
+      ],
+      "supporting_articles": [
+        {
+          "title": "Taiwan opposition leader heads to China",
+          "url": "https://apnews.com/article/china-taiwan-kmt-visit-xi-trump-03e3a4a320cdd18152cf17639bf83be4",
+          "source_name": "apnews.com",
+          "published_at": "2026-04-07 04:02:26"
+        },
+        {
+          "title": "Taiwan Opposition Head Touts China Talks in First Trip in Decade - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-07/taiwan-opposition-head-touts-china-talks-on-first-trip-in-decade?srnd=homepage-americas",
+          "source_name": "bloomberg.com",
+          "published_at": "2026-04-07 00:30:38"
+        },
+        {
+          "title": "Taiwan opposition leader heads to China in what she calls a ‘journey for peace’",
+          "url": "https://abcnews.com/International/wireStory/taiwan-opposition-leader-heads-china-calls-journey-peace-131789103",
+          "source_name": "abcnews.com",
+          "published_at": "2026-04-07 06:44:36"
+        },
+        {
+          "title": "Taiwan opposition leader heads to China in what she calls a ‘journey for peace’",
+          "url": "https://www.nbcnews.com/world/asia/taiwan-opposition-leader-heads-china-calls-journey-peace-rcna267042",
+          "source_name": "nbcnews.com",
+          "published_at": "2026-04-07 07:47:33"
+        },
+        {
+          "title": "Taiwan's opposition leader arrives in China for a 'Journey of Peace'",
+          "url": "https://www.npr.org/2026/04/07/nx-s1-5776401/taiwan-opposition-arrives-china",
+          "source_name": "npr.org",
+          "published_at": "2026-04-07 09:49:38"
+        }
+      ],
+      "topic": "Cheng Li-wun",
+      "summary": "Taiwan's main opposition leader, Cheng Li-wun of the Kuomintang Party, has arrived in China for a six-day visit, which she has called a \"peace mission\" amid heightened military tensions between China and Taiwan. The visit is seen as significant, with China's State Council saying it will have a \"positive impact\" on maintaining peace and stability in the Taiwan Strait, although Taiwan's government is skeptical about the meeting's potential to improve cross-strait ties. Cheng's visit is the first by a sitting KMT leader to China in nearly a decade, and she may meet with Chinese President Xi Jinping during her trip.",
+      "wiki_context": "Cheng Li-wun is a Taiwanese politician and lawyer. A member of the Kuomintang (KMT), she has been the party's chairperson since November 2025. She is the second woman to hold the position, after Hung Hsiu-chu.",
+      "enriched_summary": "Here is an enriched summary of the article in 3-5 sentences, including relevant background context:\n\nTaiwan's main opposition leader, Cheng Li-wun of the Kuomintang Party (KMT), has arrived in China for a rare six-day visit, which she has called a \"peace mission\" amid heightened military tensions between China and Taiwan. As the KMT's chairperson since 2025, Cheng's visit is significant, particularly given the party's historical ties with China, with China's State Council saying it will have a \"positive impact\" on maintaining peace and stability in the Taiwan Strait. The visit comes as China has stepped up military drills around Taiwan, a democracy claimed by Beijing as its own territory, and the US pressures Taiwan to increase defense spending, including buying American weapons. Cheng's trip, the first by a sitting KMT leader to China in nearly a decade, may include a meeting with Chinese President Xi Jinping, and is seen as an attempt to seize a diplomatic opportunity amidst complex cross-strait relations. The visit has sparked mixed reactions, with some viewing it as a positive step towards dialogue, while others, including Taiwan's government, remain skeptical about its potential to improve ties with China."
     }
   ]
 }

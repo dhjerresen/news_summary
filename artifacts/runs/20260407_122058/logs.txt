@@ -1,0 +1,14 @@
+[2026-04-07T12:20:58.329853+00:00] Pipeline started. run_id=20260407_122058
+[2026-04-07T12:20:58.667523+00:00] Saved raw_news.json
+[2026-04-07T12:20:58.670644+00:00] Preprocessed 5 clusters
+[2026-04-07T12:20:58.670731+00:00] Processing cluster 1/5: rank=1 | size=19 | title=Cardi B’s Ex Offset Shot Outside Florida Casino: Everything to Know
+[2026-04-07T12:21:02.861621+00:00] Success: Cardi B’s Ex Offset Shot Outside Florida Casino: Everything to Know
+[2026-04-07T12:21:02.862682+00:00] Processing cluster 2/5: rank=2 | size=7 | title=Michigan muscles its way to program’s 2nd national title, beating stubborn UConn 69-63
+[2026-04-07T12:21:07.574623+00:00] Success: Michigan muscles its way to program’s 2nd national title, beating stubborn UConn 69-63
+[2026-04-07T12:21:07.575649+00:00] Processing cluster 3/5: rank=3 | size=6 | title=4 Takeaways From The Dodgers’ Win Over Blue Jays In World Series Rematch
+[2026-04-07T12:21:10.742587+00:00] Success: 4 Takeaways From The Dodgers’ Win Over Blue Jays In World Series Rematch
+[2026-04-07T12:21:10.743411+00:00] Processing cluster 4/5: rank=4 | size=5 | title=Trump speaks with NASA's Artemis II astronauts after historic moon flyby
+[2026-04-07T12:21:22.949493+00:00] Success: Trump speaks with NASA's Artemis II astronauts after historic moon flyby
+[2026-04-07T12:21:22.950571+00:00] Processing cluster 5/5: rank=5 | size=5 | title=Taiwan's opposition leader arrives in China for a 'Journey of Peace'
+[2026-04-07T12:21:40.341559+00:00] Success: Taiwan's opposition leader arrives in China for a 'Journey of Peace'
+[2026-04-07T12:21:40.346668+00:00] Pipeline finished successfully
