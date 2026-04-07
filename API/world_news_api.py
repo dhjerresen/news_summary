@@ -22,8 +22,8 @@ def my_custom_function():
     url = "https://api.worldnewsapi.com/top-news"
 
     params = {
-        "source-country": "dk",  # Danmark
-        "language": "da",        # Dansk
+        "source-country": "us",  # Danmark
+        "language": "en",        # Dansk
         "date": today            # Dynamisk dato
     }
 
