@@ -1,28 +1,27 @@
 # app/llm.py
+from __future__ import annotations
+
 import os
 from pathlib import Path
+
 from dotenv import load_dotenv
 from groq import Groq
 
-# Load .env
 env_path = Path(__file__).resolve().parent.parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
-# Hent API key
 api_key = os.getenv("GROQ_API_KEY")
-
 if not api_key:
-    raise ValueError("API key not found")
+    raise ValueError("GROQ_API_KEY not found in .env")
 
 client = Groq(api_key=api_key)
 
 MODEL_NAME = "llama-3.3-70b-versatile"
 
+
 def _call_llm(prompt: str) -> str:
     response = client.chat.completions.create(
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
+        messages=[{"role": "user", "content": prompt}],
         model=MODEL_NAME,
     )
     return response.choices[0].message.content.strip()
@@ -31,7 +30,6 @@ def _call_llm(prompt: str) -> str:
 def summarize_article(text: str) -> str:
     prompt = f"""
 You are a news assistant.
-
 Summarize the following news article in 2-3 sentences.
 
 Article:
@@ -42,7 +40,7 @@ Article:
 
 def extract_topic(text: str) -> str:
     prompt = f"""
-Extract the main entity or subject of the article.
+Extract the main entity, person, organization, event, or subject of the article.
 Return ONLY one short Wikipedia-friendly topic.
 
 Article:
@@ -56,7 +54,6 @@ def generate_enriched_summary(article: str, summary: str, wiki_context: str) -> 
 You are a helpful assistant.
 
 Given a news article, a short summary, and background knowledge, create an enriched summary.
-
 Keep it concise (3-5 sentences) and include relevant background context.
 
 Article:

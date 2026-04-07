@@ -1,16 +1,22 @@
 # main.py
-from app.pipeline import run_pipeline
+from __future__ import annotations
+
 import json
+
+from app.pipeline import run_pipeline
 
 
 if __name__ == "__main__":
     try:
-        results = run_pipeline()
+        result = run_pipeline(max_articles=5)
 
-        with open("data/output.json", "w", encoding="utf-8") as f:
-            json.dump(results, f, indent=2, ensure_ascii=False)
+        print("Pipeline completed successfully.")
+        print(f"Run ID: {result['run_id']}")
+        print(f"Successful summaries: {result['metadata']['num_successful_summaries']}")
+        print(f"Failed articles: {result['metadata']['num_failed_articles']}")
+        print("Latest output saved to data/output.json")
 
-        print(f"Pipeline completed! Saved {len(results)} article(s).")
+        print(json.dumps(result["metadata"], indent=2, ensure_ascii=False))
 
     except Exception as e:
         print(f"Pipeline failed: {e}")

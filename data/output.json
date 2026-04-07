@@ -1,9 +1,82 @@
-[
-  {
-    "title": "Rapper Offset Shot and Hospitalized in Florida: He Is ‘Stable and Being Closely Monitored,’ Says Rep",
-    "summary": "Rapper Offset was shot in Hollywood, Florida on Monday and is currently being treated at a hospital. Fortunately, he is in stable condition and is under observation for his gunshot wound. A spokesperson has confirmed the incident and stated that Offset is receiving medical care.",
-    "topic": "Offset (rapper)",
-    "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
-    "enriched_summary": "Rapper Offset, a member of the formerly popular hip-hop trio Migos, was shot in Hollywood, Florida on Monday and is currently being treated at a hospital. Fortunately, he is in stable condition and is under observation for his gunshot wound. As a prominent figure in the music industry, known for hits like \"Culture\" and \"Bad and Boujee,\" Offset's recovery is being closely followed by fans and fellow artists. With a successful career spanning over a decade, Offset has established himself as a talented artist, and his incident has sent shockwaves through the entertainment industry. A spokesperson has confirmed the incident, ensuring that Offset is receiving the necessary medical care."
-  }
-]
+{
+  "run_id": "20260407_084147",
+  "metadata": {
+    "run_id": "20260407_084147",
+    "started_at": "2026-04-07T08:41:47.545404+00:00",
+    "finished_at": "2026-04-07T08:41:58.465617+00:00",
+    "status": "success",
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "v1",
+    "max_articles_requested": 5,
+    "num_raw_articles": 76,
+    "num_processed_articles": 5,
+    "num_successful_summaries": 5,
+    "num_failed_articles": 0,
+    "wiki_miss_count": 0,
+    "artifacts": {
+      "raw_news": "artifacts/runs/20260407_084147/raw_news.json",
+      "processed_articles": "artifacts/runs/20260407_084147/processed_articles.json",
+      "summaries": "artifacts/runs/20260407_084147/summaries.json",
+      "failed_articles": "artifacts/runs/20260407_084147/failed_articles.json",
+      "metadata": "artifacts/runs/20260407_084147/metadata.json",
+      "logs": "artifacts/runs/20260407_084147/logs.txt"
+    }
+  },
+  "summaries": [
+    {
+      "title": "Rapper Offset Shot and Hospitalized in Florida: He Is ‘Stable and Being Closely Monitored,’ Says Rep",
+      "url": "https://variety.com/2026/music/news/rapper-offset-shot-hospitalized-florida-stable-condition-1236710042/",
+      "source_name": "",
+      "published_at": "2026-04-07 01:55:24",
+      "text_length": 335,
+      "topic": "Offset (rapper)",
+      "summary": "Rapper Offset was shot in Hollywood, Florida on Monday and is currently being treated at a hospital. Fortunately, he is in stable condition and under observation, according to a spokesperson. Offset is receiving medical care for his gunshot wound, and his team has confirmed the incident, providing an update on his status.",
+      "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
+      "enriched_summary": "Offset, a renowned American rapper and member of the former hip-hop trio Migos, was shot in Hollywood, Florida on Monday and is currently receiving medical care. Fortunately, he is in stable condition and under observation, according to a spokesperson. As a key figure in Migos, which released four successful studio albums before disbanding in 2023, Offset's incident has likely sent shockwaves through the music industry. His team has confirmed the shooting and is providing updates on his status, and he is being treated for a gunshot wound. Offset's fans will be relieved to know that he is expected to recover, given his current stable condition."
+    },
+    {
+      "title": "Offset shot, hospitalized in Florida",
+      "url": "https://eu.usatoday.com/story/entertainment/celebrities/2026/04/06/offset-shooting-florida-migos/89493512007/",
+      "source_name": "",
+      "published_at": "2026-04-07 02:14:41",
+      "text_length": 1118,
+      "topic": "Offset (rapper)",
+      "summary": "Rapper Offset, a 34-year-old Migos founder, is hospitalized with a non-life threatening gunshot wound after an incident near the Seminole Hard Rock Hotel & Casino in Hollywood, Florida. According to his spokesperson, Offset is stable and being closely monitored at the hospital. Two individuals have been detained by police, and the investigation into the shooting is ongoing.",
+      "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
+      "enriched_summary": "Here is an enriched summary:\n\nRapper Offset, a founding member of the popular hip-hop group Migos, is currently hospitalized with a non-life threatening gunshot wound after an incident near the Seminole Hard Rock Hotel & Casino in Hollywood, Florida. The 34-year-old artist, known for hits like \"Bad and Boujee\" and \"Stir Fry\" with Migos, is stable and being closely monitored at the hospital. This incident comes after Migos disbanded in 2023, following the release of four successful studio albums. Two individuals have been detained by police, and the investigation into the shooting is ongoing. Offset's condition is being closely watched by fans and the music community, who are relieved to hear that his injuries are not life-threatening."
+    },
+    {
+      "title": "Rapper Offset Shot Near Florida Casino",
+      "url": "https://www.hollywoodreporter.com/news/general-news/rapper-offset-shot-near-florida-casino-1236557032/",
+      "source_name": "",
+      "published_at": "2026-04-07 02:10:31",
+      "text_length": 2774,
+      "topic": "Offset (rapper)",
+      "summary": "Rapper Offset, a former member of the hip-hop trio Migos, was shot near the Seminole Hard Rock Hotel & Casino in Hollywood, Florida, on Monday and is currently receiving medical care at a hospital. According to his representative, Offset is stable and being closely monitored. The details surrounding the shooting are not yet available, and the incident is being investigated by local authorities.",
+      "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
+      "enriched_summary": "Rapper Offset, a former member of the hip-hop trio Migos, was shot near the Seminole Hard Rock Hotel & Casino in Hollywood, Florida, and is currently receiving medical care. Offset, whose real name is Kiari Kendrell Cephus, is stable and being closely monitored, according to his representative. This incident comes after the tragic loss of Migos member Takeoff, who was fatally shot in November 2022. As a member of Migos, Offset rose to fame with hits like \"Versace\" and \"Bad and Boujee\" before pursuing a successful solo career. The details surrounding the shooting are still under investigation by local authorities."
+    },
+    {
+      "title": "Offset Shot Near Casino in Florida: ‘He Is Stable and Being Closely Monitored’",
+      "url": "https://www.rollingstone.com/music/music-news/offset-shot-florida-casino-1235542827/",
+      "source_name": "",
+      "published_at": "2026-04-07 02:04:50",
+      "text_length": 3496,
+      "topic": "Offset (rapper)",
+      "summary": "Rapper Offset was shot near the Seminole Hard Rock Hotel and Casino in Hollywood, Florida, and is currently hospitalized in stable condition, according to his representative. The details surrounding the shooting are still unknown. This incident comes over three years after the death of Offset's bandmate and cousin, Takeoff, who was shot and killed in Houston at the age of 28.",
+      "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
+      "enriched_summary": "Rapper Offset, a member of the popular hip-hop trio Migos, was shot near the Seminole Hard Rock Hotel and Casino in Hollywood, Florida, and is currently hospitalized in stable condition. This incident comes over three years after the tragic death of his bandmate and cousin, Takeoff, who was shot and killed in Houston at the age of 28. Offset had previously paid tribute to Takeoff, expressing his unbearable pain and shattered heart after the loss. The shooting is a stark reminder of the ongoing issue of gun violence, which Quavo and his family have been working to address through the Rocket Foundation since Takeoff's death. Offset's condition is being closely monitored, and details surrounding the shooting are still unknown."
+    },
+    {
+      "title": "Rapper Offset in stable condition after being shot in Florida, rep says",
+      "url": "https://www.nbcnews.com/pop-culture/celebrity/rapper-offset-stable-condition-shot-florida-rep-says-rcna267027",
+      "source_name": "",
+      "published_at": "2026-04-07 02:28:20",
+      "text_length": 516,
+      "topic": "Offset (rapper)",
+      "summary": "Rapper Offset, whose real name is Kiari Kendrell Cephus, is in stable condition after being shot near a casino in Hollywood, Florida. A representative for the artist confirmed the shooting and stated that Offset is being closely monitored. The incident was first reported by TMZ, with the police department yet to comment on the matter.",
+      "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
+      "enriched_summary": "Rapper Offset, a member of the former hip-hop trio Migos, is in stable condition after being shot near a casino in Hollywood, Florida. As a prominent figure in the music industry, Offset has gained fame alongside his Migos group members Quavo and Takeoff, releasing four successful studio albums before the group's disbandment in 2023. A representative for the artist confirmed the shooting, stating that Offset is being closely monitored. The incident was first reported by TMZ, with the police department yet to comment on the matter. Offset, who is also known for his personal life with Cardi B and their three children, is expected to recover from his injuries."
+    }
+  ]
+}

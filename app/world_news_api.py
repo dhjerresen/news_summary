@@ -1,47 +1,36 @@
 # app/world_news_api.py
+from __future__ import annotations
+
 import os
-from dotenv import load_dotenv
-import requests
-from pathlib import Path
 from datetime import date
+from pathlib import Path
 
-def fetch_news():
-    # Find projektets root (én mappe op fra denne fil)
+import requests
+from dotenv import load_dotenv
+
+def fetch_news() -> dict:
     env_path = Path(__file__).resolve().parent.parent / ".env"
-
     load_dotenv(dotenv_path=env_path)
 
-    # Hent API key
     api_key = os.getenv("WORLDNEWS_API_KEY")
-
     if not api_key:
-        return "Error: API key not found in .env"
+        raise ValueError("WORLDNEWS_API_KEY not found in .env")
 
-    # Dagens dato (automatisk)
     today = date.today().isoformat()
-
     url = "https://api.worldnewsapi.com/top-news"
 
     params = {
-        "source-country": "us",  # Danmark
-        "language": "en",        # Dansk
-        "date": today            # Dynamisk dato
+        "source-country": "us",
+        "language": "en",
+        "date": today,
     }
 
-    headers = {
-        "x-api-key": api_key
-    }
+    headers = {"x-api-key": api_key}
 
-    try:
-        response = requests.get(url, headers=headers, params=params)
+    response = requests.get(url, headers=headers, params=params, timeout=30)
+    response.raise_for_status()
 
-        if response.status_code == 200:
-            return response.json()
-        else:
-            return f"Error: {response.status_code} - {response.text}"
-
-    except requests.exceptions.RequestException as e:
-        return f"Request failed: {e}"
+    return response.json()
 
 
 if __name__ == "__main__":

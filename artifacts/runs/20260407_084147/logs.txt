@@ -1,0 +1,14 @@
+[2026-04-07T08:41:47.545404+00:00] Pipeline started. run_id=20260407_084147
+[2026-04-07T08:41:47.894627+00:00] Saved raw_news.json
+[2026-04-07T08:41:47.895737+00:00] Preprocessed 5 articles
+[2026-04-07T08:41:47.895968+00:00] Processing article 1/5: Rapper Offset Shot and Hospitalized in Florida: He Is ‘Stable and Being Closely Monitored,’ Says Rep
+[2026-04-07T08:41:49.893583+00:00] Success: Rapper Offset Shot and Hospitalized in Florida: He Is ‘Stable and Being Closely Monitored,’ Says Rep
+[2026-04-07T08:41:49.894076+00:00] Processing article 2/5: Offset shot, hospitalized in Florida
+[2026-04-07T08:41:51.801981+00:00] Success: Offset shot, hospitalized in Florida
+[2026-04-07T08:41:51.802360+00:00] Processing article 3/5: Rapper Offset Shot Near Florida Casino
+[2026-04-07T08:41:54.284569+00:00] Success: Rapper Offset Shot Near Florida Casino
+[2026-04-07T08:41:54.285334+00:00] Processing article 4/5: Offset Shot Near Casino in Florida: ‘He Is Stable and Being Closely Monitored’
+[2026-04-07T08:41:56.495859+00:00] Success: Offset Shot Near Casino in Florida: ‘He Is Stable and Being Closely Monitored’
+[2026-04-07T08:41:56.496647+00:00] Processing article 5/5: Rapper Offset in stable condition after being shot in Florida, rep says
+[2026-04-07T08:41:58.457186+00:00] Success: Rapper Offset in stable condition after being shot in Florida, rep says
+[2026-04-07T08:41:58.467419+00:00] Pipeline finished successfully
