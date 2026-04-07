@@ -48,7 +48,7 @@ jobs:
       - name: Run pipeline
         env:
           WORLD_NEWS_API_KEY: ${{ secrets.WORLD_NEWS_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python main.py
 
       - name: Commit updated outputs

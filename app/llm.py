@@ -7,14 +7,14 @@ from pathlib import Path
 from dotenv import load_dotenv
 from groq import Groq
 
-env_path = Path(__file__).resolve().parent.parent / ".env"
-load_dotenv(dotenv_path=env_path)
+load_dotenv()
 
-api_key = os.getenv("GROQ_API_KEY")
-if not api_key:
-    raise ValueError("GROQ_API_KEY not found in .env")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-client = Groq(api_key=api_key)
+if not GROQ_API_KEY:
+    raise ValueError("GROQ_API_KEY not found in environment variables")
+
+client = Groq(api_key=GROQ_API_KEY)
 
 MODEL_NAME = "llama-3.3-70b-versatile"
 
