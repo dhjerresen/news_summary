@@ -1,10 +1,11 @@
+# app/world_news_api.py
 import os
 from dotenv import load_dotenv
 import requests
 from pathlib import Path
 from datetime import date
 
-def my_custom_function():
+def fetch_news():
     # Find projektets root (én mappe op fra denne fil)
     env_path = Path(__file__).resolve().parent.parent / ".env"
 
