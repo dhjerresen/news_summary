@@ -1,0 +1,14 @@
+[2026-04-07T14:02:08.535578+00:00] Pipeline started. run_id=20260407_140208
+[2026-04-07T14:02:08.865614+00:00] Saved raw_news.json
+[2026-04-07T14:02:08.871938+00:00] Preprocessed 5 clusters
+[2026-04-07T14:02:08.872295+00:00] Processing cluster 1/5: rank=1 | size=19 | title=Cardi B’s Ex Offset Shot Outside Florida Casino: Everything to Know
+[2026-04-07T14:02:12.434262+00:00] Success: Cardi B’s Ex Offset Shot Outside Florida Casino: Everything to Know
+[2026-04-07T14:02:12.435716+00:00] Processing cluster 2/5: rank=2 | size=7 | title=Michigan muscles its way to program’s 2nd national title, beating stubborn UConn 69-63
+[2026-04-07T14:02:15.815900+00:00] Success: Michigan muscles its way to program’s 2nd national title, beating stubborn UConn 69-63
+[2026-04-07T14:02:15.817393+00:00] Processing cluster 3/5: rank=3 | size=6 | title=4 Takeaways From The Dodgers’ Win Over Blue Jays In World Series Rematch
+[2026-04-07T14:02:19.589114+00:00] Success: 4 Takeaways From The Dodgers’ Win Over Blue Jays In World Series Rematch
+[2026-04-07T14:02:19.590388+00:00] Processing cluster 4/5: rank=4 | size=5 | title=Australia’s Top Decorated Veteran Ben Roberts-Smith Faces Charges for 5 Alleged War Crimes in Afghanistan
+[2026-04-07T14:02:34.376914+00:00] Success: Australia’s Top Decorated Veteran Ben Roberts-Smith Faces Charges for 5 Alleged War Crimes in Afghanistan
+[2026-04-07T14:02:34.379422+00:00] Processing cluster 5/5: rank=5 | size=5 | title=Blue Jays RHP Scherzer leaves start against Dodgers after two innings because of forearm tendinitis
+[2026-04-07T14:02:43.023772+00:00] Success: Blue Jays RHP Scherzer leaves start against Dodgers after two innings because of forearm tendinitis
+[2026-04-07T14:02:43.030974+00:00] Pipeline finished successfully

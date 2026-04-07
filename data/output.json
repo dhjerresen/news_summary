@@ -1,9 +1,9 @@
 {
-  "run_id": "20260407_130743",
+  "run_id": "20260407_140208",
   "metadata": {
-    "run_id": "20260407_130743",
-    "started_at": "2026-04-07T13:07:43.708768+00:00",
-    "finished_at": "2026-04-07T13:08:25.394867+00:00",
+    "run_id": "20260407_140208",
+    "started_at": "2026-04-07T14:02:08.535578+00:00",
+    "finished_at": "2026-04-07T14:02:43.027803+00:00",
     "status": "success",
     "model_name": "llama-3.3-70b-versatile",
     "prompt_version": "v2_clustered_top_news",
@@ -15,12 +15,12 @@
     "num_failed_clusters": 0,
     "wiki_miss_count": 0,
     "artifacts": {
-      "raw_news": "artifacts/runs/20260407_130743/raw_news.json",
-      "processed_clusters": "artifacts/runs/20260407_130743/processed_clusters.json",
-      "summaries": "artifacts/runs/20260407_130743/summaries.json",
-      "failed_clusters": "artifacts/runs/20260407_130743/failed_clusters.json",
-      "metadata": "artifacts/runs/20260407_130743/metadata.json",
-      "logs": "artifacts/runs/20260407_130743/logs.txt"
+      "raw_news": "artifacts/runs/20260407_140208/raw_news.json",
+      "processed_clusters": "artifacts/runs/20260407_140208/processed_clusters.json",
+      "summaries": "artifacts/runs/20260407_140208/summaries.json",
+      "failed_clusters": "artifacts/runs/20260407_140208/failed_clusters.json",
+      "metadata": "artifacts/runs/20260407_140208/metadata.json",
+      "logs": "artifacts/runs/20260407_140208/logs.txt"
     }
   },
   "summaries": [
@@ -169,9 +169,9 @@
         }
       ],
       "topic": "Offset (rapper)",
-      "summary": "Offset, the estranged husband of Cardi B, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. Two people have been detained in connection with the incident, which occurred on Monday, and police have reported that no life-threatening injuries occurred. The shooting comes over three years after Offset's former Migos bandmate Takeoff was fatally shot in Houston, Texas, in 2022.",
+      "summary": "Offset, the estranged husband of Cardi B, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. Two people have been detained in connection with the incident, which authorities say resulted in non-life-threatening injuries. The shooting comes over three years after Offset's former Migos bandmate Takeoff was fatally shot in Houston, Texas, and an investigation into the incident is ongoing.",
       "wiki_context": "Kiari Kendrell Cephus, known professionally as Offset, is an American rapper, singer, and songwriter. He is best known for being a member of the Atlanta-based hip-hop trio Migos. Formed with fellow rappers Quavo and Takeoff in 2008, the group released four commercially successful studio albums—Yung Rich Nation (2015), Culture (2017), Culture II (2018) and Culture III (2021)—before disbanding in 2023.",
-      "enriched_summary": "Here is an enriched summary of the article in 3-5 sentences, including relevant background context:\n\nOffset, a member of the formerly popular hip-hop trio Migos, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. This incident comes over three years after the fatal shooting of his Migos bandmate Takeoff in Houston, Texas, in 2022, which still weighs heavily on Offset's mind. The shooting occurred on Monday, with two people detained in connection with the incident and no life-threatening injuries reported. As the estranged husband of Cardi B, with whom he has three children, Offset's personal life has been subject to scrutiny, particularly after their split in 2023. The incident serves as a stark reminder of the violent incidents that have affected Offset's life and career."
+      "enriched_summary": "Here is an enriched summary of the news article in 3-5 sentences, including relevant background context:\n\nOffset, a member of the former hip-hop trio Migos, is recovering in stable condition after being shot outside the Hard Rock Hotel & Casino in Hollywood, Florida. The incident, which resulted in non-life-threatening injuries, comes over three years after his bandmate Takeoff was fatally shot in Houston, Texas, in 2022. As a former member of Migos, Offset had achieved significant success alongside Quavo and Takeoff, releasing four commercially successful studio albums before the group's disbandment in 2023. Two people have been detained in connection with the shooting, and an investigation is ongoing. The incident also affects Offset's personal life, as he is currently estranged from his wife, Cardi B, with whom he shares three children."
     },
     {
       "cluster_rank": 2,
@@ -234,9 +234,9 @@
         }
       ],
       "topic": "2023 Michigan Wolverines men's basketball team",
-      "summary": "The Michigan Wolverines have won the NCAA men's basketball championship, defeating UConn with a strong defensive performance, holding their opponents to 30.9% shooting. Led by Elliot Cadeau's 19 points, Michigan overcame struggles from their best player, Yaxel Lendeborg, and poor three-point shooting to claim their second national title, with the first being in 1989. The championship is the first men's hoops title for the Big Ten since Michigan State in 2000, capping off a remarkable season for the Wolverines.",
+      "summary": "The University of Michigan Wolverines have won the NCAA men's basketball championship, defeating UConn with a strong defensive performance, holding them to 30.9% shooting. Led by Elliot Cadeau's 19 points, Michigan overcame struggles with 3-point shooting and rebounding to secure their second title in program history, with their first being in 1989. The Wolverines' victory marks the first men's hoops title for the Big Ten conference since 2000, and is a testament to the team's resilience and Coach May's ability to form a winning team through the transfer portal.",
       "wiki_context": "The 2023–24 Michigan Wolverines men's basketball team represented the University of Michigan during the 2023–24 NCAA Division I men's basketball season. The season marked the program's 108th season and its 107th consecutive year as a member of the Big Ten Conference. The Wolverines were led by fifth-year head coach Juwan Howard and played their home games for the 57th consecutive year at Crisler Center in Ann Arbor, Michigan. The Michigan Wolverines men's basketball team drew an average home attendance of 11,496 in 2023-24, the 29th highest in college basketball.",
-      "enriched_summary": "The Michigan Wolverines have secured their second NCAA men's basketball championship, with a defensive-heavy 30.9% shooting performance against UConn, led by Elliot Cadeau's 19 points. This title marks the first men's hoops championship for the Big Ten since Michigan State in 2000, and the Wolverines' first since 1989, a year before the iconic Fab Five era. Under coach Juwan Howard, the team overcame struggles from top player Yaxel Lendeborg and poor three-point shooting to claim the championship, capping off a remarkable season. The Wolverines' victory is a testament to their strong team culture and defensive prowess, which has been a hallmark of their successful 2023-24 season. With this win, Michigan solidifies its position as a dominant force in college basketball, with a talented roster that has come together to achieve greatness."
+      "enriched_summary": "The University of Michigan Wolverines have won their second NCAA men's basketball championship, with their first title dating back to 1989, a few years before the iconic Fab Five era. Led by Elliot Cadeau's 19 points, Michigan secured a 37-3 season record, overcoming struggles with 3-point shooting and rebounding to defeat UConn with a strong defensive performance, holding them to 30.9% shooting. This victory marks the first men's hoops title for the Big Ten conference since 2000 and is a testament to Coach May's ability to form a winning team through the transfer portal, with all five Wolverines starters having played college ball elsewhere. The team's resilience and defensive prowess ultimately led to their championship win, with the Wolverines limiting UConn's offense despite being outrebounded on the offensive glass. This championship win is a significant achievement for the program, which has a rich history in college basketball, including the Fab Five era, and marks a new era of success for the Wolverines under Coach May's leadership."
     },
     {
       "cluster_rank": 3,
@@ -291,112 +291,113 @@
         }
       ],
       "topic": "2025 World Series",
-      "summary": "The Los Angeles Dodgers dominated the Toronto Blue Jays in a 14-2 win on Monday night, with Teoscar Hernandez hitting a home run off Max Scherzer in the first inning. The Blue Jays' pitching staff struggled, with Scherzer being pulled after just two innings and Josh Fleming allowing four runs in three innings of work. The Dodgers' powerful lineup bullied the Blue Jays' beleaguered pitching staff, scoring 14 runs and 17 hits, including five home runs, to take the series opener.",
+      "summary": "The Los Angeles Dodgers routed the Toronto Blue Jays 14-2 in their first meeting since the 2025 World Series, with Teoscar Hernandez hitting a home run off Max Scherzer in the first inning. Scherzer was mysteriously pulled from the game after just two innings, adding to the Blue Jays' rotation woes, and the Dodgers' powerful lineup took advantage of Toronto's beleaguered pitching staff. The win marked the Dodgers' third game with double-digit runs in their last four games, while the Blue Jays continued to struggle at the plate and in the field, committing multiple errors and failing to get their offense going.",
       "wiki_context": "The 2025 World Series was the championship series of Major League Baseball's (MLB) 2025 season. The 121st edition of the World Series, it was a best-of-seven playoff between the National League (NL) champion and defending World Series champion Los Angeles Dodgers and the American League (AL) champion Toronto Blue Jays. The series was played from October 24 to November 1. The Dodgers defeated the Blue Jays in seven games to win their second consecutive World Series and ninth overall. They became MLB's first back-to-back champions since 2000, the first from the NL since 1976, and the eighth franchise to win back-to-back titles. Dodgers pitcher Yoshinobu Yamamoto was named the World Series MVP, recording three wins and a 1.02 ERA.",
-      "enriched_summary": "The Los Angeles Dodgers dominated the Toronto Blue Jays 14-2 in a rematch of the 2025 World Series, with Teoscar Hernandez hitting a home run off Max Scherzer in the first inning. The Blue Jays' pitching staff, already depleted by injuries, struggled to contain the Dodgers' powerful lineup, which scored 14 runs and 17 hits, including five home runs. The win came as the Blue Jays are still reeling from their World Series loss to the Dodgers last season, and their current struggles have been exacerbated by a rotation in crisis, with four starting pitchers injured. The Dodgers, on the other hand, have a deep pool of talented starters, including Yoshinobu Yamamoto, who will face off against Kevin Gausman in the second game of the series. With their offense clicking, the Dodgers are looking to build on their strong start to the season."
+      "enriched_summary": "The Los Angeles Dodgers dominated the Toronto Blue Jays 14-2 in their first meeting since the 2025 World Series, which the Dodgers won in seven games. Teoscar Hernandez, a key player in the Blue Jays' lineup, hit a home run off Max Scherzer in the first inning, but the Dodgers' powerful offense took advantage of Toronto's struggling pitching staff, scoring double-digit runs for the third time in their last four games. The Blue Jays' rotation woes continued with Scherzer's mysterious exit after two innings, adding to their growing list of injured starters. Meanwhile, the Dodgers' deep pitching staff, led by ace Yoshinobu Yamamoto, who won the 2025 World Series MVP, looks poised to exploit the Blue Jays' weaknesses in the series."
     },
     {
       "cluster_rank": 4,
       "cluster_size": 5,
-      "title": "Trump speaks with NASA's Artemis II astronauts after historic moon flyby",
-      "url": "https://www.scientificamerican.com/article/trump-speaks-with-nasas-artemis-ii-astronauts-after-historic-moon-flyby/",
-      "source_name": "scientificamerican.com",
-      "published_at": "2026-04-07 03:15:00",
-      "text_length": 3351,
+      "title": "Australia’s Top Decorated Veteran Ben Roberts-Smith Faces Charges for 5 Alleged War Crimes in Afghanistan",
+      "url": "https://internewscast.com/news/us/australias-top-decorated-veteran-ben-roberts-smith-faces-charges-for-5-alleged-war-crimes-in-afghanistan/",
+      "source_name": "internewscast.com",
+      "published_at": "2026-04-07 08:26:21",
+      "text_length": 3918,
       "supporting_sources": [
-        "scientificamerican.com",
-        "nbcnews.com",
+        "bignewsnetwork.com",
         "apnews.com",
-        "thedailybeast.com"
+        "abcnews.com",
+        "nbcnews.com",
+        "internewscast.com"
       ],
       "supporting_articles": [
         {
-          "title": "Trump speaks with NASA's Artemis II astronauts after historic moon flyby",
-          "url": "https://www.scientificamerican.com/article/trump-speaks-with-nasas-artemis-ii-astronauts-after-historic-moon-flyby/",
-          "source_name": "scientificamerican.com",
-          "published_at": "2026-04-07 03:15:00"
+          "title": "Former Australian soldier arrested over alleged war crimes in Afghanistan",
+          "url": "https://www.bignewsnetwork.com/news/278968306/former-australian-soldier-arrested-over-alleged-war-crimes-in-afghanistan",
+          "source_name": "bignewsnetwork.com",
+          "published_at": "2026-04-07 00:00:00"
         },
         {
-          "title": "Trump speaks with Artemis II crew after moon flyby",
-          "url": "https://www.nbcnews.com/video/trump-speaks-with-artemis-ii-crew-after-moon-flyby-260803141598",
-          "source_name": "nbcnews.com",
-          "published_at": "2026-04-07 02:44:12"
-        },
-        {
-          "title": "Artemis II astronauts speak with President Trump after moon flyby",
-          "url": "https://apnews.com/video/artemis-ii-astronauts-speak-with-president-trump-after-moon-flyby-61a1920c2b864ebf881429e64ee3aff2",
+          "title": "Former Australian soldier charged with 5 war crime murders in Afghanistan",
+          "url": "https://apnews.com/article/australia-afghanistan-war-crime-murder-b428075a9980783863a8bcb7c70fb989",
           "source_name": "apnews.com",
-          "published_at": "2026-04-07 05:28:01"
+          "published_at": "2026-04-07 04:13:41"
         },
         {
-          "title": "Trump Crumbles After Call to Artemis II Astronauts Hits Awkward Silence",
-          "url": "https://www.thedailybeast.com/trump-crumbles-after-call-to-artemis-ii-astronauts-hits-awkward-silence/",
-          "source_name": "thedailybeast.com",
-          "published_at": "2026-04-07 05:56:25"
+          "title": "Former Australian soldier charged with committing 5 war crime murders in Afghanistan",
+          "url": "https://abcnews.com/International/wireStory/former-australian-soldier-charged-committing-5-war-crime-131789288",
+          "source_name": "abcnews.com",
+          "published_at": "2026-04-07 05:59:40"
         },
         {
-          "title": "Trump congratulates Artemis II astronauts",
-          "url": "https://www.nbcnews.com/video/shorts/trump-congratulates-artemis-ii-astronauts-260808261825",
+          "title": "Australia's most decorated soldier charged with committing 5 war crime murders in Afghanistan",
+          "url": "https://www.nbcnews.com/world/australia/australias-decorated-soldier-charged-committing-5-war-crime-murders-af-rcna267041",
           "source_name": "nbcnews.com",
-          "published_at": "2026-04-07 05:21:05"
+          "published_at": "2026-04-07 07:46:41"
+        },
+        {
+          "title": "Australia’s Top Decorated Veteran Ben Roberts-Smith Faces Charges for 5 Alleged War Crimes in Afghanistan",
+          "url": "https://internewscast.com/news/us/australias-top-decorated-veteran-ben-roberts-smith-faces-charges-for-5-alleged-war-crimes-in-afghanistan/",
+          "source_name": "internewscast.com",
+          "published_at": "2026-04-07 08:26:21"
         }
       ],
-      "topic": "Artemis II",
-      "summary": "President Donald Trump called the Artemis II crew on Monday to congratulate them on setting a record for the farthest human travel from Earth, with the astronauts reaching 252,756 miles away. The crew, which includes NASA astronauts and a Canadian Space Agency astronaut, observed the far side of the moon and a solar eclipse during their mission. Meanwhile, the White House's proposed budget for FY 2027 includes significant cuts to NASA's funding, with advocates warning that the reductions could undermine the agency's ability to lead in space exploration.",
-      "wiki_context": "Artemis II is a planned lunar flyby mission under the Artemis program, scheduled to launch on April 1, 2026 from the Kennedy Space Center. The ten-day mission will carry NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with Canadian Space Agency astronaut Jeremy Hansen, on a free-return trajectory around the Moon and back to Earth. It will be the second flight of the Space Launch System (SLS), the first crewed mission of the Orion spacecraft, and the first crewed mission beyond low Earth orbit since Apollo 17 in 1972.",
-      "enriched_summary": "Here is a concise and enriched summary:\n\nThe Artemis II crew, comprising NASA astronauts and a Canadian Space Agency astronaut, made history by traveling the farthest distance from Earth, reaching 252,756 miles away, and observed the far side of the moon and a solar eclipse. President Donald Trump congratulated the crew on their achievement, highlighting the significance of their mission. However, this milestone comes amidst a proposed White House budget for FY 2027 that includes significant cuts to NASA's funding, sparking concerns among advocates that the reductions could hinder the agency's leadership in space exploration. The Artemis II mission is a crucial step in the Artemis program, aimed at returning humans to the lunar surface by 2025. The proposed budget cuts have been met with criticism, with some warning that they could undermine NASA's ability to achieve its goals, including the Artemis program."
+      "topic": "Ben Roberts-Smith",
+      "summary": "Ben Roberts-Smith, Australia's most decorated living veteran, has been charged with war crimes related to the alleged killing of five unarmed Afghan individuals during his service in Afghanistan between 2009 and 2012. The charges, which carry a potential life sentence, allege that the victims were detained, unarmed, and under the control of Australian Defense Force members when they were killed. Roberts-Smith, a former corporal in the Special Air Service Regiment, is expected to appear in court in Sydney, making him the second Australian veteran to face war crime charges related to the country's Afghanistan mission.",
+      "wiki_context": "Benjamin Roberts-Smith is an Australian former soldier who served in the Australian Army. He is a recipient of the Victoria Cross for Australia, the highest award for gallantry in battle that can be awarded to a member of the Australian Defence Force. In 2023, he was found in a civil defamation trial to have committed murder and other war crimes while deployed to Afghanistan.",
+      "enriched_summary": "Ben Roberts-Smith, Australia's most decorated living veteran, has been charged with war crimes for allegedly killing five unarmed Afghan individuals between 2009 and 2012. As a former corporal in the Special Air Service Regiment, Roberts-Smith was previously honored with the Victoria Cross and Medal of Gallantry for his actions in Afghanistan. However, his reputation has been marred by allegations of war crimes, with a 2023 civil court finding that he likely killed noncombatants unlawfully, and a 2020 military report revealing evidence of unlawful killings by Australian SAS and commando troops. Roberts-Smith is expected to appear in court in Sydney, facing charges that carry a potential life sentence. This development marks the second instance of an Australian veteran facing war crime charges related to the country's Afghanistan mission, following the charges brought against former SAS soldier Oliver Schulz."
     },
     {
       "cluster_rank": 5,
       "cluster_size": 5,
-      "title": "Taiwan's opposition leader arrives in China for a 'Journey of Peace'",
-      "url": "https://www.npr.org/2026/04/07/nx-s1-5776401/taiwan-opposition-arrives-china",
-      "source_name": "npr.org",
-      "published_at": "2026-04-07 09:49:38",
-      "text_length": 3988,
+      "title": "Blue Jays RHP Scherzer leaves start against Dodgers after two innings because of forearm tendinitis",
+      "url": "https://www.nbcsports.com/mlb/news/blue-jays-rhp-scherzer-leaves-start-against-dodgers-after-two-innings-because-of-forearm-tendinitis",
+      "source_name": "nbcsports.com",
+      "published_at": "2026-04-07 03:48:38",
+      "text_length": 1440,
       "supporting_sources": [
         "apnews.com",
-        "bloomberg.com",
-        "abcnews.com",
-        "nbcnews.com",
-        "npr.org"
+        "clutchpoints.com",
+        "foxsports.com",
+        "nbcsports.com",
+        "yardbarker.com"
       ],
       "supporting_articles": [
         {
-          "title": "Taiwan opposition leader heads to China",
-          "url": "https://apnews.com/article/china-taiwan-kmt-visit-xi-trump-03e3a4a320cdd18152cf17639bf83be4",
+          "title": "Blue Jays RHP Max Scherzer leaves start against Dodgers after two innings",
+          "url": "https://apnews.com/article/blue-jays-max-scherzer-4133cdb74a44ca0bf5565563a08a6c2b",
           "source_name": "apnews.com",
-          "published_at": "2026-04-07 04:02:26"
+          "published_at": "2026-04-07 00:13:40"
         },
         {
-          "title": "Taiwan Opposition Head Touts China Talks in First Trip in Decade - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-07/taiwan-opposition-head-touts-china-talks-on-first-trip-in-decade?srnd=homepage-americas",
-          "source_name": "bloomberg.com",
-          "published_at": "2026-04-07 00:30:38"
+          "title": "Blue Jays’ Max Scherzer mysteriously exits Dodgers game after 2 innings",
+          "url": "https://clutchpoints.com/mlb/toronto-blue-jays/blue-jays-max-scherzer-mysteriously-exits-dodgers-game-after-2-innings",
+          "source_name": "clutchpoints.com",
+          "published_at": "2026-04-07 00:42:22"
         },
         {
-          "title": "Taiwan opposition leader heads to China in what she calls a ‘journey for peace’",
-          "url": "https://abcnews.com/International/wireStory/taiwan-opposition-leader-heads-china-calls-journey-peace-131789103",
-          "source_name": "abcnews.com",
-          "published_at": "2026-04-07 06:44:36"
+          "title": "Blue Jays RHP Max Scherzer Leaves Start Against Dodgers After Second Inning",
+          "url": "https://www.foxsports.com/stories/mlb/blue-jays-max-scherzer-injured-leaves-dodgers-two-innings",
+          "source_name": "foxsports.com",
+          "published_at": "2026-04-07 00:24:16"
         },
         {
-          "title": "Taiwan opposition leader heads to China in what she calls a ‘journey for peace’",
-          "url": "https://www.nbcnews.com/world/asia/taiwan-opposition-leader-heads-china-calls-journey-peace-rcna267042",
-          "source_name": "nbcnews.com",
-          "published_at": "2026-04-07 07:47:33"
+          "title": "Blue Jays RHP Scherzer leaves start against Dodgers after two innings because of forearm tendinitis",
+          "url": "https://www.nbcsports.com/mlb/news/blue-jays-rhp-scherzer-leaves-start-against-dodgers-after-two-innings-because-of-forearm-tendinitis",
+          "source_name": "nbcsports.com",
+          "published_at": "2026-04-07 03:48:38"
         },
         {
-          "title": "Taiwan's opposition leader arrives in China for a 'Journey of Peace'",
-          "url": "https://www.npr.org/2026/04/07/nx-s1-5776401/taiwan-opposition-arrives-china",
-          "source_name": "npr.org",
-          "published_at": "2026-04-07 09:49:38"
+          "title": "Slump: Max Scherzer exits after two innings",
+          "url": "https://www.yardbarker.com/mlb/articles/slump_max_scherzer_exits_after_two_innings/s1_17387_43695202",
+          "source_name": "yardbarker.com",
+          "published_at": "2026-04-07 00:30:00"
         }
       ],
-      "topic": "Cheng Li-wun",
-      "summary": "Taiwan's opposition leader, Cheng Li-wun of the Kuomintang Party, has arrived in China for a rare six-day visit, which she has called a \"peace mission\" amidst increased military drills by China around the island. The visit, the first by a sitting KMT leader to China in nearly a decade, is seen as an effort to promote dialogue and stability in the Taiwan Strait, with Cheng potentially meeting Chinese President Xi Jinping. However, Taiwan's government remains skeptical, warning that Cheng is not authorized to negotiate on behalf of the elected government, and some critics worry that the visit may play into Beijing's \"United Front\" strategy to emphasize Taiwan as a domestic matter for China.",
-      "wiki_context": "Cheng Li-wun is a Taiwanese politician and lawyer. A member of the Kuomintang (KMT), she has been the party's chairperson since November 2025. She is the second woman to hold the position, after Hung Hsiu-chu.",
-      "enriched_summary": "Here is an enriched summary:\n\nTaiwan's opposition leader, Cheng Li-wun of the Kuomintang Party (KMT), has arrived in China for a rare six-day visit, which she has called a \"peace mission\" amidst increased military drills by China around the island, a democracy claimed by Beijing as its own territory. This visit, the first by a sitting KMT leader to China in nearly a decade, is seen as an effort to promote dialogue and stability in the Taiwan Strait, with Cheng potentially meeting Chinese President Xi Jinping. The KMT, which accepts the \"one China\" principle, has historically been closer to China than the ruling Democratic Progressive Party (DPP), which Beijing views as separatist. However, Taiwan's government remains skeptical, warning that Cheng is not authorized to negotiate on behalf of the elected government, and some critics worry that the visit may play into Beijing's \"United Front\" strategy to emphasize Taiwan as a domestic matter for China. The visit comes as the US is pressuring Taiwan to increase its defense spending, including purchasing American weapons, further complicating the delicate cross-strait relations."
+      "topic": "Max Scherzer",
+      "summary": "Toronto Blue Jays pitcher Max Scherzer left Monday's game against the Los Angeles Dodgers after two innings due to forearm tendinitis. Despite the injury, Scherzer downplayed its severity, stating that he doesn't think it's a major issue and expects to make his next start. The Blue Jays are already dealing with a number of injuries to their starting pitchers, with four currently on the injured list, and recently signed veteran left-hander Patrick Corbin to a one-year contract.",
+      "wiki_context": "Maxwell Martin Scherzer, nicknamed \"Mad Max\", is an American professional baseball pitcher for the Toronto Blue Jays of Major League Baseball (MLB). He has previously played in MLB for the Arizona Diamondbacks, Detroit Tigers, Washington Nationals, Los Angeles Dodgers, New York Mets, and Texas Rangers. A right-handed starting pitcher, Scherzer is an eight-time MLB All-Star, has won three Cy Young Awards, has pitched two no-hitters, and is a two-time World Series champion, winning with the Nationals in 2019 and the Rangers in 2023. He is regarded as one of the best pitchers in baseball history.",
+      "enriched_summary": "Toronto Blue Jays pitcher Max Scherzer, a three-time Cy Young Award winner, left Monday's game against the Los Angeles Dodgers after two innings due to forearm tendinitis. Despite the injury, Scherzer remains optimistic, downplaying its severity and expecting to make his next start. This comes as the Blue Jays are already dealing with a pitching staff depleted by injuries, with four starters on the injured list, including notable players such as Jose Berrios and Shane Bieber. The team recently signed veteran left-hander Patrick Corbin to a one-year contract in an effort to bolster their rotation. With Scherzer's impressive career, including eight MLB All-Star appearances and two World Series championships, the Blue Jays are hopeful he can return to form soon and help the team navigate their current pitching woes."
     }
   ]
 }

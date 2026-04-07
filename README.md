@@ -127,6 +127,8 @@ This will:
 
 ### Build and run
 
+Make sure Docker Desktop is running, then execute:
+
 ```bash
 docker-compose up --build
 ```
