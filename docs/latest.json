@@ -1,0 +1,36 @@
+{
+  "run_id": "test-run-001",
+  "timestamp": "2026-04-07 10:00:00",
+  "metrics": {
+    "num_articles_fetched": 3,
+    "num_articles_processed": 3,
+    "num_failed": 0,
+    "runtime_seconds": 12.4
+  },
+  "articles": [
+    {
+      "title": "Example article one",
+      "topic": "Politics",
+      "source": "BBC",
+      "summary": "This is a short summary of the first article.",
+      "enriched_summary": "This is an enriched summary with extra Wikipedia-style context.",
+      "url": "https://example.com/article-1"
+    },
+    {
+      "title": "Example article two",
+      "topic": "Technology",
+      "source": "Reuters",
+      "summary": "This is a short summary of the second article.",
+      "enriched_summary": "This article includes some additional background context.",
+      "url": "https://example.com/article-2"
+    },
+    {
+      "title": "Example article three",
+      "topic": "Business",
+      "source": "CNN",
+      "summary": "This is a short summary of the third article.",
+      "enriched_summary": "More context was added to make the summary easier to understand.",
+      "url": "https://example.com/article-3"
+    }
+  ]
+}

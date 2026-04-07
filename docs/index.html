@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News Summary Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>News Summary Dashboard</h1>
+    <p class="subtitle">Automated news summarization pipeline</p>
+  </header>
+
+  <main class="container">
+    <section class="card" id="run-info">
+      <h2>Latest Run</h2>
+      <div id="meta">Loading latest run...</div>
+    </section>
+
+    <section class="card">
+      <h2>Metrics</h2>
+      <div id="metrics" class="metrics-grid">Loading metrics...</div>
+    </section>
+
+    <section class="card">
+      <h2>Articles</h2>
+      <div id="articles">Loading articles...</div>
+    </section>
+  </main>
+
+  <script>
+    async function loadDashboard() {
+      try {
+        const response = await fetch("./latest.json");
+        if (!response.ok) {
+          throw new Error("Could not load latest.json");
+        }
+
+        const data = await response.json();
+
+        document.getElementById("meta").innerHTML = `
+          <p><strong>Run ID:</strong> ${data.run_id ?? "N/A"}</p>
+          <p><strong>Timestamp:</strong> ${data.timestamp ?? "N/A"}</p>
+        `;
+
+        const metrics = data.metrics || {};
+        document.getElementById("metrics").innerHTML = `
+          <div class="metric-box">
+            <span class="metric-label">Fetched</span>
+            <span class="metric-value">${metrics.num_articles_fetched ?? 0}</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Processed</span>
+            <span class="metric-value">${metrics.num_articles_processed ?? 0}</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Failed</span>
+            <span class="metric-value">${metrics.num_failed ?? 0}</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Runtime (s)</span>
+            <span class="metric-value">${metrics.runtime_seconds ?? 0}</span>
+          </div>
+        `;
+
+        const articles = data.articles || [];
+        if (articles.length === 0) {
+          document.getElementById("articles").innerHTML = "<p>No articles available.</p>";
+          return;
+        }
+
+        document.getElementById("articles").innerHTML = articles.map(article => `
+          <article class="article-card">
+            <h3>${article.title ?? "Untitled article"}</h3>
+            <p class="article-meta">
+              <strong>Topic:</strong> ${article.topic ?? "Unknown"}
+              ${article.source ? ` | <strong>Source:</strong> ${article.source}` : ""}
+            </p>
+            <p>${article.summary ?? "No summary available."}</p>
+            ${article.enriched_summary ? `
+              <details>
+                <summary>Show enriched summary</summary>
+                <p>${article.enriched_summary}</p>
+              </details>
+            ` : ""}
+            ${article.url ? `
+              <p><a href="${article.url}" target="_blank" rel="noopener noreferrer">Read full article</a></p>
+            ` : ""}
+          </article>
+        `).join("");
+      } catch (error) {
+        document.getElementById("meta").innerHTML = `<p class="error">Error: ${error.message}</p>`;
+        document.getElementById("metrics").innerHTML = "";
+        document.getElementById("articles").innerHTML = "<p class='error'>Could not load dashboard data.</p>";
+      }
+    }
+
+    loadDashboard();
+  </script>
+</body>
+</html>
