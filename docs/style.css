@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 24px 16px;
 }
@@ -39,7 +39,7 @@ h1 {
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   gap: 16px;
 }
 
@@ -65,7 +65,7 @@ h1 {
 
 .article-card {
   border-top: 1px solid #e5e7eb;
-  padding: 18px 0;
+  padding: 20px 0;
 }
 
 .article-card:first-child {
@@ -73,9 +73,43 @@ h1 {
   padding-top: 0;
 }
 
+.article-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rank-badge {
+  display: inline-block;
+  min-width: 36px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
 .article-meta {
   color: #4b5563;
   font-size: 14px;
+}
+
+details {
+  margin: 12px 0;
+  padding: 10px 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.supporting-list {
+  margin-top: 10px;
+  padding-left: 20px;
 }
 
 a {
