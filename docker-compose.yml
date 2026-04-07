@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  news_summary:
+    build: .
+    container_name: news_summary_pipeline
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./docs:/app/docs
+      - ./artifacts:/app/artifacts
+    command: python main.py
