@@ -11,7 +11,7 @@ from app.llm import (
     generate_enriched_summary,
     summarize_article,
 )
-from app.preprocessing import preprocess_articles
+from app.preprocessing import preprocess_clusters
 from app.utils import (
     append_text_line,
     create_run_id,
@@ -23,24 +23,33 @@ from app.utils import (
 from app.wiki_api import get_wikipedia_summary
 from app.world_news_api import fetch_news
 
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v2_clustered_top_news"
 ARTIFACTS_BASE_DIR = Path("artifacts") / "runs"
+WIKI_FALLBACK_TEXT = "No additional background information found."
 
 
-def _safe_process_article(article: dict[str, Any]) -> dict[str, Any]:
-    text = article["text"]
+def _safe_process_cluster(cluster: dict[str, Any]) -> dict[str, Any]:
+    """
+    Create summary artifacts for one top-news cluster.
+    Uses the representative article text as the main input.
+    """
+    text = cluster["text"]
 
     summary = summarize_article(text)
     topic = extract_topic(text)
-    wiki_context = get_wikipedia_summary(topic) or "No additional background information found."
+    wiki_context = get_wikipedia_summary(topic) or WIKI_FALLBACK_TEXT
     enriched_summary = generate_enriched_summary(text, summary, wiki_context)
 
     return {
-        "title": article["title"],
-        "url": article["url"],
-        "source_name": article["source_name"],
-        "published_at": article["published_at"],
-        "text_length": article["text_length"],
+        "cluster_rank": cluster["cluster_rank"],
+        "cluster_size": cluster["cluster_size"],
+        "title": cluster["title"],
+        "url": cluster["url"],
+        "source_name": cluster["source_name"],
+        "published_at": cluster["published_at"],
+        "text_length": cluster["text_length"],
+        "supporting_sources": cluster["supporting_sources"],
+        "supporting_articles": cluster["supporting_articles"],
         "topic": topic,
         "summary": summary,
         "wiki_context": wiki_context,
@@ -48,15 +57,44 @@ def _safe_process_article(article: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def run_pipeline(max_articles: int = 5) -> dict[str, Any]:
+def _count_raw_articles(raw_data: dict[str, Any]) -> int:
+    groups = raw_data.get("top_news", [])
+    raw_count = 0
+
+    for group in groups:
+        news_items = group.get("news", [])
+        if isinstance(news_items, list):
+            raw_count += len(news_items)
+
+    return raw_count
+
+
+def _validate_pipeline_counts(
+    processed_clusters: list[dict[str, Any]],
+    summaries: list[dict[str, Any]],
+    failed_clusters: list[dict[str, Any]],
+) -> None:
+    expected_successes = len(processed_clusters) - len(failed_clusters)
+
+    if len(summaries) != expected_successes:
+        raise ValueError(
+            "Inconsistent pipeline counts: "
+            f"processed_clusters={len(processed_clusters)}, "
+            f"failed_clusters={len(failed_clusters)}, "
+            f"expected_successes={expected_successes}, "
+            f"actual_summaries={len(summaries)}"
+        )
+
+
+def run_pipeline(max_clusters: int = 5) -> dict[str, Any]:
     """
-    Full run-based pipeline:
+    Full cluster-based pipeline:
     1. create run_id
-    2. fetch raw news
+    2. fetch raw top-news clusters
     3. save raw input artifact
-    4. preprocess
-    5. save processed articles
-    6. summarize + enrich all processed articles
+    4. preprocess into one representative item per cluster
+    5. save processed clusters
+    6. summarize + enrich all processed clusters
     7. save outputs
     8. save metadata and metrics
     """
@@ -74,17 +112,18 @@ def run_pipeline(max_articles: int = 5) -> dict[str, Any]:
         "status": "running",
         "model_name": MODEL_NAME,
         "prompt_version": PROMPT_VERSION,
-        "max_articles_requested": max_articles,
+        "max_clusters_requested": max_clusters,
+        "num_raw_clusters": 0,
         "num_raw_articles": 0,
-        "num_processed_articles": 0,
+        "num_processed_clusters": 0,
         "num_successful_summaries": 0,
-        "num_failed_articles": 0,
+        "num_failed_clusters": 0,
         "wiki_miss_count": 0,
         "artifacts": {
             "raw_news": str(run_dir / "raw_news.json"),
-            "processed_articles": str(run_dir / "processed_articles.json"),
+            "processed_clusters": str(run_dir / "processed_clusters.json"),
             "summaries": str(run_dir / "summaries.json"),
-            "failed_articles": str(run_dir / "failed_articles.json"),
+            "failed_clusters": str(run_dir / "failed_clusters.json"),
             "metadata": str(run_dir / "metadata.json"),
             "logs": str(log_path),
         },
@@ -99,61 +138,77 @@ def run_pipeline(max_articles: int = 5) -> dict[str, Any]:
         save_json(raw_data, run_dir / "raw_news.json")
         append_text_line(f"[{utc_now_iso()}] Saved raw_news.json", log_path)
 
-        processed_articles = preprocess_articles(raw_data, max_articles=max_articles)
-        save_json(processed_articles, run_dir / "processed_articles.json")
+        raw_groups = raw_data.get("top_news", [])
+        if not isinstance(raw_groups, list):
+            raise ValueError("Expected raw_data['top_news'] to be a list")
+
+        metadata["num_raw_clusters"] = len(raw_groups)
+        metadata["num_raw_articles"] = _count_raw_articles(raw_data)
+
+        processed_clusters = preprocess_clusters(
+            raw_data,
+            max_clusters=max_clusters,
+            min_text_length=80,
+        )
+
+        save_json(processed_clusters, run_dir / "processed_clusters.json")
         append_text_line(
-            f"[{utc_now_iso()}] Preprocessed {len(processed_articles)} articles",
+            f"[{utc_now_iso()}] Preprocessed {len(processed_clusters)} clusters",
             log_path,
         )
 
-        raw_groups = raw_data.get("top_news", [])
-        raw_count = 0
-        for group in raw_groups:
-            raw_count += len(group.get("news", []))
-
-        metadata["num_raw_articles"] = raw_count
-        metadata["num_processed_articles"] = len(processed_articles)
+        metadata["num_processed_clusters"] = len(processed_clusters)
 
         summaries: list[dict[str, Any]] = []
-        failed_articles: list[dict[str, Any]] = []
+        failed_clusters: list[dict[str, Any]] = []
 
-        for idx, article in enumerate(processed_articles, start=1):
+        for idx, cluster in enumerate(processed_clusters, start=1):
             try:
                 append_text_line(
-                    f"[{utc_now_iso()}] Processing article {idx}/{len(processed_articles)}: {article['title']}",
+                    (
+                        f"[{utc_now_iso()}] Processing cluster "
+                        f"{idx}/{len(processed_clusters)}: "
+                        f"rank={cluster['cluster_rank']} | "
+                        f"size={cluster['cluster_size']} | "
+                        f"title={cluster['title']}"
+                    ),
                     log_path,
                 )
 
-                result = _safe_process_article(article)
+                result = _safe_process_cluster(cluster)
                 summaries.append(result)
 
-                if result["wiki_context"] == "No additional background information found.":
+                if result["wiki_context"] == WIKI_FALLBACK_TEXT:
                     metadata["wiki_miss_count"] += 1
 
                 append_text_line(
-                    f"[{utc_now_iso()}] Success: {article['title']}",
+                    f"[{utc_now_iso()}] Success: {cluster['title']}",
                     log_path,
                 )
 
-            except Exception as article_error:
-                failed_articles.append(
+            except Exception as cluster_error:
+                failed_clusters.append(
                     {
-                        "title": article.get("title"),
-                        "url": article.get("url"),
-                        "error": str(article_error),
+                        "cluster_rank": cluster.get("cluster_rank"),
+                        "cluster_size": cluster.get("cluster_size"),
+                        "title": cluster.get("title"),
+                        "url": cluster.get("url"),
+                        "error": str(cluster_error),
                         "traceback": traceback.format_exc(),
                     }
                 )
                 append_text_line(
-                    f"[{utc_now_iso()}] Failed: {article.get('title')} | {article_error}",
+                    f"[{utc_now_iso()}] Failed: {cluster.get('title')} | {cluster_error}",
                     log_path,
                 )
 
+        _validate_pipeline_counts(processed_clusters, summaries, failed_clusters)
+
         save_json(summaries, run_dir / "summaries.json")
-        save_json(failed_articles, run_dir / "failed_articles.json")
+        save_json(failed_clusters, run_dir / "failed_clusters.json")
 
         metadata["num_successful_summaries"] = len(summaries)
-        metadata["num_failed_articles"] = len(failed_articles)
+        metadata["num_failed_clusters"] = len(failed_clusters)
         metadata["status"] = "success"
         metadata["finished_at"] = utc_now_iso()
 
