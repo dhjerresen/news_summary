@@ -12,7 +12,7 @@
       <p class="eyebrow">Automated global news brief</p>
       <h1>AI News Digest</h1>
       <p class="hero-text">
-        Clustered, summarized, and enriched news stories generated automatically by the pipeline.
+        Clustered and summarized news stories generated automatically by the pipeline.
       </p>
 
       <div class="hero-meta">
@@ -21,7 +21,7 @@
           <span class="hero-stat-value" id="last-updated">Loading...</span>
         </div>
         <div class="hero-stat">
-          <span class="hero-stat-label">Articles processed</span>
+          <span class="hero-stat-label">Raw clusters</span>
           <span class="hero-stat-value" id="articles-count">-</span>
         </div>
         <div class="hero-stat">
@@ -36,7 +36,7 @@
     <section class="section">
       <div class="section-heading">
         <h2>Top Stories</h2>
-        <p>The latest enriched summaries from the most relevant news clusters.</p>
+        <p>The latest summaries from the most relevant news clusters.</p>
       </div>
 
       <div id="summaries" class="stories-grid">
@@ -80,11 +80,6 @@
         .replaceAll("'", "&#039;");
     }
 
-    function cleanEnrichedSummary(text) {
-      if (!text) return "";
-      return text.replace(/^Here is an enriched summary of the news article in 3-5 sentences, including relevant background context:\s*/i, "").trim();
-    }
-
     async function loadNewsDigest() {
       const summariesEl = document.getElementById("summaries");
       const systemEl = document.getElementById("system-overview");
@@ -97,43 +92,53 @@
 
         const data = await response.json();
         const metadata = data.metadata || {};
-        const summaries = data.summaries || [];
+        const items = data.items || [];
 
-        document.getElementById("last-updated").textContent = formatDate(metadata.finished_at || metadata.started_at);
-        document.getElementById("articles-count").textContent = metadata.num_raw_articles ?? 0;
-        document.getElementById("stories-count").textContent = metadata.num_successful_summaries ?? summaries.length ?? 0;
+        document.getElementById("last-updated").textContent =
+          formatDate(metadata.timestamp_utc);
 
-        if (!summaries.length) {
+        document.getElementById("articles-count").textContent =
+          metadata.raw_cluster_count ?? 0;
+
+        document.getElementById("stories-count").textContent =
+          metadata.num_successful_summaries ?? items.length ?? 0;
+
+        if (!items.length) {
           summariesEl.innerHTML = `<p class="empty-state">No stories are available from the latest pipeline run.</p>`;
         } else {
-          summariesEl.innerHTML = summaries.map((item, index) => {
-            const enriched = cleanEnrichedSummary(item.enriched_summary) || item.summary || "No summary available.";
-            const topic = item.topic || "General";
+          summariesEl.innerHTML = items.map((item, index) => {
+            const summary = item.summary || "No summary available.";
             const title = item.title || "Untitled story";
             const source = item.source_name || "Unknown source";
             const published = formatDate(item.published_at);
-            const wikiContext = item.wiki_context || "";
-            const supportingCount = item.supporting_articles?.length || item.cluster_size || 0;
+            const supportingCount = item.num_supporting_articles || 0;
             const storyUrl = item.url || "";
             const rank = item.cluster_rank ?? index + 1;
+            const preview = item.text_preview || "";
+            const supportingSources = Array.isArray(item.supporting_sources)
+              ? item.supporting_sources
+              : [];
+            const supportingArticles = Array.isArray(item.supporting_articles)
+              ? item.supporting_articles
+              : [];
 
             return `
               <article class="story-card">
                 <div class="story-topline">
-                  <span class="story-badge">${escapeHtml(topic)}</span>
+                  <span class="story-badge">News cluster</span>
                   <span class="story-rank">Story ${rank}</span>
                 </div>
 
                 <h3>${escapeHtml(title)}</h3>
 
-                <p class="story-summary">${escapeHtml(enriched)}</p>
+                <p class="story-summary">${escapeHtml(summary)}</p>
 
                 ${
-                  wikiContext
+                  preview
                     ? `
                       <div class="story-context">
-                        <h4>Background</h4>
-                        <p>${escapeHtml(wikiContext)}</p>
+                        <h4>Cluster preview</h4>
+                        <p>${escapeHtml(preview)}</p>
                       </div>
                     `
                     : ""
@@ -144,6 +149,7 @@
                     <span><strong>Source:</strong> ${escapeHtml(source)}</span>
                     <span><strong>Published:</strong> ${escapeHtml(published)}</span>
                     <span><strong>Cluster size:</strong> ${supportingCount}</span>
+                    <span><strong>Supporting sources:</strong> ${supportingSources.length}</span>
                   </div>
 
                   <div class="story-links">
@@ -154,16 +160,33 @@
                     }
 
                     ${
-                      item.supporting_articles && item.supporting_articles.length
+                      supportingSources.length
+                        ? `
+                          <div class="supporting-details">
+                            <strong>Sources:</strong>
+                            ${supportingSources.map(source => escapeHtml(source)).join(", ")}
+                          </div>
+                        `
+                        : ""
+                    }
+
+                    ${
+                      supportingArticles.length
                         ? `
                           <details class="supporting-details">
-                            <summary>Related coverage (${item.supporting_articles.length})</summary>
+                            <summary>Related coverage (${supportingArticles.length})</summary>
                             <ul class="supporting-list">
-                              ${item.supporting_articles.map(article => `
+                              ${supportingArticles.map(article => `
                                 <li>
-                                  <a href="${escapeHtml(article.url || "#")}" target="_blank" rel="noopener noreferrer">
-                                    ${escapeHtml(article.title || "Untitled")}
-                                  </a>
+                                  ${
+                                    article.url
+                                      ? `
+                                        <a href="${escapeHtml(article.url)}" target="_blank" rel="noopener noreferrer">
+                                          ${escapeHtml(article.title || "Untitled")}
+                                        </a>
+                                      `
+                                      : `${escapeHtml(article.title || "Untitled")}`
+                                  }
                                   <span> — ${escapeHtml(article.source_name || "Unknown")} · ${escapeHtml(formatDate(article.published_at))}</span>
                                 </li>
                               `).join("")}
@@ -182,14 +205,12 @@
         systemEl.innerHTML = `
           <div class="system-card">
             <span class="system-label">Run ID</span>
-            <span class="system-value">${escapeHtml(data.run_id || "N/A")}</span>
+            <span class="system-value">${escapeHtml(metadata.run_id || "N/A")}</span>
           </div>
 
           <div class="system-card">
-            <span class="system-label">Status</span>
-            <span class="system-value status-pill ${metadata.status === "success" ? "success" : "error"}">
-              ${escapeHtml(metadata.status || "N/A")}
-            </span>
+            <span class="system-label">Pipeline type</span>
+            <span class="system-value">${escapeHtml(metadata.pipeline_type || "N/A")}</span>
           </div>
 
           <div class="system-card">
@@ -203,13 +224,23 @@
           </div>
 
           <div class="system-card">
+            <span class="system-label">Source</span>
+            <span class="system-value">${escapeHtml(metadata.source || "N/A")}</span>
+          </div>
+
+          <div class="system-card">
+            <span class="system-label">Updated</span>
+            <span class="system-value">${escapeHtml(formatDate(metadata.timestamp_utc))}</span>
+          </div>
+
+          <div class="system-card">
             <span class="system-label">Raw clusters</span>
-            <span class="system-value">${metadata.num_raw_clusters ?? 0}</span>
+            <span class="system-value">${metadata.raw_cluster_count ?? 0}</span>
           </div>
 
           <div class="system-card">
             <span class="system-label">Processed clusters</span>
-            <span class="system-value">${metadata.num_processed_clusters ?? 0}</span>
+            <span class="system-value">${metadata.processed_cluster_count ?? 0}</span>
           </div>
 
           <div class="system-card">
@@ -223,23 +254,13 @@
           </div>
 
           <div class="system-card">
-            <span class="system-label">Wiki misses</span>
-            <span class="system-value">${metadata.wiki_miss_count ?? 0}</span>
-          </div>
-
-          <div class="system-card">
-            <span class="system-label">Started</span>
-            <span class="system-value">${escapeHtml(formatDate(metadata.started_at))}</span>
-          </div>
-
-          <div class="system-card">
-            <span class="system-label">Finished</span>
-            <span class="system-value">${escapeHtml(formatDate(metadata.finished_at))}</span>
-          </div>
-
-          <div class="system-card">
             <span class="system-label">Max clusters requested</span>
-            <span class="system-value">${metadata.max_clusters_requested ?? 0}</span>
+            <span class="system-value">${metadata.max_clusters ?? 0}</span>
+          </div>
+
+          <div class="system-card">
+            <span class="system-label">Minimum text length</span>
+            <span class="system-value">${metadata.min_text_length ?? 0}</span>
           </div>
         `;
       } catch (error) {

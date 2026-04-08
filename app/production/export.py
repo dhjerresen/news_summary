@@ -9,9 +9,6 @@ SummaryRecord = dict[str, Any]
 
 
 def build_frontend_record(cluster: Cluster, summary_record: SummaryRecord) -> dict[str, Any]:
-    """
-    Build a frontend-friendly record by combining cluster metadata and summary output.
-    """
     return {
         "cluster_id": cluster.get("cluster_id"),
         "cluster_rank": cluster.get("cluster_rank"),
@@ -21,6 +18,7 @@ def build_frontend_record(cluster: Cluster, summary_record: SummaryRecord) -> di
         "published_at": cluster.get("published_at"),
         "text_preview": cluster.get("text_preview"),
         "supporting_sources": cluster.get("supporting_sources", []),
+        "supporting_articles": cluster.get("supporting_articles", []),
         "num_supporting_sources": cluster.get("num_supporting_sources", 0),
         "num_supporting_articles": cluster.get("num_supporting_articles", 0),
         "summary": summary_record.get("summary", ""),
