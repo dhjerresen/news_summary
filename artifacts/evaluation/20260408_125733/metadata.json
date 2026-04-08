@@ -1,0 +1,23 @@
+{
+  "run_id": "20260408_125733",
+  "pipeline_type": "evaluation",
+  "timestamp_utc": "2026-04-08T12:58:09.759626+00:00",
+  "input_path": "data/eval/fixed_eval_clusters.json",
+  "num_clusters": 5,
+  "generation_models": [
+    {
+      "model_name": "llama-3.3-70b-versatile",
+      "temperature": 0.2,
+      "max_output_tokens": 400,
+      "prompt_version": "summary_prompt_v1"
+    },
+    {
+      "model_name": "llama-3.1-8b-instant",
+      "temperature": 0.2,
+      "max_output_tokens": 400,
+      "prompt_version": "summary_prompt_v1"
+    }
+  ],
+  "judge_model_name": "llama-3.3-70b-versatile",
+  "judge_prompt_version": "judge_prompt_v1"
+}

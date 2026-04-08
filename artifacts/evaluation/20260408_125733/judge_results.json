@@ -1,0 +1,187 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "cluster_rank": 1,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "temperature": 0.0,
+    "max_output_tokens": 600,
+    "latency_seconds": 1.515,
+    "input_tokens": 2179,
+    "output_tokens": 207,
+    "total_tokens": 2386,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 23\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 3,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 23\n    }\n  },\n  \"winner\": \"summary_a\",\n  \"short_reason\": \"Summary A provides more details about the agreement, such as Iran's acceptance of the terms and the negotiation location, while maintaining factual consistency and clarity.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 23
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 3,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 23
+        }
+      },
+      "winner": "summary_a",
+      "short_reason": "Summary A provides more details about the agreement, such as Iran's acceptance of the terms and the negotiation location, while maintaining factual consistency and clarity."
+    }
+  },
+  {
+    "cluster_id": "cluster_002",
+    "cluster_rank": 2,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "temperature": 0.0,
+    "max_output_tokens": 600,
+    "latency_seconds": 1.03,
+    "input_tokens": 1581,
+    "output_tokens": 207,
+    "total_tokens": 1788,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 3,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 22\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 24\n    }\n  },\n  \"winner\": \"summary_b\",\n  \"short_reason\": \"Summary B provides more comprehensive coverage of the election outcome and its implications, while maintaining high factual consistency, relevance, clarity, and conciseness.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 3,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 22
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 24
+        }
+      },
+      "winner": "summary_b",
+      "short_reason": "Summary B provides more comprehensive coverage of the election outcome and its implications, while maintaining high factual consistency, relevance, clarity, and conciseness."
+    }
+  },
+  {
+    "cluster_id": "cluster_003",
+    "cluster_rank": 3,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "temperature": 0.0,
+    "max_output_tokens": 600,
+    "latency_seconds": 1.941,
+    "input_tokens": 1414,
+    "output_tokens": 209,
+    "total_tokens": 1623,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 24\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 5,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 24\n    }\n  },\n  \"winner\": \"summary_b\",\n  \"short_reason\": \"Both summaries are factually consistent and clear, but Summary B covers more aspects of the news cluster, including the decrease in natural gas and heating oil prices.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 24
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 5,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 24
+        }
+      },
+      "winner": "summary_b",
+      "short_reason": "Both summaries are factually consistent and clear, but Summary B covers more aspects of the news cluster, including the decrease in natural gas and heating oil prices."
+    }
+  },
+  {
+    "cluster_id": "cluster_004",
+    "cluster_rank": 4,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "temperature": 0.0,
+    "max_output_tokens": 600,
+    "latency_seconds": 0.988,
+    "input_tokens": 1639,
+    "output_tokens": 210,
+    "total_tokens": 1849,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 23\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 3,\n      \"relevance\": 4,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 22\n    }\n  },\n  \"winner\": \"summary_a\",\n  \"short_reason\": \"Summary A provides more context and details about the Wisconsin Supreme Court election, while Summary B includes information about a separate election, making Summary A more relevant and comprehensive.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 23
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 3,
+          "relevance": 4,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 22
+        }
+      },
+      "winner": "summary_a",
+      "short_reason": "Summary A provides more context and details about the Wisconsin Supreme Court election, while Summary B includes information about a separate election, making Summary A more relevant and comprehensive."
+    }
+  },
+  {
+    "cluster_id": "cluster_005",
+    "cluster_rank": 5,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "temperature": 0.0,
+    "max_output_tokens": 600,
+    "latency_seconds": 0.852,
+    "input_tokens": 1659,
+    "output_tokens": 221,
+    "total_tokens": 1880,
+    "raw_judge_output": "```\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 24\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 5,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 24\n    }\n  },\n  \"winner\": \"summary_b\",\n  \"short_reason\": \"Summary B provides more details about the game, such as the scoring streak of Logan Stankoven, William Carrier, and Taylor Hall, while maintaining the same level of factual consistency, relevance, and clarity as Summary A.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 24
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 5,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 24
+        }
+      },
+      "winner": "summary_b",
+      "short_reason": "Summary B provides more details about the game, such as the scoring streak of Logan Stankoven, William Carrier, and Taylor Hall, while maintaining the same level of factual consistency, relevance, and clarity as Summary A."
+    }
+  }
+]
