@@ -1,0 +1,24 @@
+{
+  "run_id": "20260408_080900",
+  "started_at": "2026-04-08T08:09:00.617477+00:00",
+  "finished_at": "2026-04-08T08:09:00.617641+00:00",
+  "status": "failed",
+  "model_name": "llama-3.3-70b-versatile",
+  "prompt_version": "v2_clustered_top_news",
+  "max_clusters_requested": 5,
+  "num_raw_clusters": 0,
+  "num_raw_articles": 0,
+  "num_processed_clusters": 0,
+  "num_successful_summaries": 0,
+  "num_failed_clusters": 0,
+  "wiki_miss_count": 0,
+  "artifacts": {
+    "raw_news": "artifacts/runs/20260408_080900/raw_news.json",
+    "processed_clusters": "artifacts/runs/20260408_080900/processed_clusters.json",
+    "summaries": "artifacts/runs/20260408_080900/summaries.json",
+    "failed_clusters": "artifacts/runs/20260408_080900/failed_clusters.json",
+    "metadata": "artifacts/runs/20260408_080900/metadata.json",
+    "logs": "artifacts/runs/20260408_080900/logs.txt"
+  },
+  "error": "WORLDNEWS_API_KEY not found in environment variables"
+}
