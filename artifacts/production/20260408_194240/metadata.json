@@ -1,0 +1,20 @@
+{
+  "run_id": "20260408_194240",
+  "pipeline_type": "production",
+  "timestamp_utc": "2026-04-08T19:42:45.037146+00:00",
+  "source": "world_news_api",
+  "raw_cluster_count": 56,
+  "processed_cluster_count": 5,
+  "max_clusters": 5,
+  "min_text_length": 80,
+  "model_name": "llama-3.3-70b-versatile",
+  "prompt_version": "summary_prompt_v1",
+  "temperature": 0.2,
+  "max_output_tokens": 400,
+  "num_successful_summaries": 5,
+  "num_failed_summaries": 0,
+  "source_country": "us",
+  "language": "en",
+  "date": null,
+  "news_sources": null
+}
