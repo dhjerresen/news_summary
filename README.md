@@ -1,113 +1,99 @@
-# 📰 News Summary MLOps Pipeline
+# AI News Summary Pipeline
 
-This project implements an end-to-end **MLOps pipeline** for automated news summarization using LLMs.
-The system ingests real-world news data, processes and clusters articles, generates summaries, enriches them with external knowledge, and exposes results through a lightweight frontend.
+This project implements an end-to-end LLM-powered news summarization pipeline with a focus on MLOps practices, reproducibility, and deployment.
 
-The focus of the project is **operationalization, reproducibility, and deployment**, rather than model performance.
+The system ingests real-world news data, clusters related articles, generates concise summaries using LLMs, and publishes results through a lightweight frontend.
 
----
-
-## 🚀 Project Overview
+## Project Overview
 
 The pipeline performs the following steps:
 
-1. **Data Ingestion**
+1. **Data ingestion**
+   Fetches clustered news data from an external API.
+2. **Preprocessing and clustering**
+   Selects representative articles per cluster and filters low-quality content.
+3. **LLM-based summarization**
+   Generates concise summaries for each news cluster.
+4. **Artifact storage**
+   Stores results and metadata for each run.
+5. **Frontend serving**
+   Publishes the latest results via GitHub Pages.
 
-   * Fetches latest news articles from an external API
+## Pipeline Architecture
 
-2. **Preprocessing & Clustering**
-
-   * Cleans and groups related articles into clusters
-
-3. **LLM-based Summarization**
-
-   * Generates summaries and extracts topics using an LLM
-
-4. **Enrichment**
-
-   * Adds contextual information via Wikipedia API
-
-5. **Artifact Storage**
-
-   * Stores all intermediate and final outputs per run
-
-6. **Frontend Serving**
-
-   * Displays latest results via GitHub Pages
-
----
-
-## 🏗️ Pipeline Architecture
-
-```
-News API → Raw Data → Preprocessing → Clustering
-         → LLM Summarization → Wikipedia Enrichment
-         → Artifacts (JSON + logs)
-         → GitHub Pages Frontend
+```text
+World News API
+      ↓
+Raw Data (JSON)
+      ↓
+Preprocessing & Clustering
+      ↓
+LLM Summarization (Groq)
+      ↓
+Frontend Payload (JSON)
+      ↓
+GitHub Pages Frontend
 ```
 
----
+## Repository Structure
 
-## 📂 Repository Structure
-
-```
+```text
 app/
-  ├── pipeline.py          # Main pipeline orchestration
-  ├── world_news_api.py    # Data ingestion
-  ├── preprocessing.py     # Cleaning & clustering
-  ├── llm.py               # LLM summarization logic
-  ├── wiki_api.py          # Wikipedia enrichment
-  ├── utils.py             # Artifact handling & utilities
+  core/
+    ├── ingest.py          # API + JSON ingestion
+    ├── preprocess.py      # Cleaning & text extraction
+    ├── cluster.py         # Cluster processing logic
+    └── utils.py           # Shared utilities
 
-data/
-  └── artifacts/           # Stored pipeline runs
+  production/
+    ├── pipeline.py        # Production pipeline orchestration
+    ├── summarize.py       # LLM summarization
+    └── export.py          # Frontend payload builder
+
+  evaluation/
+    ├── pipeline.py        # Evaluation pipeline
+    ├── generate_candidates.py
+    ├── judge.py
+    └── compare.py
+
+data/                      # Optional local input data
+artifacts/
+  ├── production/          # Production runs
+  └── evaluation/          # Evaluation runs
 
 docs/
-  └── latest.json          # Latest run metadata (used by frontend)
+  └── latest.json          # Latest frontend data
 
-frontend/
-  └── (GitHub Pages site)
-
+main.py                    # Entry point
 Dockerfile
 docker-compose.yml
-main.py                    # Entry point
 ```
 
----
+## Setup and Installation
 
-## ⚙️ Setup & Installation
-
-### 1. Clone the repository
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/dhjerresen/news_summary.git
 cd news_summary
 ```
 
----
-
-### 2. Create environment variables
-
-Create a `.env` file:
+2. Create environment variables in a `.env` file:
 
 ```env
-NEWS_API_KEY=your_news_api_key
-OPENAI_API_KEY=your_openai_key
+WORLDNEWS_API_KEY=your_api_key
+GROQ_API_KEY=your_groq_key
 ```
 
----
-
-### 3. Install dependencies (local run)
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
+## Running the Pipeline
 
-## ▶️ Running the Pipeline
-
-### Run locally
+Run locally:
 
 ```bash
 python main.py
@@ -115,126 +101,118 @@ python main.py
 
 This will:
 
-* Fetch latest news
-* Process and cluster articles
-* Generate summaries
-* Save artifacts to `/data/artifacts/`
-* Update `/docs/latest.json`
+- Fetch the latest news clusters
+- Generate summaries
+- Build the frontend payload
+- Save results to `artifacts/production/`
+- Update `docs/latest.json`
 
----
-
-## 🐳 Running with Docker
-
-### Build and run
-
-Make sure Docker Desktop is running, then execute:
+## Running with Docker
 
 ```bash
 docker-compose up --build
 ```
 
-This ensures a **reproducible and containerized execution environment**.
+This runs the pipeline in a fully reproducible containerized environment.
 
----
+## Artifacts and Reproducibility
 
-## 📦 Artifacts & Reproducibility
+Each run generates a unique `run_id` and stores:
 
-Each pipeline run generates a unique `run_id` and stores:
+- `frontend_payload.json` for the final frontend output
+- `metadata.json` for run metadata
+- Optional intermediate files, if enabled
 
-* `raw_news.json` → raw input data
-* `processed_clusters.json` → clustered data
-* `summaries.json` → generated summaries
-* `failed_clusters.json` → failed processing cases
-* `metadata.json` → run metadata
-* `logs.txt` → execution logs
+Artifacts are stored in:
 
-The latest run is tracked in:
-
+```text
+artifacts/production/<run_id>/
 ```
+
+The latest output used by the frontend is:
+
+```text
 docs/latest.json
 ```
 
-This enables **full reproducibility and traceability** of results.
+## Monitoring and Metadata
 
----
+Each run logs:
 
-## 📊 Monitoring & Versioning
-
-The system logs the following per run:
-
-* Number of articles and clusters
-* Successful vs failed summaries
-* Wikipedia enrichment success rate
-* Runtime and timestamps
-* Model name and prompt version
+- Number of clusters processed
+- Successful vs. failed summaries
+- Model name and prompt version
+- Token usage and latency
+- Timestamp and source configuration
 
 This supports:
 
-* Basic **pipeline monitoring**
-* **Model and prompt version tracking**
-* Debugging and evaluation
+- Basic monitoring
+- Debugging
+- Reproducibility
+- Prompt and model tracking
 
----
+## Frontend
 
-## 🌐 Frontend
+Live site:
 
-A lightweight frontend is deployed via GitHub Pages:
-
-👉 https://dhjerresen.github.io/news_summary/
+<https://dhjerresen.github.io/news_summary/>
 
 The frontend displays:
 
-* Latest pipeline run
-* Key metrics
-* Top summaries
+- Latest summaries
+- Source metadata
+- Cluster context
+- Pipeline metrics
 
----
+## Automation (GitHub Actions)
 
-## 🔄 Deployment Strategy
+The pipeline is automatically executed:
 
-The system is designed to be:
+- Daily via cron
+- Manually via workflow dispatch
 
-* **Triggered manually** (via `main.py`)
-* **Containerized** (Docker)
-* Extendable to:
+Results are committed back to the repository and published to GitHub Pages.
 
-  * Scheduled runs (cron / GitHub Actions)
-  * API-based triggering (e.g., FastAPI)
+## Evaluation Pipeline
 
----
+The project includes an evaluation module using LLM-as-a-judge:
 
-## 🧠 MLOps Considerations
+- Generates summaries with multiple models
+- Performs pairwise comparison
+- Aggregates results into a leaderboard
+
+Run manually:
+
+```bash
+python -m app.evaluation.pipeline
+```
+
+## MLOps Considerations
 
 This project demonstrates:
 
-* End-to-end pipeline orchestration
-* Artifact tracking and storage
-* Reproducible execution (Docker)
-* Monitoring via metadata logging
-* Separation of pipeline components
-* Deployment-ready structure
+- End-to-end pipeline orchestration
+- Reproducible execution with Docker and CI
+- Artifact versioning per run
+- Separation of core and production logic
+- Automated deployment via GitHub Actions
+- Evaluation with LLM-as-a-judge
 
----
+## Limitations
 
-## ⚠️ Limitations
+- Focus is on pipeline design, not model optimization
+- LLM outputs are non-deterministic
+- Evaluation relies on LLM judgment rather than ground truth
 
-* Focus is on pipeline design, not model optimization
-* LLM outputs may vary between runs
-* No automated evaluation metrics (future work)
+## Future Improvements
 
----
+- Add caching and cost optimization
+- Introduce structured schemas with `TypedDict` or `Pydantic`
+- Improve frontend UX and filtering
+- Add historical run comparison
+- Support multiple news sources
 
-## 🔮 Future Improvements
+## License
 
-* Add automated scheduling (GitHub Actions)
-* Implement API endpoint for triggering runs
-* Improve frontend visualization
-* Add evaluation metrics for summary quality
-
----
-
-## 📜 License
-
-This project is for educational purposes as part of an MLOps exam assignment.
-
----
+This project was developed as part of an MLOps-focused assignment.
