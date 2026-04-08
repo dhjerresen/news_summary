@@ -45,34 +45,23 @@ def select_representative_article(news_items: list[Article]) -> Article | None:
     return max(valid_items, key=score_article)
 
 
-def build_supporting_articles(news_items: list[Article]) -> tuple[list[str], list[Article]]:
+def build_supporting_articles(news_items: list[Article]) -> list[Article]:
     """
-    Build supporting source list and lightweight supporting article metadata.
+    Build lightweight supporting article metadata.
     """
-    supporting_sources: list[str] = []
-    seen_sources: set[str] = set()
     supporting_articles: list[Article] = []
 
     for item in news_items:
-        item_title = safe_str(item.get("title"))
-        item_url = safe_str(item.get("url"))
-        item_source = extract_source_name(item)
-        item_published_at = item.get("publish_date")
-
-        if item_source and item_source not in seen_sources:
-            seen_sources.add(item_source)
-            supporting_sources.append(item_source)
-
         supporting_articles.append(
             {
-                "title": item_title,
-                "url": item_url,
-                "source_name": item_source,
-                "published_at": item_published_at,
+                "title": safe_str(item.get("title")),
+                "url": safe_str(item.get("url")),
+                "source_name": extract_source_name(item),
+                "published_at": item.get("publish_date"),
             }
         )
 
-    return supporting_sources, supporting_articles
+    return supporting_articles
 
 
 def preprocess_clusters(
@@ -114,20 +103,15 @@ def preprocess_clusters(
         if len(text) < min_text_length:
             continue
 
-        supporting_sources, supporting_articles = build_supporting_articles(news_items)
+        supporting_articles = build_supporting_articles(news_items)
 
         processed_cluster: Cluster = {
             "cluster_rank": cluster_rank,
-            "cluster_size": len(news_items),
             "title": title,
             "url": url,
             "source_name": source_name,
             "published_at": representative.get("publish_date"),
             "text": text,
-            "text_length": len(text),
-            "has_full_text": bool(safe_str(representative.get("text"))),
-            "has_summary_field": bool(safe_str(representative.get("summary"))),
-            "supporting_sources": supporting_sources,
             "supporting_articles": supporting_articles,
         }
         processed.append(processed_cluster)

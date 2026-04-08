@@ -1,4 +1,4 @@
-# aap/core/utils.py
+# app/core/utils.py
 from __future__ import annotations
 
 import json

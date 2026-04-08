@@ -22,20 +22,13 @@ def safe_str(value: Any) -> str:
 
 def get_article_text(article: Article) -> str:
     """
-    Return the best available text field from an article.
+    Return the best available body text from an article.
 
     Priority:
     1. text
     2. summary
-    3. title
     """
-    candidates = (
-        article.get("text"),
-        article.get("summary"),
-        article.get("title"),
-    )
-
-    for candidate in candidates:
+    for candidate in (article.get("text"), article.get("summary")):
         cleaned = safe_str(candidate)
         if cleaned:
             return cleaned

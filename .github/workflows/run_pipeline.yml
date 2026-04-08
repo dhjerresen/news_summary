@@ -38,16 +38,12 @@ jobs:
 
       - name: Create required folders
         run: |
-          mkdir -p artifacts/raw
-          mkdir -p artifacts/processed
-          mkdir -p artifacts/summaries
-          mkdir -p artifacts/metrics
-          mkdir -p artifacts/logs
+          mkdir -p artifacts/production
           mkdir -p docs
 
       - name: Run pipeline
         env:
-          WORLD_NEWS_API_KEY: ${{ secrets.WORLD_NEWS_API_KEY }}
+          WORLDNEWS_API_KEY: ${{ secrets.WORLDNEWS_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python main.py
 

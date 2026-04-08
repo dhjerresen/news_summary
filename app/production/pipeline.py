@@ -5,7 +5,6 @@ from pathlib import Path
 from typing import Any
 
 from app.core.cluster import preprocess_clusters
-from app.core.enrich import enrich_clusters
 from app.core.ingest import (
     IngestError,
     fetch_world_news_top_news,
@@ -39,7 +38,7 @@ def build_production_metadata(
     extra: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     num_successful_summaries = sum(1 for item in summaries if item.get("success"))
-    num_failed_clusters = len(summaries) - num_successful_summaries
+    num_failed_summaries = len(summaries) - num_successful_summaries
 
     metadata: dict[str, Any] = {
         "run_id": run_id,
@@ -55,7 +54,7 @@ def build_production_metadata(
         "temperature": temperature,
         "max_output_tokens": max_output_tokens,
         "num_successful_summaries": num_successful_summaries,
-        "num_failed_clusters": num_failed_clusters,
+        "num_failed_summaries": num_failed_summaries,
     }
 
     if extra:
@@ -79,16 +78,16 @@ def run_production_pipeline(
     temperature: float = 0.2,
     max_output_tokens: int = 400,
     prompt_version: str = "summary_prompt_v1",
+    save_intermediate_artifacts: bool = False,
 ) -> dict[str, Any]:
     """
     Run the production pipeline:
 
     1. Ingest raw data
     2. Preprocess clusters
-    3. Enrich clusters
-    4. Generate summaries
-    5. Build frontend payload
-    6. Save artifacts
+    3. Generate summaries
+    4. Build frontend payload
+    5. Save artifacts
     """
     artifact_dir = build_production_artifact_dir(artifact_base_dir)
     run_id = artifact_dir.name
@@ -125,19 +124,17 @@ def run_production_pipeline(
 
     raw_cluster_count = len(raw_data.get("top_news", []))
 
-    processed_clusters = preprocess_clusters(
+    clusters = preprocess_clusters(
         raw_data=raw_data,
         max_clusters=max_clusters,
         min_text_length=min_text_length,
     )
 
-    enriched_clusters = enrich_clusters(processed_clusters)
-
     if not groq_api_key:
         raise ValueError("groq_api_key is required for summarization.")
 
     summaries = summarize_clusters(
-        clusters=enriched_clusters,
+        clusters=clusters,
         groq_api_key=groq_api_key,
         model_name=model_name,
         temperature=temperature,
@@ -149,7 +146,7 @@ def run_production_pipeline(
         run_id=run_id,
         source=source,
         raw_cluster_count=raw_cluster_count,
-        processed_cluster_count=len(processed_clusters),
+        processed_cluster_count=len(clusters),
         max_clusters=max_clusters,
         min_text_length=min_text_length,
         model_name=model_name,
@@ -161,34 +158,29 @@ def run_production_pipeline(
     )
 
     frontend_payload = build_frontend_payload(
-        enriched_clusters=enriched_clusters,
+        clusters=clusters,
         summaries=summaries,
         metadata=metadata,
     )
 
-    save_json(raw_data, artifact_dir / "raw_data.json")
-    save_json(processed_clusters, artifact_dir / "processed_clusters.json")
-    save_json(enriched_clusters, artifact_dir / "enriched_clusters.json")
-    save_json(summaries, artifact_dir / "summaries.json")
+    if save_intermediate_artifacts:
+        save_json(raw_data, artifact_dir / "raw_data.json")
+        save_json(clusters, artifact_dir / "processed_clusters.json")
+        save_json(summaries, artifact_dir / "summaries.json")
+
     save_json(frontend_payload, artifact_dir / "frontend_payload.json")
     save_json(metadata, artifact_dir / "metadata.json")
 
     return {
         "run_id": run_id,
         "artifact_dir": str(artifact_dir),
-        "raw_data_path": str(artifact_dir / "raw_data.json"),
-        "processed_clusters_path": str(artifact_dir / "processed_clusters.json"),
-        "enriched_clusters_path": str(artifact_dir / "enriched_clusters.json"),
-        "summaries_path": str(artifact_dir / "summaries.json"),
         "frontend_payload_path": str(artifact_dir / "frontend_payload.json"),
         "metadata_path": str(artifact_dir / "metadata.json"),
         "metadata": metadata,
-        "processed_clusters": processed_clusters,
-        "enriched_clusters": enriched_clusters,
+        "processed_clusters": clusters,
         "summaries": summaries,
         "frontend_payload": frontend_payload,
     }
 
 
-# Optional backward-compatible alias
 run_pipeline = run_production_pipeline

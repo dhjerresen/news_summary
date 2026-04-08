@@ -3,10 +3,14 @@ from __future__ import annotations
 
 import os
 
+from dotenv import load_dotenv
+
 from app.evaluation.pipeline import run_evaluation_pipeline
 
 
 if __name__ == "__main__":
+    load_dotenv()
+
     groq_api_key = os.getenv("GROQ_API_KEY")
     input_path = os.getenv("EVAL_INPUT_PATH", "data/eval/fixed_eval_clusters.json")
 

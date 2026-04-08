@@ -7,10 +7,8 @@ import time
 from itertools import combinations
 from typing import Any
 
-from dotenv import load_dotenv
 from groq import Groq
 
-load_dotenv()
 
 ClusterCandidateRecord = dict[str, Any]
 JudgeResult = dict[str, Any]
@@ -19,7 +17,7 @@ JudgeResult = dict[str, Any]
 def get_groq_client(api_key: str | None = None) -> Groq:
     resolved_api_key = api_key or os.getenv("GROQ_API_KEY")
     if not resolved_api_key:
-        raise ValueError("GROQ_API_KEY not found in environment variables")
+        raise ValueError("GROQ_API_KEY not found in environment variables.")
     return Groq(api_key=resolved_api_key)
 
 
@@ -143,14 +141,14 @@ def judge_pair(
         "cluster_rank": cluster_record.get("cluster_rank"),
         "judge_model_name": judge_model_name,
         "judge_prompt_version": judge_prompt_version,
-        "temperature": temperature,
-        "max_output_tokens": max_output_tokens,
         "latency_seconds": latency_seconds,
         "input_tokens": input_tokens,
         "output_tokens": output_tokens,
         "total_tokens": total_tokens,
         "raw_judge_output": raw_output,
         "parsed_result": parsed,
+        "success": True,
+        "error": None,
     }
 
 
@@ -171,16 +169,33 @@ def judge_candidates(
             continue
 
         for summary_a, summary_b in combinations(candidates, 2):
-            result = judge_pair(
-                client=client,
-                cluster_record=cluster_record,
-                summary_a=summary_a,
-                summary_b=summary_b,
-                judge_model_name=judge_model_name,
-                temperature=temperature,
-                max_output_tokens=max_output_tokens,
-                judge_prompt_version=judge_prompt_version,
-            )
+            try:
+                result = judge_pair(
+                    client=client,
+                    cluster_record=cluster_record,
+                    summary_a=summary_a,
+                    summary_b=summary_b,
+                    judge_model_name=judge_model_name,
+                    temperature=temperature,
+                    max_output_tokens=max_output_tokens,
+                    judge_prompt_version=judge_prompt_version,
+                )
+            except Exception as exc:
+                result = {
+                    "cluster_id": cluster_record.get("cluster_id"),
+                    "cluster_rank": cluster_record.get("cluster_rank"),
+                    "judge_model_name": judge_model_name,
+                    "judge_prompt_version": judge_prompt_version,
+                    "latency_seconds": None,
+                    "input_tokens": None,
+                    "output_tokens": None,
+                    "total_tokens": None,
+                    "raw_judge_output": "",
+                    "parsed_result": {},
+                    "success": False,
+                    "error": str(exc),
+                }
+
             all_results.append(result)
 
     return all_results

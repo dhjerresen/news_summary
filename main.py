@@ -4,6 +4,9 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import sys
+
+from dotenv import load_dotenv
 
 from app.core.utils import ensure_dir
 from app.production.pipeline import run_pipeline
@@ -11,6 +14,9 @@ from app.production.pipeline import run_pipeline
 
 if __name__ == "__main__":
     try:
+        # 👉 Load .env only in local/dev context
+        load_dotenv()
+
         worldnews_api_key = os.getenv("WORLDNEWS_API_KEY")
         groq_api_key = os.getenv("GROQ_API_KEY")
         input_path = os.getenv("INPUT_PATH")
@@ -25,7 +31,7 @@ if __name__ == "__main__":
         print("Pipeline completed successfully.")
         print(f"Run ID: {result['run_id']}")
         print(f"Successful summaries: {result['metadata']['num_successful_summaries']}")
-        print(f"Failed clusters: {result['metadata']['num_failed_clusters']}")
+        print(f"Failed summaries: {result['metadata']['num_failed_summaries']}")
 
         latest_output_path = result["frontend_payload_path"]
         ensure_dir("docs")
@@ -36,3 +42,4 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"Pipeline failed: {e}")
+        sys.exit(1)

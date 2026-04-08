@@ -4,7 +4,6 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from app.core.enrich import enrich_clusters
 from app.core.utils import create_run_id, ensure_dir, load_json, save_json, utc_now_iso
 from app.evaluation.compare import aggregate_judge_results
 from app.evaluation.generate_candidates import generate_candidate_summaries
@@ -25,7 +24,11 @@ def build_evaluation_metadata(
     generation_models: list[dict[str, Any]],
     judge_model_name: str,
     judge_prompt_version: str,
+    judge_results: list[dict[str, Any]],
 ) -> dict[str, Any]:
+    num_successful_judgments = sum(1 for item in judge_results if item.get("success"))
+    num_failed_judgments = len(judge_results) - num_successful_judgments
+
     return {
         "run_id": run_id,
         "pipeline_type": "evaluation",
@@ -35,6 +38,8 @@ def build_evaluation_metadata(
         "generation_models": generation_models,
         "judge_model_name": judge_model_name,
         "judge_prompt_version": judge_prompt_version,
+        "num_successful_judgments": num_successful_judgments,
+        "num_failed_judgments": num_failed_judgments,
     }
 
 
@@ -67,14 +72,12 @@ def run_evaluation_pipeline(
     artifact_dir = build_evaluation_artifact_dir(artifact_base_dir)
     run_id = artifact_dir.name
 
-    raw_clusters = load_json(input_path)
-    if not isinstance(raw_clusters, list):
+    clusters = load_json(input_path)
+    if not isinstance(clusters, list):
         raise ValueError("Evaluation dataset must be a JSON list of clusters.")
 
-    enriched_clusters = enrich_clusters(raw_clusters)
-
     candidate_summaries = generate_candidate_summaries(
-        clusters=enriched_clusters,
+        clusters=clusters,
         groq_api_key=groq_api_key,
         generation_models=generation_models,
     )
@@ -88,18 +91,20 @@ def run_evaluation_pipeline(
         judge_prompt_version=judge_prompt_version,
     )
 
-    aggregated_results = aggregate_judge_results(judge_results)
+    successful_judge_results = [item for item in judge_results if item.get("success")]
+    aggregated_results = aggregate_judge_results(successful_judge_results)
 
     metadata = build_evaluation_metadata(
         run_id=run_id,
         input_path=str(input_path),
-        num_clusters=len(enriched_clusters),
+        num_clusters=len(clusters),
         generation_models=generation_models,
         judge_model_name=judge_model_name,
         judge_prompt_version=judge_prompt_version,
+        judge_results=judge_results,
     )
 
-    save_json(enriched_clusters, artifact_dir / "input_clusters.json")
+    save_json(clusters, artifact_dir / "input_clusters.json")
     save_json(candidate_summaries, artifact_dir / "candidate_summaries.json")
     save_json(judge_results, artifact_dir / "judge_results.json")
     save_json(aggregated_results, artifact_dir / "aggregated_results.json")
