@@ -1,4 +1,3 @@
-# app/production/pipeline.py
 from __future__ import annotations
 
 from pathlib import Path
@@ -11,9 +10,9 @@ from app.core.ingest import (
     load_raw_json,
     validate_top_news_payload,
 )
-from app.utils.utils import create_run_id, ensure_dir, save_json, utc_now_iso
 from app.production.export import build_frontend_payload
 from app.production.summarize import summarize_clusters
+from app.utils.utils import create_run_id, ensure_dir, save_json, utc_now_iso
 
 
 def build_production_artifact_dir(base_dir: str | Path = "artifacts/production") -> Path:
@@ -55,6 +54,13 @@ def build_production_metadata(
         "max_output_tokens": max_output_tokens,
         "num_successful_summaries": num_successful_summaries,
         "num_failed_summaries": num_failed_summaries,
+        "preprocessing": {
+            "clusters_before": raw_cluster_count,
+            "clusters_after": processed_cluster_count,
+            "clusters_removed": raw_cluster_count - processed_cluster_count,
+            "max_clusters": max_clusters,
+            "min_text_length": min_text_length,
+        },
     }
 
     if extra:
@@ -164,14 +170,12 @@ def run_production_pipeline(
     )
 
     raw_data_path = artifact_dir / "raw_news.json"
-    processed_clusters_path = artifact_dir / "processed_clusters.json"
     summaries_path = artifact_dir / "summaries.json"
     frontend_payload_path = artifact_dir / "frontend_payload.json"
     metadata_path = artifact_dir / "metadata.json"
 
     if save_intermediate_artifacts:
         save_json(raw_data, raw_data_path)
-        save_json(clusters, processed_clusters_path)
         save_json(summaries, summaries_path)
 
     save_json(frontend_payload, frontend_payload_path)
@@ -181,7 +185,6 @@ def run_production_pipeline(
         "run_id": run_id,
         "artifact_dir": str(artifact_dir),
         "raw_data_path": str(raw_data_path) if save_intermediate_artifacts else None,
-        "processed_clusters_path": str(processed_clusters_path) if save_intermediate_artifacts else None,
         "summaries_path": str(summaries_path) if save_intermediate_artifacts else None,
         "frontend_payload_path": str(frontend_payload_path),
         "metadata_path": str(metadata_path),

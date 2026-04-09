@@ -25,10 +25,7 @@ def init_wandb_run(metadata: dict):
 
 def log_aggregated_metrics(metadata: dict, items: list):
     latencies = [i["latency_seconds"] for i in items if i.get("latency_seconds") is not None]
-    input_tokens = [i["input_tokens"] for i in items if i.get("input_tokens") is not None]
-    output_tokens = [i["output_tokens"] for i in items if i.get("output_tokens") is not None]
     total_tokens = [i["total_tokens"] for i in items if i.get("total_tokens") is not None]
-    summary_lengths = [i["summary_length"] for i in items if i.get("summary_length") is not None]
 
     wandb.log({
         "raw_cluster_count": metadata.get("raw_cluster_count"),
@@ -36,10 +33,7 @@ def log_aggregated_metrics(metadata: dict, items: list):
         "num_successful_summaries": metadata.get("num_successful_summaries"),
         "num_failed_summaries": metadata.get("num_failed_summaries"),
         "avg_latency_seconds": mean(latencies) if latencies else 0,
-        "avg_input_tokens": mean(input_tokens) if input_tokens else 0,
-        "avg_output_tokens": mean(output_tokens) if output_tokens else 0,
         "avg_total_tokens": mean(total_tokens) if total_tokens else 0,
-        "avg_summary_length": mean(summary_lengths) if summary_lengths else 0,
     })
 
 
@@ -48,16 +42,9 @@ def log_summary_table(items: list):
         "cluster_id",
         "cluster_rank",
         "title",
-        "source_name",
-        "published_at",
-        "num_supporting_sources",
-        "num_supporting_articles",
-        "summary_length",
-        "latency_seconds",
-        "input_tokens",
-        "output_tokens",
-        "total_tokens",
         "success",
+        "latency_seconds",
+        "total_tokens",
         "summary",
     ])
 
@@ -66,16 +53,9 @@ def log_summary_table(items: list):
             item.get("cluster_id"),
             item.get("cluster_rank"),
             item.get("title"),
-            item.get("source_name"),
-            item.get("published_at"),
-            item.get("num_supporting_sources"),
-            item.get("num_supporting_articles"),
-            item.get("summary_length"),
-            item.get("latency_seconds"),
-            item.get("input_tokens"),
-            item.get("output_tokens"),
-            item.get("total_tokens"),
             item.get("success"),
+            item.get("latency_seconds"),
+            item.get("total_tokens"),
             item.get("summary"),
         )
 
