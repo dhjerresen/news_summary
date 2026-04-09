@@ -78,7 +78,7 @@ def run_production_pipeline(
     temperature: float = 0.2,
     max_output_tokens: int = 400,
     prompt_version: str = "summary_prompt_v1",
-    save_intermediate_artifacts: bool = False,
+    save_intermediate_artifacts: bool = True,
 ) -> dict[str, Any]:
     """
     Run the production pipeline:
@@ -163,19 +163,28 @@ def run_production_pipeline(
         metadata=metadata,
     )
 
-    if save_intermediate_artifacts:
-        save_json(raw_data, artifact_dir / "raw_data.json")
-        save_json(clusters, artifact_dir / "processed_clusters.json")
-        save_json(summaries, artifact_dir / "summaries.json")
+    raw_data_path = artifact_dir / "raw_news.json"
+    processed_clusters_path = artifact_dir / "processed_clusters.json"
+    summaries_path = artifact_dir / "summaries.json"
+    frontend_payload_path = artifact_dir / "frontend_payload.json"
+    metadata_path = artifact_dir / "metadata.json"
 
-    save_json(frontend_payload, artifact_dir / "frontend_payload.json")
-    save_json(metadata, artifact_dir / "metadata.json")
+    if save_intermediate_artifacts:
+        save_json(raw_data, raw_data_path)
+        save_json(clusters, processed_clusters_path)
+        save_json(summaries, summaries_path)
+
+    save_json(frontend_payload, frontend_payload_path)
+    save_json(metadata, metadata_path)
 
     return {
         "run_id": run_id,
         "artifact_dir": str(artifact_dir),
-        "frontend_payload_path": str(artifact_dir / "frontend_payload.json"),
-        "metadata_path": str(artifact_dir / "metadata.json"),
+        "raw_data_path": str(raw_data_path) if save_intermediate_artifacts else None,
+        "processed_clusters_path": str(processed_clusters_path) if save_intermediate_artifacts else None,
+        "summaries_path": str(summaries_path) if save_intermediate_artifacts else None,
+        "frontend_payload_path": str(frontend_payload_path),
+        "metadata_path": str(metadata_path),
         "metadata": metadata,
         "processed_clusters": clusters,
         "summaries": summaries,

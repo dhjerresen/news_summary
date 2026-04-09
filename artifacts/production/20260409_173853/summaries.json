@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "A Hawaii anesthesiologist, Gerhardt Konig, has been convicted of attempted manslaughter for trying to kill his wife during a hike last year. The jury found him guilty of the lesser charge due to extreme mental or emotional disturbance, which carries up to 20 years in prison. Sentencing is set for August 13, and Konig's attorney plans to appeal the verdict.",
+    "summary_length": 358,
+    "latency_seconds": 0.69,
+    "input_tokens": 1401,
+    "output_tokens": 78,
+    "total_tokens": 1479,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "A former Fort Bragg employee, Courtney P. Williams, 40, has been arrested and charged with unlawfully transmitting national defense information to a journalist. Williams, who held a Top Secret/Sensitive Compartmented Information clearance, allegedly leaked classified military tactics and information to the journalist over several years. The leaked information, which included sensitive operational details, could pose serious risks to military personnel and compromise operations if studied by adversaries.",
+    "summary_length": 508,
+    "latency_seconds": 0.643,
+    "input_tokens": 1206,
+    "output_tokens": 86,
+    "total_tokens": 1292,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The New York Times game Pips is a unique spin on dominoes, released in August 2025, with color-coded conditions to address. The game offers hints and answers for each difficulty level, including easy, medium, and hard, with specific conditions such as \"Equal\", \"Less Than\", and \"Greater Than\" to meet. The article provides piecemeal answers to help players navigate through each difficulty level.",
+    "summary_length": 396,
+    "latency_seconds": 0.492,
+    "input_tokens": 1434,
+    "output_tokens": 87,
+    "total_tokens": 1521,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Jim Whittaker, the first American to summit Mt. Everest, has died at the age of 97. He reached the summit on May 1, 1963, with Sherpa Nawang Gombu, and his achievement made him a hero and celebrity. Whittaker died at his home in Port Townsend, Washington, leaving behind a legacy as an adventurer and mountaineer who continued to inspire others throughout his life.",
+    "summary_length": 365,
+    "latency_seconds": 0.69,
+    "input_tokens": 1808,
+    "output_tokens": 89,
+    "total_tokens": 1897,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "Author Frieda McFadden, known for her novel \"The Housemaid\", has revealed her true identity as Sara Cohen, a 45-year-old New York-born doctor. Cohen had kept her writing career a secret for 23 years, using a pseudonym and disguise to maintain her privacy. She has now scaled back her medical work and is speaking publicly about her dual life as a doctor and author.",
+    "summary_length": 365,
+    "latency_seconds": 0.662,
+    "input_tokens": 797,
+    "output_tokens": 82,
+    "total_tokens": 879,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
