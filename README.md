@@ -56,7 +56,13 @@ app/
     ├── judge.py
     └── compare.py
 
-data/                      # Optional local input data
+  utils/
+      ├── utils.py         # Shared utilities
+      ├── wandb_eval_logger.py
+      └── wandb_logger.py  # wanddb log
+
+data/eval                  # Fixed dataset for evaluation
+
 artifacts/
   ├── production/          # Production runs
   └── evaluation/          # Evaluation runs
