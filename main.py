@@ -1,4 +1,3 @@
-# main.py
 from __future__ import annotations
 
 import json
@@ -8,8 +7,8 @@ import sys
 
 from dotenv import load_dotenv
 
-from app.utils.utils import ensure_dir
 from app.production.pipeline import run_pipeline
+from app.utils.utils import ensure_dir
 from app.utils.wandb_logger import (
     finish_run,
     init_wandb_run,
@@ -32,7 +31,6 @@ if __name__ == "__main__":
             groq_api_key=groq_api_key,
             input_path=input_path,
             max_clusters=5,
-            save_intermediate_artifacts=True,
         )
 
         metadata = result["metadata"]
@@ -48,22 +46,28 @@ if __name__ == "__main__":
         shutil.copyfile(latest_output_path, "docs/latest.json")
         print(f"Copied {latest_output_path} to docs/latest.json")
 
+        wandb_started = False
         try:
             init_wandb_run(metadata)
+            wandb_started = True
+
             log_aggregated_metrics(metadata, items)
             log_summary_table(items)
             log_artifacts(
                 file_paths={
+                    "raw_news": result.get("raw_data_path"),
                     "metadata": result.get("metadata_path"),
                     "summaries": result.get("summaries_path"),
-                    "frontend": result.get("frontend_payload_path"),
+                    "frontend_payload": result.get("frontend_payload_path"),
                 },
                 run_id=metadata["run_id"],
             )
-            finish_run()
             print("W&B logging completed.")
         except Exception as wandb_error:
             print(f"W&B logging failed: {wandb_error}")
+        finally:
+            if wandb_started:
+                finish_run()
 
         print(json.dumps(metadata, indent=2, ensure_ascii=False))
 
