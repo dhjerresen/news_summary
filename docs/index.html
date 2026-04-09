@@ -9,10 +9,10 @@
 <body>
   <header class="hero">
     <div class="container hero-inner">
-      <p class="eyebrow">Automated global news brief</p>
+      <p class="eyebrow">Live AI-curated news briefing</p>
       <h1>AI News Digest</h1>
       <p class="hero-text">
-        Clustered and summarized news stories generated automatically by the pipeline.
+        A continuously updated news front page featuring clustered coverage and AI-generated summaries from multiple sources.
       </p>
 
       <div class="hero-meta">
@@ -21,12 +21,12 @@
           <span class="hero-stat-value" id="last-updated">Loading...</span>
         </div>
         <div class="hero-stat">
-          <span class="hero-stat-label">Raw clusters</span>
-          <span class="hero-stat-value" id="articles-count">-</span>
+          <span class="hero-stat-label">Stories today</span>
+          <span class="hero-stat-value" id="stories-count">-</span>
         </div>
         <div class="hero-stat">
-          <span class="hero-stat-label">Top stories</span>
-          <span class="hero-stat-value" id="stories-count">-</span>
+          <span class="hero-stat-label">Sources in latest run</span>
+          <span class="hero-stat-value" id="articles-count">-</span>
         </div>
       </div>
     </div>
@@ -36,7 +36,9 @@
     <section class="section">
       <div class="section-heading">
         <h2>Top Stories</h2>
-        <p>The latest summaries from the most relevant news clusters.</p>
+        <p>
+          The most relevant stories grouped across related coverage and summarized automatically.
+        </p>
       </div>
 
       <div id="summaries" class="stories-grid">
@@ -44,15 +46,20 @@
       </div>
     </section>
 
-    <section class="section system-section">
-      <div class="section-heading">
-        <h2>System Overview</h2>
-        <p>Pipeline metadata and monitoring information from the latest run.</p>
-      </div>
+    <section class="section transparency-section">
+      <details class="transparency-details">
+        <summary>About this project and pipeline</summary>
+        <div class="section-heading transparency-heading">
+          <h2>Pipeline Transparency</h2>
+          <p>
+            This frontend is powered by an automated MLOps pipeline for ingestion, clustering, summarization, deployment, and monitoring.
+          </p>
+        </div>
 
-      <div id="system-overview" class="system-grid">
-        <p class="loading">Loading system info...</p>
-      </div>
+        <div id="system-overview" class="system-grid">
+          <p class="loading">Loading system info...</p>
+        </div>
+      </details>
     </section>
   </main>
 
@@ -119,19 +126,20 @@
           ? item.supporting_articles
           : [];
         const error = item.error || "";
+        const isFeatured = index === 0;
 
         return `
-          <article class="story-card">
+          <article class="story-card ${isFeatured ? "story-card-featured" : ""}">
             <div class="story-topline">
-              <span class="story-badge">News cluster</span>
-              <span class="story-rank">Story ${rank}</span>
+              <span class="story-rank">${isFeatured ? "Featured story" : `Story ${rank}`}</span>
+              <span class="story-source-chip">${escapeHtml(source)}</span>
             </div>
 
             <h3>${escapeHtml(title)}</h3>
 
             <div class="story-status">
               <span class="status-pill ${hasSummary ? "success" : "error"}">
-                ${hasSummary ? "Summary ready" : "Summary failed"}
+                ${hasSummary ? "AI summary" : "Summary unavailable"}
               </span>
             </div>
 
@@ -153,7 +161,7 @@
               preview
                 ? `
                   <div class="story-context">
-                    <h4>Cluster preview</h4>
+                    <h4>Lead coverage</h4>
                     <p>${escapeHtml(preview)}</p>
                   </div>
                 `
@@ -162,9 +170,8 @@
 
             <div class="story-footer">
               <div class="story-meta">
-                <span><strong>Source:</strong> ${escapeHtml(source)}</span>
                 <span><strong>Published:</strong> ${escapeHtml(published)}</span>
-                <span><strong>Related articles:</strong> ${relatedArticlesCount}</span>
+                <span><strong>Related coverage:</strong> ${relatedArticlesCount}</span>
               </div>
 
               <div class="story-links">
@@ -178,7 +185,7 @@
                   supportingArticles.length
                     ? `
                       <details class="supporting-details">
-                        <summary>Related coverage (${supportingArticles.length})</summary>
+                        <summary>View related coverage (${supportingArticles.length})</summary>
                         <ul class="supporting-list">
                           ${supportingArticles.map(article => `
                             <li>
@@ -297,7 +304,7 @@
           <p class="error">Could not load stories. ${escapeHtml(error.message)}</p>
         `;
         systemEl.innerHTML = `
-          <p class="error">Could not load system overview.</p>
+          <p class="error">Could not load pipeline information.</p>
         `;
         document.getElementById("last-updated").textContent = "Unavailable";
         document.getElementById("articles-count").textContent = "-";
