@@ -214,14 +214,6 @@ This project demonstrates:
 - LLM outputs are non-deterministic
 - Evaluation relies on LLM judgment rather than ground truth
 
-## Future Improvements
-
-- Add caching and cost optimization
-- Introduce structured schemas with `TypedDict` or `Pydantic`
-- Improve frontend UX and filtering
-- Add historical run comparison
-- Support multiple news sources
-
 ## License
 
 This project was developed as part of an MLOps-focused assignment.
