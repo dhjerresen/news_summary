@@ -117,23 +117,20 @@ This runs the pipeline in a fully reproducible containerized environment.
 
 ## Artifacts and Reproducibility
 
-Each run generates a unique `run_id` and stores:
+Each run generates a unique `run_id` and stores the following artifacts:
 
-- `frontend_payload.json` for the final frontend output
-- `metadata.json` for run metadata
-- Optional intermediate files, if enabled
+- `raw_news.json` – snapshot of the input data
+- `summaries.json` – generated summaries and per-cluster metadata
+- `frontend_payload.json` – final output used by the frontend
+- `metadata.json` – run configuration, preprocessing statistics, and aggregated metrics
 
 Artifacts are stored in:
 
-```text
 artifacts/production/<run_id>/
-```
 
 The latest output used by the frontend is:
 
-```text
 docs/latest.json
-```
 
 ## Monitoring and Metadata
 
@@ -141,16 +138,22 @@ Each run logs:
 
 - Number of clusters processed
 - Successful vs. failed summaries
-- Model name and prompt version
-- Token usage and latency
+- Model and prompt configuration
+- Aggregated latency and token usage
 - Timestamp and source configuration
 
-This supports:
+Detailed per-cluster information is stored in `summaries.json` and optionally visualized via Weights & Biases.
 
-- Basic monitoring
-- Debugging
-- Reproducibility
-- Prompt and model tracking
+## Experiment Tracking (Weights & Biases)
+
+The pipeline logs runs to Weights & Biases (W&B), including:
+
+- Run configuration (model, prompt version, parameters)
+- Aggregated metrics (latency, token usage, success rate)
+- Per-cluster summary table
+- Stored artifacts (JSON outputs)
+
+This enables monitoring, comparison across runs, and debugging.
 
 ## Frontend
 
