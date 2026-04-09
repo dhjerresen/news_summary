@@ -185,7 +185,7 @@ The project includes an evaluation module using LLM-as-a-judge:
 Run manually:
 
 ```bash
-python -m app.evaluation.pipeline
+python -m app.evaluation.run_evaluation
 ```
 
 ## MLOps Considerations

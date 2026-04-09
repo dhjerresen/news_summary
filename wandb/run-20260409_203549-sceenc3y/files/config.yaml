@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            teow9ov2s22iixm3c6gk0f891aaisbpl:
+                apple: {}
+                codePath: main.py
+                codePathLocal: main.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "256789753856"
+                email: dhjerr22@student.aau.dk
+                executable: /opt/miniconda3/envs/venv/bin/python
+                git:
+                    commit: cc09c926344eb66022b96dd9d97ec944be000b2c
+                    remote: https://github.com/dhjerresen/news_summary.git
+                host: Mac
+                memory:
+                    total: "17179869184"
+                os: macOS-26.4-arm64-arm-64bit-Mach-O
+                program: /Users/danielhjerresen/Library/CloudStorage/Dropbox/Uni/Data engineering/news_summary/main.py
+                python: CPython 3.13.5
+                root: /Users/danielhjerresen/Library/CloudStorage/Dropbox/Uni/Data engineering/news_summary
+                startedAt: "2026-04-09T18:35:49.610399Z"
+                writerId: teow9ov2s22iixm3c6gk0f891aaisbpl
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 105
+            "2":
+                - 105
+            "3":
+                - 2
+                - 16
+            "4": 3.13.5
+            "5": 0.25.1
+            "12": 0.25.1
+            "13": darwin-arm64
+language:
+    value: en
+max_clusters:
+    value: 5
+max_output_tokens:
+    value: 400
+min_text_length:
+    value: 80
+model_name:
+    value: llama-3.3-70b-versatile
+pipeline_type:
+    value: production
+prompt_version:
+    value: summary_prompt_v1
+run_id:
+    value: "20260409_183544"
+source:
+    value: world_news_api
+source_country:
+    value: us
+temperature:
+    value: 0.2

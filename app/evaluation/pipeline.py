@@ -4,7 +4,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from app.core.utils import create_run_id, ensure_dir, load_json, save_json, utc_now_iso
+from app.utils.utils import create_run_id, ensure_dir, load_json, save_json, utc_now_iso
 from app.evaluation.compare import aggregate_judge_results
 from app.evaluation.generate_candidates import generate_candidate_summaries
 from app.evaluation.judge import judge_candidates
@@ -23,6 +23,8 @@ def build_evaluation_metadata(
     num_clusters: int,
     generation_models: list[dict[str, Any]],
     judge_model_name: str,
+    judge_temperature: float,
+    judge_max_output_tokens: int,
     judge_prompt_version: str,
     judge_results: list[dict[str, Any]],
 ) -> dict[str, Any]:
@@ -37,6 +39,8 @@ def build_evaluation_metadata(
         "num_clusters": num_clusters,
         "generation_models": generation_models,
         "judge_model_name": judge_model_name,
+        "judge_temperature": judge_temperature,
+        "judge_max_output_tokens": judge_max_output_tokens,
         "judge_prompt_version": judge_prompt_version,
         "num_successful_judgments": num_successful_judgments,
         "num_failed_judgments": num_failed_judgments,
@@ -100,24 +104,34 @@ def run_evaluation_pipeline(
         num_clusters=len(clusters),
         generation_models=generation_models,
         judge_model_name=judge_model_name,
+        judge_temperature=judge_temperature,
+        judge_max_output_tokens=judge_max_output_tokens,
         judge_prompt_version=judge_prompt_version,
         judge_results=judge_results,
     )
 
-    save_json(clusters, artifact_dir / "input_clusters.json")
-    save_json(candidate_summaries, artifact_dir / "candidate_summaries.json")
-    save_json(judge_results, artifact_dir / "judge_results.json")
-    save_json(aggregated_results, artifact_dir / "aggregated_results.json")
-    save_json(metadata, artifact_dir / "metadata.json")
+    input_clusters_path = artifact_dir / "input_clusters.json"
+    candidate_summaries_path = artifact_dir / "candidate_summaries.json"
+    judge_results_path = artifact_dir / "judge_results.json"
+    aggregated_results_path = artifact_dir / "aggregated_results.json"
+    metadata_path = artifact_dir / "metadata.json"
+
+    save_json(clusters, input_clusters_path)
+    save_json(candidate_summaries, candidate_summaries_path)
+    save_json(judge_results, judge_results_path)
+    save_json(aggregated_results, aggregated_results_path)
+    save_json(metadata, metadata_path)
 
     return {
         "run_id": run_id,
         "artifact_dir": str(artifact_dir),
-        "input_clusters_path": str(artifact_dir / "input_clusters.json"),
-        "candidate_summaries_path": str(artifact_dir / "candidate_summaries.json"),
-        "judge_results_path": str(artifact_dir / "judge_results.json"),
-        "aggregated_results_path": str(artifact_dir / "aggregated_results.json"),
-        "metadata_path": str(artifact_dir / "metadata.json"),
+        "input_clusters_path": str(input_clusters_path),
+        "candidate_summaries_path": str(candidate_summaries_path),
+        "judge_results_path": str(judge_results_path),
+        "aggregated_results_path": str(aggregated_results_path),
+        "metadata_path": str(metadata_path),
         "metadata": metadata,
+        "candidate_summaries": candidate_summaries,
+        "judge_results": judge_results,
         "aggregated_results": aggregated_results,
     }

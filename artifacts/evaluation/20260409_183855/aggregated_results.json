@@ -1,0 +1,22 @@
+{
+  "models": [
+    {
+      "model_name": "llama-3.1-8b-instant",
+      "pairwise_wins": 4,
+      "pairwise_losses": 1,
+      "pairwise_ties": 0,
+      "judged_pairs": 5,
+      "avg_total_score": 24.6
+    },
+    {
+      "model_name": "llama-3.3-70b-versatile",
+      "pairwise_wins": 1,
+      "pairwise_losses": 4,
+      "pairwise_ties": 0,
+      "judged_pairs": 5,
+      "avg_total_score": 23.2
+    }
+  ],
+  "winner_model": "llama-3.1-8b-instant",
+  "num_judgments": 5
+}

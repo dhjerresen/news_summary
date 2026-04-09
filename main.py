@@ -8,9 +8,9 @@ import sys
 
 from dotenv import load_dotenv
 
-from app.core.utils import ensure_dir
+from app.utils.utils import ensure_dir
 from app.production.pipeline import run_pipeline
-from app.core.wandb_logger import (
+from app.utils.wandb_logger import (
     finish_run,
     init_wandb_run,
     log_aggregated_metrics,

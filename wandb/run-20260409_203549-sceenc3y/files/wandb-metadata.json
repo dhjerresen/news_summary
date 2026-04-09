@@ -1,0 +1,29 @@
+{
+  "os": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.5",
+  "startedAt": "2026-04-09T18:35:49.610399Z",
+  "program": "/Users/danielhjerresen/Library/CloudStorage/Dropbox/Uni/Data engineering/news_summary/main.py",
+  "codePath": "main.py",
+  "codePathLocal": "main.py",
+  "git": {
+    "remote": "https://github.com/dhjerresen/news_summary.git",
+    "commit": "cc09c926344eb66022b96dd9d97ec944be000b2c"
+  },
+  "email": "dhjerr22@student.aau.dk",
+  "root": "/Users/danielhjerresen/Library/CloudStorage/Dropbox/Uni/Data engineering/news_summary",
+  "host": "Mac",
+  "executable": "/opt/miniconda3/envs/venv/bin/python",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "256789753856"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {},
+  "writerId": "teow9ov2s22iixm3c6gk0f891aaisbpl"
+}

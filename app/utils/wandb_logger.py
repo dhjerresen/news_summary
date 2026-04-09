@@ -1,4 +1,4 @@
-# app/core/wandb_logger.py
+# app/utils/wandb_logger.py
 import os
 import wandb
 from statistics import mean

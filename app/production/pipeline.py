@@ -11,7 +11,7 @@ from app.core.ingest import (
     load_raw_json,
     validate_top_news_payload,
 )
-from app.core.utils import create_run_id, ensure_dir, save_json, utc_now_iso
+from app.utils.utils import create_run_id, ensure_dir, save_json, utc_now_iso
 from app.production.export import build_frontend_payload
 from app.production.summarize import summarize_clusters
 
