@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Melania Trump delivered a statement at the White House denying any ties to Jeffrey Epstein and stating she had no knowledge of his crimes. The statement was made in response to recent scrutiny surrounding Epstein's associates. No further details were provided in the available text.",
+    "summary_length": 282,
+    "latency_seconds": 0.562,
+    "input_tokens": 1027,
+    "output_tokens": 51,
+    "total_tokens": 1078,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "A Hawaii anesthesiologist, Gerhardt Konig, has been convicted of attempted manslaughter for trying to kill his wife during a hike last year. The jury returned the verdict after a day of deliberations, finding that Konig acted under extreme mental or emotional disturbance, which could result in up to 20 years in prison. Sentencing is set for August 13, and Konig's attorney plans to appeal the decision.",
+    "summary_length": 404,
+    "latency_seconds": 0.703,
+    "input_tokens": 1401,
+    "output_tokens": 87,
+    "total_tokens": 1488,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Author Freida McFadden, known for her bestselling thriller \"The Housemaid\", has revealed her real identity as Sara Cohen, a physician who treats brain disorders. Cohen used a pseudonym to keep her writing and medical careers separate, but has now stepped back from her doctor job and decided to share her true identity. She will continue to publish under the McFadden name, assuring fans that everything else she has shared about herself has been true.",
+    "summary_length": 452,
+    "latency_seconds": 0.726,
+    "input_tokens": 985,
+    "output_tokens": 92,
+    "total_tokens": 1077,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "A former Fort Bragg employee, Courtney P. Williams, 40, has been arrested and charged with unlawfully transmitting national defense information to a journalist. Williams, who held a Top Secret/Sensitive Compartmented Information clearance, allegedly leaked classified military tactics and information to the journalist over several years. The leaked information, which included classified materials at the \"SECRET\" level, could pose serious risks to military personnel and operations, according to authorities.",
+    "summary_length": 510,
+    "latency_seconds": 0.69,
+    "input_tokens": 1206,
+    "output_tokens": 90,
+    "total_tokens": 1296,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The New York Times' game Pips is a unique spin on dominoes, offering a single-player experience with color-coded conditions to meet. The game has various difficulty levels, including easy, medium, and hard, with specific conditions such as \"Equal\", \"Less Than\", and \"Greater Than\" that players must satisfy. The article provides hints and answers for each difficulty level for the date April 9, 2026.",
+    "summary_length": 400,
+    "latency_seconds": 0.401,
+    "input_tokens": 1434,
+    "output_tokens": 88,
+    "total_tokens": 1522,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
