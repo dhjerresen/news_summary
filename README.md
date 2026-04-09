@@ -208,12 +208,6 @@ This project demonstrates:
 - Automated deployment via GitHub Actions
 - Evaluation with LLM-as-a-judge
 
-## Limitations
-
-- Focus is on pipeline design, not model optimization
-- LLM outputs are non-deterministic
-- Evaluation relies on LLM judgment rather than ground truth
-
 ## License
 
 This project was developed as part of an MLOps-focused assignment.
