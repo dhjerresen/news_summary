@@ -1,3 +1,4 @@
+# app/production/pipeline.py
 from __future__ import annotations
 
 from pathlib import Path
@@ -84,7 +85,6 @@ def run_production_pipeline(
     temperature: float = 0.2,
     max_output_tokens: int = 400,
     prompt_version: str = "summary_prompt_v1",
-    save_intermediate_artifacts: bool = True,
 ) -> dict[str, Any]:
     """
     Run the production pipeline:
@@ -174,22 +174,20 @@ def run_production_pipeline(
     frontend_payload_path = artifact_dir / "frontend_payload.json"
     metadata_path = artifact_dir / "metadata.json"
 
-    if save_intermediate_artifacts:
-        save_json(raw_data, raw_data_path)
-        save_json(summaries, summaries_path)
-
+    save_json(raw_data, raw_data_path)
+    save_json(summaries, summaries_path)
     save_json(frontend_payload, frontend_payload_path)
     save_json(metadata, metadata_path)
 
     return {
         "run_id": run_id,
         "artifact_dir": str(artifact_dir),
-        "raw_data_path": str(raw_data_path) if save_intermediate_artifacts else None,
-        "summaries_path": str(summaries_path) if save_intermediate_artifacts else None,
+        "raw_data_path": str(raw_data_path),
+        "summaries_path": str(summaries_path),
         "frontend_payload_path": str(frontend_payload_path),
         "metadata_path": str(metadata_path),
         "metadata": metadata,
-        "processed_clusters": clusters,
+        "clusters": clusters,
         "summaries": summaries,
         "frontend_payload": frontend_payload,
     }
