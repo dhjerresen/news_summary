@@ -1,9 +1,0 @@
-[2026-04-08T08:09:00.617477+00:00] Pipeline started. run_id=20260408_080900
-[2026-04-08T08:09:00.617798+00:00] Pipeline failed: WORLDNEWS_API_KEY not found in environment variables
-Traceback (most recent call last):
-  File "/home/runner/work/news_summary/news_summary/app/pipeline.py", line 133, in run_pipeline
-    raw_data = fetch_news()
-               ^^^^^^^^^^^^
-  File "/home/runner/work/news_summary/news_summary/app/world_news_api.py", line 17, in fetch_news
-    raise ValueError("WORLDNEWS_API_KEY not found in environment variables")
-ValueError: WORLDNEWS_API_KEY not found in environment variables
