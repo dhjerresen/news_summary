@@ -1,0 +1,27 @@
+{
+  "run_id": "20260409_185614",
+  "pipeline_type": "evaluation",
+  "timestamp_utc": "2026-04-09T18:57:55.073945+00:00",
+  "input_path": "data/eval/fixed_eval_clusters.json",
+  "num_clusters": 5,
+  "generation_models": [
+    {
+      "model_name": "llama-3.3-70b-versatile",
+      "temperature": 0.2,
+      "max_output_tokens": 400,
+      "prompt_version": "summary_prompt_v1"
+    },
+    {
+      "model_name": "llama-3.1-8b-instant",
+      "temperature": 0.2,
+      "max_output_tokens": 400,
+      "prompt_version": "summary_prompt_v1"
+    }
+  ],
+  "judge_model_name": "qwen/qwen3-32b",
+  "judge_temperature": 0.0,
+  "judge_max_output_tokens": 600,
+  "judge_prompt_version": "judge_prompt_v1",
+  "num_successful_judgments": 0,
+  "num_failed_judgments": 5
+}

@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            6go9ab0bzap20806kgipdbajgrjbfb9f:
+                apple: {}
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "256893124608"
+                email: dhjerr22@student.aau.dk
+                executable: /opt/miniconda3/envs/venv/bin/python
+                git:
+                    commit: 5637aa82216021a0cb28006904151541ca576504
+                    remote: https://github.com/dhjerresen/news_summary.git
+                host: Mac
+                memory:
+                    total: "17179869184"
+                os: macOS-26.4-arm64-arm-64bit-Mach-O
+                program: -m app.evaluation.run_evaluation
+                python: CPython 3.13.5
+                root: /Users/danielhjerresen/Library/CloudStorage/Dropbox/Uni/Data engineering/news_summary
+                startedAt: "2026-04-09T18:59:35.005985Z"
+                writerId: 6go9ab0bzap20806kgipdbajgrjbfb9f
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 105
+            "2":
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.5
+            "5": 0.25.1
+            "12": 0.25.1
+            "13": darwin-arm64
+generation_models:
+    value:
+        - max_output_tokens: 400
+          model_name: llama-3.3-70b-versatile
+          prompt_version: summary_prompt_v1
+          temperature: 0.2
+        - max_output_tokens: 400
+          model_name: llama-3.1-8b-instant
+          prompt_version: summary_prompt_v1
+          temperature: 0.2
+input_path:
+    value: data/eval/fixed_eval_clusters.json
+judge_max_output_tokens:
+    value: 600
+judge_model_name:
+    value: llama-3.3-70b-versatile
+judge_prompt_version:
+    value: judge_prompt_v1
+judge_temperature:
+    value: 0
+num_clusters:
+    value: 5
+pipeline_type:
+    value: evaluation
+run_id:
+    value: "20260409_185912"

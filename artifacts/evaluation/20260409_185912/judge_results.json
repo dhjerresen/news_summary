@@ -1,0 +1,187 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "cluster_rank": 1,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": 0.859,
+    "input_tokens": 2191,
+    "output_tokens": 220,
+    "total_tokens": 2411,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 23\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 5,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 25\n    }\n  },\n  \"winner\": \"summary_b\",\n  \"short_reason\": \"Summary B provides a more concise and comprehensive overview of the news article cluster, covering key points such as the ceasefire agreement, the reopening of the Strait of Hormuz, and the context of Trump's previous threats.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 23
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 5,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 25
+        }
+      },
+      "winner": "summary_b",
+      "short_reason": "Summary B provides a more concise and comprehensive overview of the news article cluster, covering key points such as the ceasefire agreement, the reopening of the Strait of Hormuz, and the context of Trump's previous threats."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "cluster_id": "cluster_002",
+    "cluster_rank": 2,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": 0.674,
+    "input_tokens": 1571,
+    "output_tokens": 203,
+    "total_tokens": 1774,
+    "raw_judge_output": "```\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 24\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 5,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 25\n    }\n  },\n  \"winner\": \"summary_b\",\n  \"short_reason\": \"Summary B provides more context about the implications of Fuller's victory and the circumstances of the election, making it a more comprehensive summary.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 24
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 5,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 25
+        }
+      },
+      "winner": "summary_b",
+      "short_reason": "Summary B provides more context about the implications of Fuller's victory and the circumstances of the election, making it a more comprehensive summary."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "cluster_id": "cluster_003",
+    "cluster_rank": 3,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": 0.765,
+    "input_tokens": 1432,
+    "output_tokens": 201,
+    "total_tokens": 1633,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 24\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 5,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 24\n    }\n  },\n  \"winner\": \"summary_a\",\n  \"short_reason\": \"Both summaries are factually consistent and clear, but Summary A is more concise and directly relevant to the source title.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 24
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 5,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 24
+        }
+      },
+      "winner": "summary_a",
+      "short_reason": "Both summaries are factually consistent and clear, but Summary A is more concise and directly relevant to the source title."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "cluster_id": "cluster_004",
+    "cluster_rank": 4,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": 0.648,
+    "input_tokens": 1647,
+    "output_tokens": 202,
+    "total_tokens": 1849,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 23\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 24\n    }\n  },\n  \"winner\": \"summary_b\",\n  \"short_reason\": \"Summary B is more concise while maintaining the same level of factual consistency, coverage, relevance, and clarity as Summary A.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 23
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 24
+        }
+      },
+      "winner": "summary_b",
+      "short_reason": "Summary B is more concise while maintaining the same level of factual consistency, coverage, relevance, and clarity as Summary A."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "cluster_id": "cluster_005",
+    "cluster_rank": 5,
+    "judge_model_name": "llama-3.3-70b-versatile",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": 6.977,
+    "input_tokens": 1655,
+    "output_tokens": 189,
+    "total_tokens": 1844,
+    "raw_judge_output": "```json\n{\n  \"model_a\": \"llama-3.3-70b-versatile\",\n  \"model_b\": \"llama-3.1-8b-instant\",\n  \"scores\": {\n    \"summary_a\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 4,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 5,\n      \"total\": 24\n    },\n    \"summary_b\": {\n      \"factual_consistency\": 5,\n      \"coverage\": 5,\n      \"relevance\": 5,\n      \"clarity\": 5,\n      \"conciseness\": 4,\n      \"total\": 24\n    }\n  },\n  \"winner\": \"summary_b\",\n  \"short_reason\": \"Summary B provides slightly more coverage of the game details.\"\n}\n```",
+    "parsed_result": {
+      "model_a": "llama-3.3-70b-versatile",
+      "model_b": "llama-3.1-8b-instant",
+      "scores": {
+        "summary_a": {
+          "factual_consistency": 5,
+          "coverage": 4,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 5,
+          "total": 24
+        },
+        "summary_b": {
+          "factual_consistency": 5,
+          "coverage": 5,
+          "relevance": 5,
+          "clarity": 5,
+          "conciseness": 4,
+          "total": 24
+        }
+      },
+      "winner": "summary_b",
+      "short_reason": "Summary B provides slightly more coverage of the game details."
+    },
+    "success": true,
+    "error": null
+  }
+]

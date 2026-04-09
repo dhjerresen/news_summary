@@ -1,0 +1,72 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "cluster_rank": 1,
+    "judge_model_name": "qwen/qwen3-32b",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "raw_judge_output": "",
+    "parsed_result": {},
+    "success": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "cluster_rank": 2,
+    "judge_model_name": "qwen/qwen3-32b",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "raw_judge_output": "",
+    "parsed_result": {},
+    "success": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "cluster_rank": 3,
+    "judge_model_name": "qwen/qwen3-32b",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "raw_judge_output": "",
+    "parsed_result": {},
+    "success": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "cluster_rank": 4,
+    "judge_model_name": "qwen/qwen3-32b",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "raw_judge_output": "",
+    "parsed_result": {},
+    "success": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "cluster_rank": 5,
+    "judge_model_name": "qwen/qwen3-32b",
+    "judge_prompt_version": "judge_prompt_v1",
+    "latency_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "raw_judge_output": "",
+    "parsed_result": {},
+    "success": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+]
