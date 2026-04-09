@@ -42,8 +42,7 @@ app/
   core/
     ├── ingest.py          # API + JSON ingestion
     ├── preprocess.py      # Cleaning & text extraction
-    ├── cluster.py         # Cluster processing logic
-    └── utils.py           # Shared utilities
+    └── cluster.py         # Cluster processing logic
 
   production/
     ├── pipeline.py        # Production pipeline orchestration
@@ -52,14 +51,15 @@ app/
 
   evaluation/
     ├── pipeline.py        # Evaluation pipeline
-    ├── generate_candidates.py
-    ├── judge.py
-    └── compare.py
+    ├── generate_candidates.py  # Generates summaries from multiple models
+    ├── judge.py           # LLM-based evaluation (pairwise comparison)
+    ├── compare.py         # Aggregates results
+    └── run_evaluation.py  # Entrypoint for running evaluation
 
   utils/
       ├── utils.py         # Shared utilities
       ├── wandb_eval_logger.py
-      └── wandb_logger.py  # wanddb log
+      └── wandb_logger.py  # wandb logging
 
 data/eval                  # Fixed dataset for evaluation
 
@@ -163,7 +163,7 @@ This enables monitoring, comparison across runs, and debugging.
 
 ## Artifact Storage
 
-Artifacts are stored locally per run and are not committed to the repository to avoid unnecessary versioning of large and frequently changing files.
+Artifacts are stored locally in the `artifacts/` directory but are excluded from version control via `.gitignore`.
 
 Instead, experiment tracking and artifact metadata are logged using Weights & Biases (W&B). This approach reflects a production-oriented setup where artifacts would typically be stored in dedicated storage systems rather than source control.
 
