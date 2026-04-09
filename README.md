@@ -155,6 +155,12 @@ The pipeline logs runs to Weights & Biases (W&B), including:
 
 This enables monitoring, comparison across runs, and debugging.
 
+## Artifact Storage
+
+Artifacts are stored locally per run and are not committed to the repository to avoid unnecessary versioning of large and frequently changing files.
+
+Instead, experiment tracking and artifact metadata are logged using Weights & Biases (W&B). This approach reflects a production-oriented setup where artifacts would typically be stored in dedicated storage systems rather than source control.
+
 ## Frontend
 
 Live site:
