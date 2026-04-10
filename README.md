@@ -163,9 +163,9 @@ This enables monitoring, comparison across runs, and debugging.
 
 ## Artifact Storage
 
-Artifacts are stored locally in the `artifacts/` directory but are excluded from version control via `.gitignore`.
+Artifacts are stored locally in the `artifacts/` directory and included in the repository to ensure accessibility and transparency of pipeline outputs.
 
-Instead, experiment tracking and artifact metadata are logged using Weights & Biases (W&B). This approach reflects a production-oriented setup where artifacts would typically be stored in dedicated storage systems rather than source control.
+Each run produces a structured set of artifacts, including raw inputs, generated summaries, and metadata. This setup allows results to be easily inspected, shared, and used by the frontend without requiring external storage dependencies.
 
 ## Frontend
 
