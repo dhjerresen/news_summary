@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Melania Trump has called on Congress to hold public hearings for the victims of Jeffrey Epstein's sex trafficking. She made the announcement at the White House, where she also denied any links to Epstein and stated that she had never been friends with him. Melania Trump emphasized that she met her husband, Donald Trump, in 1998 and had no knowledge of Epstein's criminal activities when she first met him in 2000.",
+    "summary_length": 415,
+    "latency_seconds": 0.579,
+    "input_tokens": 2490,
+    "output_tokens": 85,
+    "total_tokens": 2575,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "Love on the Spectrum couple Abbey Romeo, 27, and David Isaacman, 31, have split after nearly five years together. The couple, who met on a blind date during season 1 of the show, had documented their relationship over four seasons and had previously discussed plans to settle down in the future. Abbey and David's last social media posts together were in December 2025, and they have since gone their separate ways.",
+    "summary_length": 415,
+    "latency_seconds": 0.71,
+    "input_tokens": 745,
+    "output_tokens": 89,
+    "total_tokens": 834,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Afrika Bambaataa, a pioneering figure in hip-hop, has died at the age of 68 due to prostate cancer. He was known for his influential tracks, such as \"Planet Rock,\" and for founding the Universal Zulu Nation art collective. Bambaataa's legacy was complicated by numerous allegations of sexual abuse, which he denied, and for which the Universal Zulu Nation later apologized.",
+    "summary_length": 373,
+    "latency_seconds": 0.4,
+    "input_tokens": 1093,
+    "output_tokens": 83,
+    "total_tokens": 1176,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Artemis II astronauts, consisting of Americans Reid Wiseman, Victor Glover, and Christina Koch, along with Canadian Jeremy Hansen, are scheduled to splashdown in the Pacific Ocean off the coast of San Diego after completing a historic 10-day lunar flyby mission. The crew will face high temperatures and intense velocity during reentry, relying on the Orion spacecraft's heat shield for protection. NASA officials have expressed confidence in the system, but are waiting for the crew to safely return before considering the mission a success.",
+    "summary_length": 546,
+    "latency_seconds": 0.631,
+    "input_tokens": 2375,
+    "output_tokens": 103,
+    "total_tokens": 2478,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Houston Rockets extended their winning streak to eight games with a 113-102 victory over the Philadelphia 76ers. Kevin Durant led the Rockets with 29 points, including a crucial late 3-pointer to seal the win. The 76ers, playing without Joel Embiid, rallied from a 28-point deficit in the third quarter but ultimately fell short.",
+    "summary_length": 333,
+    "latency_seconds": 0.448,
+    "input_tokens": 1420,
+    "output_tokens": 74,
+    "total_tokens": 1494,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
