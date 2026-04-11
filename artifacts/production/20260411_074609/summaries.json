@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The Artemis II crew has successfully splashed down in the Pacific Ocean after a historic 10-day journey around the moon and back, covering a distance of 695,081 miles. The crew's spacecraft splashed down near San Diego, marking the end of a significant mission for NASA. The Artemis II mission is considered important for the future of space exploration.",
+    "summary_length": 354,
+    "latency_seconds": 0.473,
+    "input_tokens": 1619,
+    "output_tokens": 74,
+    "total_tokens": 1693,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The four Artemis II astronauts have safely returned to Earth after a 10-day mission, splashing down in the Pacific Ocean off the coast of San Diego. The crew, consisting of NASA astronauts Reid Wiseman, Christina Koch, and Victor Glover, and Canadian astronaut Jeremy Hansen, flew around the moon and set a new record for the farthest distance humans have traveled from Earth. The successful mission marks the end of NASA's first lunar mission in over 50 years, with the astronauts undergoing post-mission medical evaluations before returning to NASA's Johnson Space Center in Houston.",
+    "summary_length": 585,
+    "latency_seconds": 0.498,
+    "input_tokens": 931,
+    "output_tokens": 115,
+    "total_tokens": 1046,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Atlanta Hawks clinched a playoff spot with a 124-102 win over the Cleveland Cavaliers, led by CJ McCollum's 29 points and Dyson Daniels' triple-double. The Hawks will finish either fifth or sixth in the Eastern Conference, while the Cavaliers will have home-court advantage in the first round. The Hawks improved to 46-35, while the Cavaliers fell to 51-30.",
+    "summary_length": 361,
+    "latency_seconds": 0.44,
+    "input_tokens": 1356,
+    "output_tokens": 84,
+    "total_tokens": 1440,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Artemis II spacecraft, carrying a four-person crew, has returned from a historic flight around the moon, traveling a record distance of 252,756 miles from Earth. During their mission, the crew witnessed a solar eclipse from the moon's vicinity, saw the entire disk of the moon's far side, and observed unique geological features, including craters and canyons. The crew successfully splashed down in the ocean after re-entering Earth's atmosphere, bringing back a trove of scientific data and a new perspective on the planet.",
+    "summary_length": 529,
+    "latency_seconds": 0.485,
+    "input_tokens": 1601,
+    "output_tokens": 110,
+    "total_tokens": 1711,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Michigan Lottery has announced the results for its draw games on April 10, 2026, including the winning numbers for Daily 3, Daily 4, Poker Lotto, Fantasy 5, and Daily Keno. The winning numbers are listed for both the midday and evening drawings. Winners can claim their prizes at Michigan Lottery retailers or by mail, with larger prizes requiring in-person claims at a Regional Office or the Michigan Lottery Headquarters.",
+    "summary_length": 427,
+    "latency_seconds": 0.4,
+    "input_tokens": 921,
+    "output_tokens": 90,
+    "total_tokens": 1011,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
