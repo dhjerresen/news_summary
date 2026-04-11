@@ -16,6 +16,7 @@ from app.production.summarize import summarize_clusters
 from app.utils.utils import create_run_id, ensure_dir, save_json, utc_now_iso
 
 
+# Creates a unique artifact directory for one production run
 def build_production_artifact_dir(base_dir: str | Path = "artifacts/production") -> Path:
     run_id = create_run_id()
     artifact_dir = Path(base_dir) / run_id
@@ -23,6 +24,7 @@ def build_production_artifact_dir(base_dir: str | Path = "artifacts/production")
     return artifact_dir
 
 
+# Builds metadata for the production pipeline run
 def build_production_metadata(
     run_id: str,
     source: str,
@@ -37,9 +39,11 @@ def build_production_metadata(
     summaries: list[dict[str, Any]],
     extra: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
+    # Count successful and failed summaries
     num_successful_summaries = sum(1 for item in summaries if item.get("success"))
     num_failed_summaries = len(summaries) - num_successful_summaries
 
+    # Store all important run information in a metadata dictionary
     metadata: dict[str, Any] = {
         "run_id": run_id,
         "pipeline_type": "production",
@@ -64,12 +68,19 @@ def build_production_metadata(
         },
     }
 
+    # Add optional extra metadata such as API query settings or input file path
     if extra:
         metadata.update(extra)
 
     return metadata
 
 
+# Runs the full production pipeline:
+# 1. Ingest raw data
+# 2. Preprocess clusters
+# 3. Generate summaries
+# 4. Build frontend payload
+# 5. Save artifacts
 def run_production_pipeline(
     worldnews_api_key: str | None = None,
     groq_api_key: str | None = None,
@@ -95,14 +106,17 @@ def run_production_pipeline(
     4. Build frontend payload
     5. Save artifacts
     """
+    # Create folder for saving artifacts from this run
     artifact_dir = build_production_artifact_dir(artifact_base_dir)
     run_id = artifact_dir.name
 
+    # Use local file as input if input_path is provided
     if input_path is not None:
         raw_data = load_raw_json(input_path)
         source = "file"
         source_details: dict[str, Any] = {"input_path": str(input_path)}
     else:
+        # Otherwise fetch data from World News API
         if not worldnews_api_key:
             raise ValueError("worldnews_api_key is required when input_path is not provided.")
 
@@ -115,6 +129,7 @@ def run_production_pipeline(
                 news_sources=news_sources,
             )
         except IngestError:
+            # Re-raise ingestion errors so they can be handled by caller
             raise
 
         source = "world_news_api"
@@ -125,20 +140,25 @@ def run_production_pipeline(
             "news_sources": news_sources,
         }
 
+    # Validate the structure of the incoming raw data
     if not validate_top_news_payload(raw_data):
         raise ValueError("Invalid top-news payload: missing or invalid 'top_news' field.")
 
+    # Count total raw clusters before preprocessing
     raw_cluster_count = len(raw_data.get("top_news", []))
 
+    # Clean and filter clusters so only usable ones remain
     clusters = preprocess_clusters(
         raw_data=raw_data,
         max_clusters=max_clusters,
         min_text_length=min_text_length,
     )
 
+    # Summarization requires a Groq API key
     if not groq_api_key:
         raise ValueError("groq_api_key is required for summarization.")
 
+    # Generate summaries for each processed cluster
     summaries = summarize_clusters(
         clusters=clusters,
         groq_api_key=groq_api_key,
@@ -148,6 +168,7 @@ def run_production_pipeline(
         prompt_version=prompt_version,
     )
 
+    # Build metadata describing the whole pipeline run
     metadata = build_production_metadata(
         run_id=run_id,
         source=source,
@@ -163,22 +184,26 @@ def run_production_pipeline(
         extra=source_details,
     )
 
+    # Convert results into a frontend-friendly JSON payload
     frontend_payload = build_frontend_payload(
         clusters=clusters,
         summaries=summaries,
         metadata=metadata,
     )
 
+    # Define file paths for saved artifacts
     raw_data_path = artifact_dir / "raw_news.json"
     summaries_path = artifact_dir / "summaries.json"
     frontend_payload_path = artifact_dir / "frontend_payload.json"
     metadata_path = artifact_dir / "metadata.json"
 
+    # Save all outputs to disk
     save_json(raw_data, raw_data_path)
     save_json(summaries, summaries_path)
     save_json(frontend_payload, frontend_payload_path)
     save_json(metadata, metadata_path)
 
+    # Return both paths and in-memory results
     return {
         "run_id": run_id,
         "artifact_dir": str(artifact_dir),
@@ -193,4 +218,5 @@ def run_production_pipeline(
     }
 
 
+# Alias so other modules can call the pipeline with a simpler name
 run_pipeline = run_production_pipeline
