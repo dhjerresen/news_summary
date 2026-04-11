@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
         worldnews_api_key = os.getenv("WORLDNEWS_API_KEY")
         groq_api_key = os.getenv("GROQ_API_KEY")
-        input_path = os.getenv("INPUT_PATH")
+        input_path = os.getenv("INPUT_PATH") # Used for testing pipeline without API call to World News
 
         result = run_pipeline(
             worldnews_api_key=worldnews_api_key,
