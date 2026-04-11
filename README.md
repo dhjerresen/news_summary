@@ -21,15 +21,11 @@ The pipeline performs the following steps:
 
 ## Pipeline Architecture
 
-```markdown
-## Pipeline Architecture
-
 ![Pipeline Diagram](docs/pipeline.png)
 
 *Figure: End-to-end pipeline from news ingestion to frontend deployment, including preprocessing, clustering, LLM-based summarization, and artifact generation.*
 
 The diagram illustrates how raw news data flows through the system, from external ingestion to structured summaries served on the frontend. Each stage is modular and reproducible, enabling both production runs and evaluation workflows.
-```
 
 ## Repository Structure
 
