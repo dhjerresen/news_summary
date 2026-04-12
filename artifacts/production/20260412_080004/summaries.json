@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The New York Times' Connections: Sports Edition is a daily word game that challenges players to find common threads between words. Today's puzzle features 16 words, divided into four categories: Expression of Approval, SEC Cities, Hall of Fame Pitchers, and a category related to the arm. The solution to today's puzzle is: Expression of Approval — APPLAUSE, CLAPPING, HAND, OVATION; SEC Cities — AUBURN, AUSTIN, COLLEGE STATION, OXFORD; Hall of Fame Pitchers — FELLER, FINGERS, GROVE, PLANK; and Starts With Part of the Body — DEAD, FORE, SIDE, STIFF.",
+    "summary_length": 552,
+    "latency_seconds": 0.504,
+    "input_tokens": 1106,
+    "output_tokens": 142,
+    "total_tokens": 1248,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "Rory McIlroy and Cameron Young are tied for the lead heading into the final round of the 2026 Masters at Augusta National. Sam Burns and Shane Lowry are close behind, one and two strokes back, respectively. The final round tee times have been set, with McIlroy and Young scheduled to tee off at 2:25 p.m. ET.",
+    "summary_length": 308,
+    "latency_seconds": 0.393,
+    "input_tokens": 554,
+    "output_tokens": 76,
+    "total_tokens": 630,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Michigan Lottery has announced the results for its draw games on April 11, 2026, including the winning numbers for Daily 3, Daily 4, Poker Lotto, Fantasy 5, Daily Keno, Classic Lotto 47, and Lotto Double Play. The winning numbers for each game are listed, with drawings held at various times throughout the day. Winners can claim their prizes at Michigan Lottery retailers or by mail, with larger prizes requiring in-person claims at a Regional Office or the Michigan Lottery Headquarters.",
+    "summary_length": 493,
+    "latency_seconds": 0.478,
+    "input_tokens": 965,
+    "output_tokens": 104,
+    "total_tokens": 1069,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Willson Contreras had a three-RBI performance as the Red Sox beat the Cardinals. Contreras, who played for the Cardinals in 2025, signed with the Red Sox after being traded from St. Louis on December 21. He has 12 hits, two home runs, and eight RBI in 14 games with the Red Sox so far this season.",
+    "summary_length": 297,
+    "latency_seconds": 0.343,
+    "input_tokens": 383,
+    "output_tokens": 75,
+    "total_tokens": 458,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Cleveland Guardians shut out the Atlanta Braves 6-0, with rookie Parker Messick earning the win after tossing 6 2/3 strong innings. Messick gave up four hits and struck out five, lowering his ERA this season to 0.51. The Guardians' victory marked their first shutout of the season, while the Braves were blanked for the first time this year.",
+    "summary_length": 345,
+    "latency_seconds": 0.341,
+    "input_tokens": 562,
+    "output_tokens": 81,
+    "total_tokens": 643,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]

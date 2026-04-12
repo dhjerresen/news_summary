@@ -1,0 +1,467 @@
+{
+  "top_news": [
+    {
+      "news": [
+        {
+          "id": 421786216,
+          "title": "NYT Connections Sports Edition today: Hints and answers for April 12, 2026",
+          "text": "Today's Connections: Sports Edition will be easy if you like to use your arms. There — your first hint.As we've shared in previous hints stories, this is a version of the popular New York Times word game that seeks to test the knowledge of sports fans. Like the original Connections, the game is all about finding the \"common threads between words.\" And just like Wordle, Connections resets after midnight and each new set of words gets trickier and trickier — so we've served up some hints and tips to get you over the hurdle.If you just want to be told today's puzzle, you can jump to the end of this article for the latest Connections solution. But if you'd rather solve it yourself, keep reading for some clues, tips, and strategies to assist you.\n\n Mahjong, Sudoku, free crossword, and more: Play games on Mashable\n\nWhat is Connections: Sports Edition?The NYT's latest daily word game has launched in association with The Athletic, the New York Times property that provides the publication's sports coverage. The sports Connections can be played on both web browsers and mobile devices and require players to group four words that share something in common.\n\n This Tweet is currently unavailable. It might be loading or has been removed.\n\nEach puzzle features 16 words, and each grouping of words is split into four categories. These sets could comprise anything from book titles, software, country names, etc. Even though multiple words will seem like they fit together, there's only one correct answer.If a player gets all four words in a set correct, those words are removed from the board. Guess wrong and it counts as a mistake — players get up to four mistakes before the game ends.\n\n This Tweet is currently unavailable. It might be loading or has been removed.\n\nPlayers can also rearrange and shuffle the board to make spotting connections easier. Additionally, each group is color-coded with yellow being the easiest, followed by green, blue, and purple. Like Wordle, you can share the results with your friends on social media.\n\n Wordle-obsessed? These are the best word games to play IRL.\n\nHere's a hint for today's Connections: Sports Edition categoriesWant a hint about the categories without being told the categories? Then give these a try:Yellow: Bravo!Green: College ballBlue: CooperstownPurple: Not your legs...Here are today's Connections: Sports Edition categoriesNeed a little extra help? Today's connections fall into the following categories:Yellow: Expression of ApprovalGreen: SEC CitiesBlue: Hall of Fame PitchersPurple: ____ ArmLooking for Wordle today? Here's the answer to today's Wordle.Ready for the answers? This is your last chance to turn back and solve today's puzzle before we reveal the solutions.Drumroll, please!The solution to today's Connections: Sports Edition #566 is...What is the answer to Connections: Sports Edition today?Expression of Approval — APPLAUSE, CLAPPING, HAND, OVATIONSEC Cities — AUBURN, AUSTIN, COLLEGE STATION, OXFORDHall of Fame Pitchers — FELLER, FINGERS, GROVE, PLANKStarts With Part of the Body — DEAD, FORE, SIDE, STIFFDon't feel down if you didn't manage to guess it this time. There will be new sports Connections for you to stretch your brain with tomorrow, and we'll be back again to guide you with more helpful hints.Are you also playing NYT Strands? See hints and answers for today's Strands.If you're looking for more puzzles, Mashable's got games now! Check out our games hub for Mahjong, Sudoku, free crossword, and more.\n let cbeScripts = {\"twitterEmbed\":[\"https:\\/\\/platform.twitter.com\\/widgets.js\"]};\n let cbeScriptObserver = function (nodeType, scriptsArr) {\n let firstElem = document.querySelector('.' + nodeType)\n let self = this\n\n if (firstElem == null) {\n console.warn(`CBE cannot find element with class .${nodeType} for script observer.`)\n\n scriptsArr.forEach((scriptSrc) => {\n const linkEl = document.createElement('link')\n linkEl.rel = 'dns-prefetch'\n linkEl.href = scriptSrc\n document.head.append(linkEl)\n\n window[nodeType + 'Loaded'] = false\n\n this.embedObserver = new IntersectionObserver((entries) => {\n entries.forEach((entry) => {\n if (entry.isIntersecting && window[nodeType + 'Loaded'] === false) {\n scriptsArr.forEach((scriptSrc) => {\n const el = document.createElement('script')\n el.src = scriptSrc\n el.async = true\n document.head.append(el);\n\n window[nodeType + 'Loaded'] = true\n self.embedObserver.disconnect()\n\n }, {root: null, rootMargin: '750px'})\n this.embedObserver.observe(firstElem)\n\n for (const item in cbeScripts) {\n new cbeScriptObserver(item, cbeScripts[item])",
+          "summary": "Connections: Sports Edition is a New York Times word game about finding common sports threads between words. How to solve the day's puzzle.",
+          "url": "https://mashable.com/article/nyt-connections-sports-edition-hint-answer-today-april-12-2026",
+          "image": "https://helios-i.mashable.com/imagery/articles/04chc3v67wdMuopRmLTk7Mn/hero-image.fill.size_1200x675.v1775926083.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 02:01:00",
+          "author": "Mashable Team",
+          "authors": [
+            "Mashable Team"
+          ],
+          "language": "en",
+          "source_country": "US",
+          "sentiment": 0.67
+        },
+        {
+          "id": 421804582,
+          "title": "Hurdle hints and answers for April 12, 2026",
+          "text": "If you like playing daily word games like Wordle, then Hurdle is a great game to add to your routine. There are five rounds to the game. The first round sees you trying to guess the word, with correct, misplaced, and incorrect letters shown in each guess. If you guess the correct answer, it'll take you to the next hurdle, providing the answer to the last hurdle as your first guess. This can give you several clues or none, depending on the words. For the final hurdle, every correct answer from previous hurdles is shown, with correct and misplaced letters clearly shown.An important note is that the number of times a letter is highlighted from previous guesses does necessarily indicate the number of times that letter appears in the final hurdle. Mashable 101 Fan Fave: Nominate your favorite creators todayIf you find yourself stuck at any step of today's Hurdle, don't worry! We have you covered.\n\n Hurdle: Everything you need to know to find the answers\n\nHurdle Word 1 hintRoyalty.\n\n Apple’s new M3 MacBook Air is $300 off at Amazon. And yes, I’m tempted.\n\nHurdle Word 1 answerQUEENHurdle Word 2 hintA huge fight.\n\n Wordle today: Answer, hints for April 12, 2026\n\nHurdle Word 2 AnswerBRAWLMashable 101 Fan Fave: Nominate your favorite creators todayHurdle Word 3 hintRope. \n\n NYT Connections Sports Edition today: Hints and answers for April 12\n\n NYT Connections hints today: Clues, answers for April 12, 2026\n\nHurdle Word 3 answerNOOSEHurdle Word 4 hintA particle.Hurdle Word 4 answerQUARKFinal Hurdle hintAn extension.\n\n Mahjong, Sudoku, free crossword, and more: Games available on Mashable\n\nHurdle Word 5 answerANNEXIf you're looking for more puzzles, Mashable's got games now! Check out our games hub for Mahjong, Sudoku, free crossword, and more.",
+          "summary": "Hints and answers to today's Hurdle all in one place.",
+          "url": "https://mashable.com/article/hurdle-hints-answers-april-12-2026",
+          "image": "https://helios-i.mashable.com/imagery/articles/05RAL4wVTDITc9WGwFBORJc/hero-image.fill.size_1200x675.v1775742441.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 04:00:00",
+          "author": "Mashable Team",
+          "authors": [
+            "Mashable Team"
+          ],
+          "language": "en",
+          "source_country": "US",
+          "sentiment": 0.505
+        },
+        {
+          "id": 421804598,
+          "title": "Today's NYT Connections: Sports Edition Hints and Answers for April 12, #566",
+          "text": "Looking for the most recent regular Connections answers? Click here for today's Connections hints, as well as our daily answers and hints for The New York Times Mini Crossword, Wordle and Strands puzzles.\n\nToday's Connections: Sports Edition is a tough one. Remember, sometimes surnames are also words that have meanings, and vice-versa. If you're struggling with today's puzzle but still want to solve it, read on for hints and the answers.\n\nConnections: Sports Edition is published by The Athletic, the subscription-based sports journalism site owned by The Times. It doesn't appear in the NYT Games app, but it does in The Athletic's own app. Or you can play it for free online.\n\nRead more: NYT Connections: Sports Edition Puzzle Comes Out of Beta\n\nHints for today's Connections: Sports Edition groups\n\nHere are four hints for the groupings in today's Connections: Sports Edition puzzle, ranked from the easiest yellow group to the tough (and sometimes bizarre) purple group.\n\nYellow group hint: Put 'em together for...\n\nGreen group hint: College towns.\n\nBlue group hint: Fire it in there!\n\nPurple group hint: Not leg.\n\nAnswers for today's Connections: Sports Edition groups\n\nYellow group: Expression of approval.\n\nGreen group: SEC cities.\n\nBlue group: Hall of Fame pitchers.\n\nPurple group: ____ arm.\n\nRead more: Wordle Cheat Sheet: Here Are the Most Popular Letters Used in English Words\n\nWhat are today's Connections: Sports Edition answers?\n\nThe yellow words in today's Connections\n\nThe theme is expression of approval. The four answers are applause, clapping, hand and ovation.\n\nThe green words in today's Connections\n\nThe theme is SEC cities. The four answers are Auburn, Austin, College Station and Oxford.\n\nThe blue words in today's Connections\n\nThe theme is Hall of Fame pitchers. The four answers are Feller, Fingers, Grove and Plank.\n\nThe purple words in today's Connections\n\nThe theme is ____ arm. The four answers are dead, fore, side and stiff.",
+          "summary": "Here are hints and the answers for the NYT Connections: Sports Edition puzzle for April 12 No. 566.",
+          "url": "https://www.cnet.com/tech/gaming/todays-nyt-connections-sports-edition-hints-and-answers-for-april-12-566",
+          "image": "https://www.cnet.com/a/img/resize/b6a176556f33d8a7a6d33d6575c828a27a02cb83/hub/2024/10/16/c34cfc41-01f2-4b1a-80a8-f6479c50c02e/connections-sports-edition-6859.jpg?auto=webp&fit=crop&height=675&width=1200",
+          "video": null,
+          "publish_date": "2026-04-12 02:48:29",
+          "author": "Gael Cooper",
+          "authors": [
+            "Gael Cooper"
+          ],
+          "language": "en",
+          "source_country": "US",
+          "sentiment": 0.923
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421765514,
+          "title": "2026 Masters final-round tee times and groups for Sunday",
+          "text": "nihtiw htiw eht stohs dnuor yllaitnetop srehto no fo ekam .dael ruof ruof rof lanif citamard a ,yadnuS ll’tI \n\nsemit eht eht dnuor sgniriap rof lanif ta era dna s’yadnuS .sretsaM ereH \n\n9:06 a.m.: Aaron Rai and Charl Schwartzel9:17 a.m.: Gary Woodland and Kurt Kitayama9:28 a.m.: Jon Rahm and Sergio Garcia 9:39 a.m. Si Woo Kim and Rasmus Højgaard9:50 a.m.: Keegan Bradley and Dustin Johnson10:01 a.m.: Matt McCarty and Corey Conners10:12 a.m.: Viktor Hovland and Justin Thomas10:23: Alex Noren and Maverick McNealy10:45 a.m.: Adam Scott and Marco Penge10:56 a.m.: Harris English and Samuel Stevens11:07 a.m.: Brian Harman and Jordan Spieth11:18 a.m.: Sungjae Im and Hideki Matsuyama11:29 a.m.: Sepp Straka and Jacob Bridgeman11:40 a.m.: Chris Gotterup and Kristoffer Reitan11:51 a.m.: Michael Brennan and Max Homa12:13 p.m.: Nick Taylor and Matt Fitzpatrick12:24 p.m.: Ludvig Åberg and Brian Campbell12:35 p.m.: Tyrrell Hatton and Tommy Fleetwood12:46 p.m.: Brooks Koepka and Wyndham Clark12:57 p.m.: Ryan Gerard and Xander Schauffele1:08 p.m.: Jake Knapp and Ben Griffin1:30 p.m.: Patrick Reed and Collin Morikawa1:41 p.m.: Patrick Cantlay and Russell Henley1:52 p.m.: Scottie Scheffler and Haotong Li2:03 p.m.: Jason Day and Justin Rose2:14 p.m.: Sam Burns and Shane Lowry2:25 p.m.: Cameron Young and Rory McIlroy",
+          "url": "https://www.ajc.com/sports/2026/04/2026-masters-final-round-tee-times-and-groups-for-sunday",
+          "image": "https://images.ajc.com/resizer/v2/RO23WQJ6XZGMPAZAY3NW5BNRQ4.jpg?auth=a470552a22e02cb39fb575590ddf5b9509d6d243921e7a932acc6041559d1729&width=1200&height=630&smart=true",
+          "video": null,
+          "publish_date": "2026-04-12 00:01:58",
+          "author": "Rod Beard",
+          "authors": [
+            "Rod Beard"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": 1.0
+        },
+        {
+          "id": 421772292,
+          "title": "Masters 2026 Tee Times, Pairings and Predictions for Sunday",
+          "text": "Rory McIlroy and Cameron Young sit tied atop the 2026 Masters leaderboard heading into Sunday's final round at Augusta National. \n\nSam Burns is one shot behind McIlroy and Young, while Shane Lowry is also just two strokes back from the leaders. \n\nMeanwhile, Scottie Scheffler moved up to a tie for the No. 7 spot on the leaderboard following a seven-under 65 on Saturday. \n\nHere are the notable tee times on Sunday: \n\n2026 Masters Sunday Tee Times\n\n12:35 p.m. ET: Tyrrell Hatton, Tommy Fleetwood\n\n12:46 p.m. ET: Brooks Koepka, Wyndham Clark\n\n12:57 p.m. ET: Ryan Gerard, Xander Schauffele\n\n1:08 p.m. ET: Jake Knapp, Ben Griffin\n\n1:30 p.m. ET: Patrick Reed, Collin Morikawa\n\n1:41 p.m. ET: Patrick Cantlay, Russell Henley\n\n1:52 p.m. ET: Scottie Scheffler, Haotong Li\n\n2:03 p.m. ET: Jason Day, Justin Rose\n\n2:14 p.m. ET: Sam Burns, Shane Lowry\n\n2:25 p.m. ET: Cameron Young, Rory McIlroy\n\nFull list of tee times can be found on Masters.com.\n\nMcIlroy held a six-shot lead heading into Saturday's third round, but saw his advantage over the rest of the field shrink after carding a 1-over 73. He struggled off the tee and ended up recording three bogeys, four birdies and a double bogey on moving day. \n\nThe defending Masters champion's struggles allowed Young to climb up the leaderboard, as he shot a 7-under 65. \n\nYoung's score was tied with Scheffler for the best mark in the third round. The world No. 1 golfer didn't record a single bogey on Saturday, as the two-time Masters champion tallied five birdies and one eagle. \n\nDespite McIlroy's shaky outing on Saturday, it isn't difficult to imagine him bouncing back and making history as the fourth player, and first since Tiger Woods, to win back-to-back Masters.",
+          "url": "https://bleacherreport.com/articles/25416873-masters-2026-tee-times-pairings-and-predictions-sunday",
+          "image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2026-04/2270898235_large_cropped.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 00:56:12",
+          "author": "Zach Bachar",
+          "authors": [
+            "Zach Bachar"
+          ],
+          "language": "en",
+          "category": "sports",
+          "source_country": "us",
+          "sentiment": 0.25
+        },
+        {
+          "id": 421773844,
+          "title": "2026 Masters final round: Sunday tee times, pairings and how to watch",
+          "text": "The 2026 Masters Tournament concludes Sunday at Augusta National Golf Club. Here is how to watch live, including TV schedule and streaming, plus tee times and pairings.\n\nDefending champion Rory McIlroy and Cameron Young are tied for the lead at 11 under heading into the final round. They’ll tee off at 2:25 p.m. EDT.\n\nSunday in Augusta will be sunny and hot, with a high of 88 and low of 57. There’s virtually no chance of rain. Winds will be low.\n\nHow to watch the final round of the 2026 Masters\n\nAll times EDT.\n\nOn The Range10:00 a.m.-noon: CBS Sports Digital, CBS Sports Network, Paramount+Final Round BroadcastNoon-2:00 a.m. & 2-7:00 a.m.: Paramount+2:00-7:00 pm: CBS\n\nAll live coverage is simulcast on Masters.com and the Masters app, including the broadcast, featured groups, hole Nos. 4, 5 and 6, Amen Corner, Inside Amen Corner, hole Nos. 15 and 16, and On the Range.\n\n2026 Masters final round tee times",
+          "url": "https://www.nbcsports.com/golf/news/2026-masters-final-round-tee-times-pairings-how-to-watch",
+          "image": "https://nbcsports.brightspotcdn.com/dims4/default/67f8bee/2147483647/strip/false/crop/5429x3619+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F23%2Ffcb54f1e467b93b235f8e57",
+          "video": null,
+          "publish_date": "2026-04-12 01:05:35",
+          "author": "Patricia Duffy",
+          "authors": [
+            "Patricia Duffy"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": 1.0
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421790156,
+          "title": "Michigan Lottery Daily 3, Daily 4 results for April 11, 2026",
+          "text": "The Michigan Lottery offers several draw games for those aiming to win big.\n\nHere's a look at April 11, 2026, results for each game:\n\nWinning Daily 3 numbers from April 11 drawing\n\nMidday: 1-0-7\n\nEvening: 9-3-4\n\nWinning Daily 4 numbers from April 11 drawing\n\nMidday: 6-2-7-7\n\nEvening: 1-9-6-1\n\nWinning Poker Lotto numbers from April 11 drawing\n\nAC-QH-6C-9C-4H\n\nWinning Fantasy 5 numbers from April 11 drawing\n\n02-05-14-24-29\n\n02-10-13-36-39\n\nWinning Daily Keno numbers from April 11 drawing\n\n10-13-16-22-25-26-30-32-34-36-39-45-46-47-52-60-65-72-75-76-77-80\n\nWinning Classic Lotto 47 numbers from April 11 drawing\n\n05-15-21-25-31-47\n\nWinning Lotto Double Play numbers from April 11 drawing\n\n07-11-18-20-29-36\n\nFeeling lucky? Explore the latest lottery news & results\n\nAre you a winner? Here’s how to claim your lottery prize\n\nAll Michigan Lottery retailers can redeem prizes up to $600. For prizes up to $99,999.99, winners have the option to submit their claim by mail or in person at one of Michigan Lottery’s Regional Offices.\n\nTo claim by mail, complete a ticket receipt form, sign your winning ticket, and send it along with original copies of your government-issued photo ID and Social Security card to the address below. Ensure the names on your ID and Social Security card match exactly. Claims should be mailed to:\n\nMichigan Lottery\n\nAttn: Claim Center\n\n101 E. Hillsdale\n\nP.O. Box 30023\n\nLansing, MI 48909\n\nFor prizes over $100,000, winners must claim their prize in person at the Michigan Lottery Headquarters in Lansing located at 101 E. Hillsdale in downtown Lansing. Each winner must present original versions of a valid government-issued photo ID (typically a driver’s license or state ID) and a Social Security card, ensuring that the names on both documents match exactly. To schedule an appointment, please call the Lottery Player Relations office at 844-887-6836, option 2.\n\nIf you prefer to claim in person at one of the Michigan Lottery Regional Offices for prizes under $100,000, appointments are required. Until further notice, please call 1-844-917-6325 to schedule an appointment. Regional office locations are as follows:\n\nLansing: 101 E. Hillsdale St. Lansing; Phone: 844-917-6325Livonia: 33231 Plymouth Road, Livonia; Phone: 844-917-6325Sterling Heights: 34700 Dequindre Road, Sterling Heights; Phone: 844-917-6325Detroit: Cadillac Place, 3060 W. Grand Blvd., Suite L-600, Detroit; Phone: 844-917-6325Grand Rapids: 3391-B Plainfield Ave. NE, Grand Rapids; Phone: 844-917-6325Saginaw: Jerome T. Hart State Office Building, 411 E. Genesee Ave., Saginaw; Phone: 844-917-6325\n\nFor additional information, downloadable forms, and instructions, visit the Michigan Lottery's prize claim page.\n\nWhen are Michigan Lottery drawings held?\n\nDaily 3 & Daily 4: Midday at 12:59 p.m., Evening at 7:29 p.m.Fantasy 5: 7:29 p.m. dailyPoker Lotto: 7:29 p.m. dailyLotto 47: 7:29 p.m. Wednesday and SaturdayLucky for Life: 10:38 p.m. dailyDaily Keno: 7:29 p.m. dailyMillionaire for Life: 11:15 p.m. daily\n\nThis results page was generated automatically using information from TinBu and a template written and reviewed by a Michigan editor. You can send feedback using this form.",
+          "url": "https://eu.freep.com/story/news/local/2026/04/11/michigan-lottery-results-saturday-april-11-2026/89575128007",
+          "image": "https://www.gannett-cdn.com/presto/2022/11/04/USAT/aa912ac8-b545-43f1-94af-ca846d6fe9f0-WWKN_RectThumb_PHOTO.png",
+          "video": null,
+          "publish_date": "2026-04-12 03:00:50",
+          "author": null,
+          "language": "en",
+          "source_country": "us",
+          "sentiment": 0.115
+        },
+        {
+          "id": 421790608,
+          "title": "Wisconsin Lottery Pick 3, Pick 4 results for April 11, 2026",
+          "text": "Powerball: 9:59 p.m. CT on Monday, Wednesday, and Saturday.\n\nMega Millions: 10:00 p.m. CT on Tuesday and Friday.\n\nSuper Cash: 9:00 p.m. CT daily.\n\nPick 3 (Day): 1:30 p.m. CT daily.\n\nPick 3 (Evening): 9:00 p.m. CT daily.\n\nPick 4 (Day): 1:30 p.m. CT daily.\n\nPick 4 (Evening): 9:00 p.m. CT daily.\n\nAll or Nothing (Day): 1:30 p.m. CT daily.\n\nAll or Nothing (Evening): 9 p.m. CT daily.\n\nMegabucks: 9:00 p.m. CT on Wednesday and Saturday.\n\nBadger 5: 9:00 p.m. CT daily.",
+          "url": "https://eu.jsonline.com/story/news/local/2026/04/11/wisconsin-lottery-results-saturday-april-11-2026/89575211007",
+          "image": "https://www.gannett-cdn.com/presto/2019/04/23/PMJS/9e211011-88ea-45aa-86d0-11629ecf752f-MJS_lotto_5_hoffman.jpg_LOTTO.JPG",
+          "video": null,
+          "publish_date": "2026-04-12 03:10:05",
+          "author": "Journal Sentinel",
+          "authors": [
+            "Journal Sentinel"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": -0.254
+        },
+        {
+          "id": 421793308,
+          "title": "NC Lottery Powerball, Pick 3 Day results for April 11, 2026",
+          "text": "Asheville Regional Office & Claim Center: 16-G Regent Park Blvd., Asheville, NC 28806, 877-625-6886 press #1. Hours: 9 a.m. to 5 p.m. Monday through Friday. This office can cash prizes up to $99,999.\n\nGreensboro Regional Office & Claim Center: 20A Oak Branch Drive, Greensboro, NC 27407, 877-625-6886 press #2. Hours: 9 a.m. to 5 p.m. Monday through Friday. This office can cash prizes up to $99,999.\n\nCharlotte Regional Office & Claim Center: 5029-A West W. T. Harris Blvd., Charlotte, NC 28269-1861, 877-625-6886 press #3. Hours: 9 a.m. to 5 p.m. Monday through Friday. This office can cash prizes up to $99,999.\n\nNC Lottery Headquarters: Raleigh Claim Center & Regional Office, 2728 Capital Blvd., Suite 144, Raleigh, NC 27604, 877-625-6886 press #4. Hours: 9 a.m. to 5 p.m. Monday through Friday. This office can cash prizes of any amount.\n\nGreenville Regional Office & Claim Center: 2790 Dickinson Avenue, Suite A, Greenville, NC 27834, 877-625-6886 press #5. Hours: 9 a.m. to 5 p.m. Monday through Friday. This office can cash prizes up to $99,999.\n\nWilmington Regional Office & Claim Center: 123 North Cardinal Drive Extension, Suite 140, Wilmington, NC 28405, 877-625-6886 press #6. Hours: 9 a.m. to 5 p.m. Monday through Friday. This office can cash prizes up to $99,999.",
+          "url": "https://eu.fayobserver.com/story/news/local/2026/04/11/north-carolina-lottery-results-saturday-april-11-2026/89575356007",
+          "image": null,
+          "video": null,
+          "publish_date": "2026-04-12 03:30:03",
+          "author": "Staff, The Fayetteville Observer",
+          "authors": [
+            "Staff, The Fayetteville Observer"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": -0.248
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421785880,
+          "title": "Willson Contreras has 3 RBIs against former team to back Ranger Suárez as Red Sox top Cardinals 7-1",
+          "text": "ST. LOUIS — Willson Contreras drove in three runs against his former team, Ranger Suárez pitched six scoreless innings and the Boston Red Sox set a season high for runs with a 7-1 win over the St. Louis Cardinals on Saturday night.",
+          "url": "https://www.washingtonpost.com/sports/mlb/2026/04/11/red-sox-cardinals-score/1a5b1f56-3619-11f1-b85b-2cd751275c1d_story.html",
+          "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/B652AKRWDEI7DOC3FTLVCJ24DU_size-normalized.jpg&w=1600&h=900",
+          "video": null,
+          "publish_date": "2026-04-12 02:41:27",
+          "author": "Associated Press",
+          "authors": [
+            "Associated Press"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": 0.577
+        },
+        {
+          "id": 421801638,
+          "title": "Willson Contreras gets revenge on former team as Red Sox beat Cardinals",
+          "text": "Contreras' three-RBI performance marked the most runs he's sent home in a game so far this season and only his second game with multiple RBIs. \n\nThrough 14 games and 48 at-bats, the Venezuelan native who helped his country win this year's World Baseball Classic in March, has 12 hits, two home runs, eight RBI and 11 walks while hitting .250 with a .419 OBP and a .417 slug. \n\nHe hit .257 with 20 home runs and 80 RBI in 135 games with the Cardinals in 2025 and even stole five bases. \n\nContreras signed a five-year deal with the Cardinals in 2023\n\nBut despite coming off of his most productive season with the Cardinals, Contreras, who signed a five-year, $87.5 million deal with St. Louis ahead of the 2023 season, was shipped to Boston on Dec. 21 in exchange for Hunter Dobbins and minor league prospects Yhoiker Fajardo and Blake Aita. \n\nContreras started his MLB career with the Chicago Cubs, playing there for seven seasons. He captured a World Series ring as a rookie in 2016 and was named to three All-Star teams during his time with the Cubs. \n\nAnd even if the 7-6 Cardinals are content with their current team, Contreras made them at least remember who they gave up on for one day.",
+          "summary": "Saturday's victory over the St. Louis Cardinals was extra sweet for one particular member of the Boston Red Sox. ",
+          "url": "https://www.yardbarker.com/mlb/articles/willson_contreras_gets_revenge_on_former_team_as_red_sox_beat_cardinals/s1_13132_43717617",
+          "image": "http://res.cloudinary.com/ybmedia/image/upload/c_crop,e_improve,h_908,w_1618,x_148,y_62/c_fill,f_auto,h_1215,q_auto,w_2160/v1/m/1/3/134310a5e9ef863a08106f4999c18ad19e357a06/willson-contreras-gets-revenge-on-former-team.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 03:34:55",
+          "author": "Mike J. Asti,Yardbarker",
+          "authors": [
+            "Mike J. Asti",
+            "Yardbarker"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": 0.683
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421788608,
+          "title": "Rookie lefty Parker Messick pitches into 7th and José Ramirez homers as Guardians beat Braves 6-0",
+          "text": "ATLANTA — Rookie left-hander Parker Messick pitched four-hit ball into the seventh inning and José Ramírez hit his second home run of the season as the Cleveland Guardians beat the Atlanta Braves 6-0 on Saturday night.",
+          "url": "https://www.washingtonpost.com/sports/mlb/2026/04/11/braves-guardians-score-messick/ad3edf20-3618-11f1-b85b-2cd751275c1d_story.html",
+          "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/V4HFMPBWDAI7DOC3FTLVCJ24DU.jpg&w=1600&h=900",
+          "video": null,
+          "publish_date": "2026-04-12 02:38:24",
+          "author": "Bill Trocchi | ap",
+          "authors": [
+            "Bill Trocchi | ap"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": 0.656
+        },
+        {
+          "id": 421796428,
+          "title": "Rookie Parker Messick dominant as Guardians shut out Braves",
+          "text": "Parker Messick continued the impressive start to his career by tossing 6 2/3 strong innings Saturday night, earning the win as the Cleveland Guardians beat the host Atlanta Braves 6-0 in the middle contest of a three-game interleague series.\n\nJose Ramirez homered in the first for the Guardians, who have won three of four. Five players had a hit apiece for the Braves, who had their three-game winning streak snapped.\n\nMessick (2-0) gave up four hits and walked two while striking out five. The Braves built their lone threat against the left-hander in the fifth, when Ronald Acuna Jr. tripled with two outs before Messick struck out Drake Baldwin.\n\nThe 25-year-old rookie lowered his ERA this season to 0.51 and dropped his career ERA to 2.04 in 10 starts dating back to last year.\n\nRight-hander Connor Brogdon got the final out of the seventh before Erik Sabrowski threw a perfect eighth and Shawn Armstrong struck out two in a one-hit ninth to complete the Guardians' first shutout victory of the season.\n\nThe Braves were blanked for the first time this year.\n\nCleveland's Rhys Hoskins had an RBI groundout in the sixth and rookie Chase DeLauter laced a run-scoring double in the eighth before Cleveland added three insurance runs in the ninth in unusual fashion.\n\nSteven Kwan walked with two outs and stole second base, took third when catcher Jonah Heim couldn't find the ball in the dirt and scored when Heim's throw to third sailed into left field. Angel Martinez and Ramirez walked, then Daniel Schneemann hit a two-run single.\n\nRamirez and Martinez had two hits apiece. Ramirez swiped a pair of bases while Martinez also had a theft.\n\nAtlanta starter Martin Perez (0-1) took the hard-luck loss after allowing one run on two hits and three walks while striking out two over five innings. The 35-year-old left-hander, who is pitching for his seventh big league team, lowered his ERA to 3.14 in three games (two starts).\n\n--Field Level Media\n\nCopyright 2026 Field Level Media. All Rights Reserved.\n\nThis story was originally published April 11, 2026 at 7:22 PM.",
+          "url": "https://www.sacbee.com/sports/article315383046.html",
+          "image": "https://www.mcclatchy-wires.com/public/incoming/cybyh1/picture315383023/alternates/LANDSCAPE_1140/c89d4d6f-aa2c-457b-a31d-e0293cbf401e",
+          "video": null,
+          "publish_date": "2026-04-12 02:22:14",
+          "author": null,
+          "language": "en",
+          "source_country": "us",
+          "sentiment": -0.009
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421767342,
+          "title": "Shane Lowry Makes Golf History With His 2nd Masters Hole-in-One",
+          "text": "There are millions of casual golfers around the world who dream some day of recording an ace by making a hole-in-one. Meanwhile, there are thousands of professional golfers on this planet who dream one day of stepping onto Augusta National Golf Club and playing at the Masters.\n\nShane Lowry was able to do both before this year—even recording an ace at the 2016 Masters Tournament. But that wasn’t enough for the Irishman, who made golf history during Round 3 of the 2026 Masters on Saturday. Lowry carded his second hole-in-one at the event, becoming the first person ever to have multiple holes-in-one at the Masters Tournament.",
+          "url": "https://www.theepochtimes.com/sports/shane-lowry-makes-golf-history-with-his-2nd-masters-hole-in-one-6010816",
+          "image": "https://img.theepochtimes.com/assets/uploads/2026/04/11/id6010807-GettyImages-2270895417-300x180.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 00:15:55",
+          "author": "Ross Kelly",
+          "authors": [
+            "Ross Kelly"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": 0.389
+        },
+        {
+          "id": 421790464,
+          "title": "Shane Lowry Makes Masters History With Hole-in-One at Augusta",
+          "text": "The shot of the day on Saturday at The Masters came at the par-3 sixth, where Shane Lowry holed out in stunning fashion.\n\nIt marked the first hole-in-one of this year’s tournament and helped vault him into contention heading into Sunday’s final round. Lowry now sits at nine-under par, just two shots back of the lead, currently held by Rory McIlroy and Cameron Young at 11-under.\n\nLowry’s ace was his second at Augusta National, placing him in rare company in the tournament’s history. His first hole-in-one at Augusta came on the 16th hole in 2016.\n\nMore news: Golf Legend Blasts PGA Tour Over Controversial Brooks Koepka Decision\n\nMore news: PGA Tour Announces Rory McIlroy News After Opening Round at The Masters\n\nLowry has built quite the resume when it comes to aces on the PGA Tour, with Saturday’s shot marking the fifth of his career. Outside of his two at Augusta National, his others have come at Pebble Beach (No. 7), TPC Sawgrass (No. 17), and Memorial Park (No. 2).\n\nOn Saturday, Lowry shot four-under par, recording four birdies to go along with his ace. However, he also carded two bogeys, which ultimately proved to be the difference between sitting two shots back and being tied for the lead.\n\nLowry will be part of the penultimate group on Sunday, teeing off at 2:14 p.m. EST alongside Sam Burns. Meanwhile, Young and McIlroy will make up the final pairing of the day, set to tee off at 2:25 p.m. EST.\n\nMore news: Jack Nicklaus Sends Clear Message About Tiger Woods Amid Masters Absence",
+          "summary": "PGA Tour star Shane Lowry made Masters history with a stunning hole-in-one at Augusta National on Saturday.",
+          "url": "https://www.newsweek.com/sports/golf/shane-lowry-makes-masters-history-with-hole-in-one-at-augusta-11816694",
+          "image": "https://assets.newsweek.com/wp-content/uploads/2026/04/GettyImages-2270886780.jpg?w=1600&h=900&q=88",
+          "video": null,
+          "publish_date": "2026-04-12 02:58:22",
+          "author": "Cole Sullivan",
+          "authors": [
+            "Cole Sullivan"
+          ],
+          "language": "en",
+          "source_country": "US",
+          "sentiment": 0.528
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421791640,
+          "title": "JD Vance says U.S. and Iran did not come to a deal after marathon session",
+          "text": "JD Vance says U.S. and Iran did not come to a deal after marathon session\n Vice President JD Vance spoke in Islamabad, Pakistan, where he participated in negotiations with Iranian officials over the ongoing conflict.",
+          "summary": "Vice President JD Vance spoke in Islamabad, Pakistan, where he participated in negotiations with Iranian officials over the ongoing conflict.",
+          "url": "https://www.cbsnews.com/video/jd-vance-says-us-iran-did-not-come-deal-after-marathon-session",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/04/12/cf5bc69b-1b3e-43fc-907b-b9683fc5a4f0/thumbnail/1200x630/b98f3a4312740efd0f9cc9ed8090d160/cbsn-fusion-jd-vance-says-us-iran-did-not-come-deal-after-marathon-session-thumbnail.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 01:55:51",
+          "author": null,
+          "language": "en",
+          "source_country": "US",
+          "sentiment": -0.496
+        },
+        {
+          "id": 421792722,
+          "title": "JD Vance leaves Pakistan after marathon talks with Iran end without a deal as Tehran refuses U.S. demand not to develop nuclear weapons",
+          "text": "The third round of historic, face-to-face talks concluded days after a fragile, two-week ceasefire was announced as the war that has killed thousands of people and shaken global markets entered its seventh week.\n\nThe latest bargaining lasted 21 hours, Vance said, with the vice president in constant communication with U.S. President Donald Trump and others in the administration.\n\n“But the simple fact is that we need to see an affirmative commitment that they will not seek a nuclear weapon, and they will not seek the tools that would enable them to quickly achieve a nuclear weapon,” Vance told reporters. “That is the core goal of the president of the United States. And that’s what we’ve tried to achieve through these negotiations.”\n\nThe vice president said he spoke with Trump “a half dozen times, a dozen times, over the past 21 hours” and also spoke with Secretary of State Marco Rubio, Treasury Secretary Scott Bessent and Adm. Brad Cooper, head of the United States Central Command.\n\n“We were constantly in communication with the team because we were negotiating in good faith,” Vance said, speaking at a podium in front of a pair of American flags with special envoys Steve Witkoff and Jared Kushner to his side. “And we leave here, and we leave here with a very simple proposal, a method of understanding that is our final and best offer. We’ll see if the Iranians accept it.”\n\nTrump had said he would suspend attacks against Iran for two weeks. Vance’s comments did not indicate what will happen after that time period expires or if the ceasefire will remain in place.\n\nAfter his brief remarks, Vance boarded his government plane to leave Pakistan.\n\nTwo Pakistani officials said discussions between the heads of the delegations will resume after a break. Some technical personnel from both teams are still meeting, said the officials, who spoke on condition of anonymity because they were not authorized to brief the press.\n\nUS says its destroyers moved through the Strait of Hormuz\n\nMeanwhile, the U.S. military said two destroyers transited the Iran-gripped Strait of Hormuz ahead of mine-clearing work, a first since the war began. Iran’s state media, however, said the joint military command denied that.\n\n“We’re sweeping the strait. Whether we make a deal or not makes no difference to me,” Trump told journalists as talks continued and the time approached 2 a.m. in Islamabad. He called negotiations “very deep.” Iranian state TV noted what it called “serious” differences.\n\nThe U.S. delegation led by Vance and the Iranian one led by Parliament Speaker Mohammad Bagher Qalibaf discussed with Pakistan how to advance the ceasefire already threatened by deep disagreements and Israel’s continued attacks against the Iranian-backed Hezbollah in Lebanon, whose health ministry said the death toll has surpassed 2,000.\n\nSince the Islamic Revolution in Iran in 1979, the most direct U.S. contact had been in 2013 when President Barack Obama called newly elected President Hassan Rouhani to discuss Iran’s nuclear program. Obama’s secretary of state, John Kerry, and counterpart Mohammad Javad Zarif later met during negotiations toward the 2015 Iran nuclear deal — a process that lasted well over a year.\n\nNow the far broader talks featured Vance, a reluctant defender of the war who has little diplomatic experience and warned Iran not to “try and play us,” and Qalibaf, a former commander with Iran’s powerful Revolutionary Guard who has issued some of Iran’s most fiery statements since fighting began.\n\nIran sets ‘red lines’ including compensation for strikes\n\nIran’s state-run news agency said the three-party talks began after Iranian preconditions, including a reduction in Israeli strikes on southern Lebanon, were met.\n\nIran’s delegation told state television it had presented “red lines” in meetings with Pakistani Prime Minister Shehbaz Sharif, including compensation for damage caused by U.S.-Israeli strikes that launched the war on Feb. 28 and releasing Iran’s frozen assets.\n\nThe war has killed at least 3,000 people in Iran, 2,020 in Lebanon, 23 in Israel and more than a dozen in Gulf Arab states, and caused lasting damage to infrastructure in half a dozen Middle Eastern countries. Iran’s grip on the Strait of Hormuz has largely cut off the Persian Gulf and its oil and gas exports from the global economy, sending energy prices soaring.\n\nReflecting the high stakes, officials from the region said Chinese, Egyptian, Saudi and Qatari officials were in Islamabad to indirectly facilitate talks. The officials spoke on condition of anonymity to discuss the sensitive matter.\n\nIn Tehran, residents told The Associated Press they were skeptical yet hopeful after weeks of airstrikes left destruction across their country of some 93 million people.\n\n“Peace alone is not enough for our country because we’ve been hit very hard, there have been huge costs,” 62-year-old Amir Razzai Far said.\n\nIn his strongest words yet, Pope Leo XIV denounced the “delusion of omnipotence” fueling the war.\n\nUS sending forces to help mine-clearing on the strait\n\nIran’s closure of the Strait of Hormuz has proved its biggest strategic advantage in the war. Around a fifth of the world’s traded oil had typically passed through on over 100 ships a day. Only 12 have been recorded transiting since the ceasefire.\n\nOn Saturday, Trump said on social media that the U.S. had begun “clearing out” the strait.\n\n“Today, we began the process of establishing a new passage and we will share this safe pathway with the maritime industry soon,” U.S. Central Command commander Adm. Brad Cooper later said. The U.S. statement about the destroyers added: “Additional U.S. forces, including underwater drones, will join the clearance effort in the coming days.”\n\nIranian Foreign Minister Abbas Araghchi had said Tehran was entering negotiations with “deep distrust” after strikes on Iran during previous talks. Araghchi, part of Iran’s delegation in Pakistan, said Saturday that his country was prepared to retaliate if attacked again.\n\nIran’s 10-point proposal ahead of the talks called for a guaranteed end to the war and sought control over the Strait of Hormuz. It included ending fighting against Iran’s “regional allies,” explicitly calling for a halt to Israeli strikes on Hezbollah.\n\nThe United States’ 15-point proposal includes restricting Iran’s nuclear program and reopening the strait.\n\nIsrael and Lebanon will have direct negotiations\n\nIsrael pressed ahead with strikes in Lebanon after saying there is no ceasefire there. Iran and Pakistan have disagreed.\n\nNegotiations between Israel and Lebanon are expected to begin Tuesday in Washington, Lebanese President Joseph Aoun’s office has said, after Israel’s surprise announcement authorizing talks despite the countries lack of official relations.\n\nBut as thousands in Lebanon protested the planned negotiations on Saturday, Prime Minister Nawaf Salam said he had postponed a planned trip to Washington “in light of the current internal circumstances.” His absence should not affect talks as the first round is expected to be at the ambassadorial level.\n\nIsrael wants Lebanon’s government to assume responsibility for disarming Hezbollah, much like was envisaged in a November 2024 ceasefire. But the militant group has survived efforts to curb its strength for decades.\n\nHezbollah joined the war in support of Iran in the opening days. Israel followed with airstrikes and a ground invasion.\n\nThe day the Iran ceasefire deal was announced, Israel pounded Beirut with airstrikes, killing more than 300 people in the deadliest day in Lebanon since the war began, according to the country’s Health Ministry.",
+          "summary": "The latest bargaining lasted 21 hours, Vance said, with the vice president in constant communication with U.S. President Donald Trump and others in the administration.",
+          "url": "https://fortune.com/2026/04/11/jd-vance-pakistan-iran-talks-end-us-demand-nuclear-weapons-development",
+          "image": "https://fortune.com/img-assets/wp-content/uploads/2026/04/AP26101717726770-e1775962602687.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 03:05:55",
+          "author": "Ben Finley,Cara Anna,Collin Binkley,E. Eduardo Castillo,Munir Ahmed,Samy Magdy,The Associated Press",
+          "authors": [
+            "Ben Finley",
+            "Cara Anna",
+            "Collin Binkley",
+            "E. Eduardo Castillo",
+            "Munir Ahmed",
+            "Samy Magdy",
+            "The Associated Press"
+          ],
+          "language": "en",
+          "category": "politics",
+          "source_country": "US",
+          "sentiment": -0.262
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421772758,
+          "title": "Pretty easy:' Masters players surprised by Augusta National conditions",
+          "text": "Prince Harry sued for defamation by charity he set up in Africa \n\n Insider trading suspected ahead of Trump Truth Social posts\n\n Melania Trump says she had no knowledge of Epstein's crimes\n\n Vance leaves for Pakistan as US, Iran prepare for ceasefire talks \n\n 'Pretty easy:' Masters players surprised by Augusta National conditions\n\n (Photo credit: Katie Goodale-Imagn Images)\n AUGUSTA, Ga. -- It's not often the word 'gettable' is used to describe Augusta National on a Saturday at the Masters, but that's exactly the adjective several players used after this year's third round.\n Nineteen of the 54 players who made the cut posted rounds in the 60s on Saturday, led by the 65s posted by Scottie Scheffler and Cameron Young. In all, 35 broke par on a day in which Augusta National yielded a scoring average of 70.63, lowest in a third round in Masters history.\n After the field averaged 74.65 on Thursday, Ireland's Shane Lowry predicted this might prove to be 'the toughest Masters we've played in a while due to the dry and firm conditions. Lowry made a hole-in-one on Saturday that catapulted him to a 4-under-par 68 and 9 under for the tournament.\n The scoring average dipped to 72.85 on Friday, leading many players to predict tournament officials would ratchet up the difficult dial for the third round, but most were surprised to find the greens mostly still receptive and many pins in attackable positions.\n 'Pretty easy,' Max Homa said when asked how the course was playing after posting what he felt was a disappointing 71. 'The front nine is pretty -- I mean, very gettable. I didn't feel like it was too fast, too firm. Obviously the weather is amazing, so it helps.'\n Even Rory McIlroy, the co-leader despite shooting a 1-over-par 73 on Saturday, acknowledged low scores were out there for the taking.\n 'The course was obviously gettable,' he said. 'There was a lot of good scores out there, and the quality of the chasing pack is obvious. There was a lot of guys that shot good scores.'\n Patrick Reed said on Thursday that he hoped the tournament officials would ratchet up the difficulty level. Adam Scott echoed that sentiment to a degree given the lack of the traditional winds that create additional difficulty around Augusta National.\n 'I think the firmer and faster they can get it, the better,' Scott said. 'I mean, there's no wind. The greens are still very, very friendly.\n 'I don't think it's the scariest I've ever seen it here, but I love seeing the fairways play firmer. On some of these holes that turn, having the ball run and you're having to be more precise with your line off the tee is an important defense of the golf course.'\n Jason Day wasn't complaining after shooting a 4-under 68 that left him in a tie for fifth, just three shots off the lead at 8 under for the tournament.\n 'I expected to see it a little bit different than what I saw today. I mean, you were hitting shots in there that were spinning,' Day said. 'Typically sometimes you get to Saturday at Augusta and they're bouncing. It's really difficult to hold some shots.\n 'So, I thought the green speeds were lovely. I thought the green firmness was great. It was very fair, and I think that's why you're seeing a lot of, like, decent scores out there, which brings in a lot of the crowd, which is great.'\n Scheffler also took advantage of an early tee time to make his turn in 5-under 31 on his way to a career Masters-best 65 that could have been even lower. He'll go out in the fourth-to-last group on Sunday, when the course will likely be at its firmest and fastest of the week.\n 'It depends on what the leadership here wants to do,' Scheffler said. 'If they want to see some lower scores, they can make them softer if they want. They're already pretty firm, so they can just go full Bay Hill (at the Arnold Palmer Invitational) and just let them die.\n 'It's Augusta. They'll figure it out after that.'\n --Derek Harper, Field Level Media\n\n 'Pretty easy:' Masters players surprised by Augusta National conditions\n 'Pretty easy:' Masters players surprised by Augusta National conditions\n Field Level Media \n 12th April 2026, 11:05 GMT+11\n\n (Photo credit: Katie Goodale-Imagn Images)\n AUGUSTA, Ga. -- It's not often the word 'gettable' is used to describe Augusta National on a Saturday at the Masters, but that's exactly the adjective several players used after this year's third round.\n Nineteen of the 54 players who made the cut posted rounds in the 60s on Saturday, led by the 65s posted by Scottie Scheffler and Cameron Young. In all, 35 broke par on a day in which Augusta National yielded a scoring average of 70.63, lowest in a third round in Masters history.\n After the field averaged 74.65 on Thursday, Ireland's Shane Lowry predicted this might prove to be 'the toughest Masters we've played in a while due to the dry and firm conditions. Lowry made a hole-in-one on Saturday that catapulted him to a 4-under-par 68 and 9 under for the tournament.\n The scoring average dipped to 72.85 on Friday, leading many players to predict tournament officials would ratchet up the difficult dial for the third round, but most were surprised to find the greens mostly still receptive and many pins in attackable positions.\n 'Pretty easy,' Max Homa said when asked how the course was playing after posting what he felt was a disappointing 71. 'The front nine is pretty -- I mean, very gettable. I didn't feel like it was too fast, too firm. Obviously the weather is amazing, so it helps.'\n Even Rory McIlroy, the co-leader despite shooting a 1-over-par 73 on Saturday, acknowledged low scores were out there for the taking.\n 'The course was obviously gettable,' he said. 'There was a lot of good scores out there, and the quality of the chasing pack is obvious. There was a lot of guys that shot good scores.'\n Patrick Reed said on Thursday that he hoped the tournament officials would ratchet up the difficulty level. Adam Scott echoed that sentiment to a degree given the lack of the traditional winds that create additional difficulty around Augusta National.\n 'I think the firmer and faster they can get it, the better,' Scott said. 'I mean, there's no wind. The greens are still very, very friendly.\n 'I don't think it's the scariest I've ever seen it here, but I love seeing the fairways play firmer. On some of these holes that turn, having the ball run and you're having to be more precise with your line off the tee is an important defense of the golf course.'\n Jason Day wasn't complaining after shooting a 4-under 68 that left him in a tie for fifth, just three shots off the lead at 8 under for the tournament.\n 'I expected to see it a little bit different than what I saw today. I mean, you were hitting shots in there that were spinning,' Day said. 'Typically sometimes you get to Saturday at Augusta and they're bouncing. It's really difficult to hold some shots.\n 'So, I thought the green speeds were lovely. I thought the green firmness was great. It was very fair, and I think that's why you're seeing a lot of, like, decent scores out there, which brings in a lot of the crowd, which is great.'\n Scheffler also took advantage of an early tee time to make his turn in 5-under 31 on his way to a career Masters-best 65 that could have been even lower. He'll go out in the fourth-to-last group on Sunday, when the course will likely be at its firmest and fastest of the week.\n 'It depends on what the leadership here wants to do,' Scheffler said. 'If they want to see some lower scores, they can make them softer if they want. They're already pretty firm, so they can just go full Bay Hill (at the Arnold Palmer Invitational) and just let them die.\n 'It's Augusta. They'll figure it out after that.'\n --Derek Harper, Field Level Media\n\n Read This Next\n\n Shippers turn to unusual routes as cargo costs and delays rise\n\n Tourists still use Route 66, which turns 100, for classic US road trip \n\n US inflation jumps in March as oil surge clouds rate outlook\n\n US buyers snap up Spanish homes, led by luxury demand\n\n Techs lift Nasdaq 80 points Friday, Dow Jones dives\n\nBig News Network\n\nBig News Network News Agency\nMidwest Radio Network\nMainstream Media\n\nBIG NEWS NETWORK.COM\n\nContact & Support\nTerms & Conditions\n\nPRODUCTS & SERVICES\n\nNews Releases\n\nCopyright © 1998-2025 Big News Network All rights reserved. ISSN: 2616-6917",
+          "url": "https://www.bignewsnetwork.com/news/278978288/pretty-easy-masters-players-surprised-by-augusta-national-conditions",
+          "image": "https://image.chitra.live/api/v1/wps/1950783/5e21db49-e565-46e1-9ac3-d7448a40a165/0/YzE3Yzg1MDctM2I-600x315.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 00:00:00",
+          "author": "Augusta National",
+          "authors": [
+            "Augusta National"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": -0.121
+        },
+        {
+          "id": 421775722,
+          "title": "'Pretty easy:' Masters players surprised by Augusta National conditions",
+          "text": "AUGUSTA, Ga. -- It's not often the word \"gettable\" is used to describe Augusta National on a Saturday at the Masters, but that's exactly the adjective several players used after this year's third round.\n\nNineteen of the 54 players who made the cut posted rounds in the 60s on Saturday, led by the 65s posted by Scottie Scheffler and Cameron Young. In all, 35 broke par on a day in which Augusta National yielded a scoring average of 70.63, lowest in a third round in Masters history.\n\nAfter the field averaged 74.65 on Thursday, Ireland's Shane Lowry predicted this might prove to be \"the toughest Masters we've played in a while due to the dry and firm conditions. Lowry made a hole-in-one on Saturday that catapulted him to a 4-under-par 68 and 9 under for the tournament.\n\nThe scoring average dipped to 72.85 on Friday, leading many players to predict tournament officials would ratchet up the difficult dial for the third round, but most were surprised to find the greens mostly still receptive and many pins in attackable positions.\n\n\"Pretty easy,\" Max Homa said when asked how the course was playing after posting what he felt was a disappointing 71. \"The front nine is pretty -- I mean, very gettable. I didn't feel like it was too fast, too firm. Obviously the weather is amazing, so it helps.\"\n\nEven Rory McIlroy, the co-leader despite shooting a 1-over-par 73 on Saturday, acknowledged low scores were out there for the taking.\n\n\"The course was obviously gettable,\" he said. \"There was a lot of good scores out there, and the quality of the chasing pack is obvious. There was a lot of guys that shot good scores.\"\n\nPatrick Reed said on Thursday that he hoped the tournament officials would ratchet up the difficulty level. Adam Scott echoed that sentiment to a degree given the lack of the traditional winds that create additional difficulty around Augusta National.\n\n\"I think the firmer and faster they can get it, the better,\" Scott said. \"I mean, there's no wind. The greens are still very, very friendly.\n\n\"I don't think it's the scariest I've ever seen it here, but I love seeing the fairways play firmer. On some of these holes that turn, having the ball run and you're having to be more precise with your line off the tee is an important defense of the golf course.\"\n\nJason Day wasn't complaining after shooting a 4-under 68 that left him in a tie for fifth, just three shots off the lead at 8 under for the tournament.\n\n\"I expected to see it a little bit different than what I saw today. I mean, you were hitting shots in there that were spinning,\" Day said. \"Typically sometimes you get to Saturday at Augusta and they're bouncing. It's really difficult to hold some shots.\n\n\"So, I thought the green speeds were lovely. I thought the green firmness was great. It was very fair, and I think that's why you're seeing a lot of, like, decent scores out there, which brings in a lot of the crowd, which is great.\"\n\nScheffler also took advantage of an early tee time to make his turn in 5-under 31 on his way to a career Masters-best 65 that could have been even lower. He'll go out in the fourth-to-last group on Sunday, when the course will likely be at its firmest and fastest of the week.\n\n\"It depends on what the leadership here wants to do,\" Scheffler said. \"If they want to see some lower scores, they can make them softer if they want. They're already pretty firm, so they can just go full Bay Hill (at the Arnold Palmer Invitational) and just let them die. \n\n\"It's Augusta. They'll figure it out after that.\"\n\n--Derek Harper, Field Level Media",
+          "summary": "AUGUSTA, Ga. -- It's not often the word \"gettable\" is used to describe Augusta National on a Saturday at the Masters, but that's exactly the adjective several players used after this year's third round.",
+          "url": "https://www.yardbarker.com/golf/articles/pretty_easy_masters_players_surprised_by_augusta_national_conditions/s1_17051_43717284",
+          "image": "http://res.cloudinary.com/ybmedia/image/upload/c_crop,e_improve,h_619,w_1100,x_0,y_33/c_fill,f_auto,h_1215,q_auto,w_2160/v1/m/0/a/0a20bc764d8c934f5886b9850befebcdf99e1d8a/28708094.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 01:08:09",
+          "author": "Augusta National,Field Level Media",
+          "authors": [
+            "Augusta National",
+            "Field Level Media"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": -0.109
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421796278,
+          "title": "Rays' 3rd rally results in walk-off win over Yankees",
+          "text": "Prince Harry sued for defamation by charity he set up in Africa \n\n Insider trading suspected ahead of Trump Truth Social posts\n\n Melania Trump says she had no knowledge of Epstein's crimes\n\n Vance leaves for Pakistan as US, Iran prepare for ceasefire talks \n\n Rays' 3rd rally results in walk-off win over Yankees\n\n (Photo credit: Nathan Ray Seebeck-Imagn Images)\n Jonathan Aranda chopped an infield single against a five-man infield with one out in the 10th inning and the Tampa Bay Rays outlasted the New York Yankees for a 5-4 victory on Saturday night in St. Petersburg, Fla.\n The Rays scored twice off David Bednar (0-2) without hitting a ball out of the infield. The hosts forged a 4-4 tie when automatic runner Cedric Mullins scored on a soft bunt single as Bednar's throw to the plate was late.\n After Yandy Diaz was intentionally walked, Bednar struck out Hunter Feduccia. Aranda swung and missed at a fastball but on the next pitch he chopped a splitter to second baseman Jazz Chisholm Jr.\n Chisholm charged in and bobbled the ball as he attempted to field it in the baseline and Chandler Simpson easily scored the game-winning run.\n Aranda's hit capped a day when the Rays came back from three one-run deficits.\n Cole Sulser (1-0) allowed Jose Caballero's two-out RBI single in the top half of the 10th but gave the Rays a chance to rally by retiring Amed Rosario on a groundout.\n Caballero also hit a two-run double in the eighth off Bryan Baker but the Rays tied it at 3 in the bottom half when Simpson scored on Diaz's infield single to first baseman Ben Rice.\n Aranda lifted a sacrifice fly to give the Rays a 2-1 lead in the sixth, and Jonny DeLuca hit a tying RBI single in the second.\n Austin Wells homered in the second but the Yankees went 2-for-12 with runners in scoring position, stranded 12 and lost their fourth straight while failing to come through in clutch spots.\n In the fifth, the Yankees loaded the bases and chased Tampa Bay starter Nick Martinez, but. Giancarlo Stanton struck out against Kevin Kelly to end the inning.\n Cody Bellinger struck out on three pitches to end the seventh against Ian Seymour with Aaron Judge on first.\n New York starter Max Fried allowed three runs on six hits in eight innings. Fried struck out six and walked none.\n Martinez gave up one run on five hits in 4 2/3 innings. The veteran right-hander struck out four and walked three.\n --Field Level Media\n\n Rays' 3rd rally results in walk-off win over Yankees\n Rays' 3rd rally results in walk-off win over Yankees\n Field Level Media \n 12th April 2026, 13:40 GMT+11\n\n (Photo credit: Nathan Ray Seebeck-Imagn Images)\n Jonathan Aranda chopped an infield single against a five-man infield with one out in the 10th inning and the Tampa Bay Rays outlasted the New York Yankees for a 5-4 victory on Saturday night in St. Petersburg, Fla.\n The Rays scored twice off David Bednar (0-2) without hitting a ball out of the infield. The hosts forged a 4-4 tie when automatic runner Cedric Mullins scored on a soft bunt single as Bednar's throw to the plate was late.\n After Yandy Diaz was intentionally walked, Bednar struck out Hunter Feduccia. Aranda swung and missed at a fastball but on the next pitch he chopped a splitter to second baseman Jazz Chisholm Jr.\n Chisholm charged in and bobbled the ball as he attempted to field it in the baseline and Chandler Simpson easily scored the game-winning run.\n Aranda's hit capped a day when the Rays came back from three one-run deficits.\n Cole Sulser (1-0) allowed Jose Caballero's two-out RBI single in the top half of the 10th but gave the Rays a chance to rally by retiring Amed Rosario on a groundout.\n Caballero also hit a two-run double in the eighth off Bryan Baker but the Rays tied it at 3 in the bottom half when Simpson scored on Diaz's infield single to first baseman Ben Rice.\n Aranda lifted a sacrifice fly to give the Rays a 2-1 lead in the sixth, and Jonny DeLuca hit a tying RBI single in the second.\n Austin Wells homered in the second but the Yankees went 2-for-12 with runners in scoring position, stranded 12 and lost their fourth straight while failing to come through in clutch spots.\n In the fifth, the Yankees loaded the bases and chased Tampa Bay starter Nick Martinez, but. Giancarlo Stanton struck out against Kevin Kelly to end the inning.\n Cody Bellinger struck out on three pitches to end the seventh against Ian Seymour with Aaron Judge on first.\n New York starter Max Fried allowed three runs on six hits in eight innings. Fried struck out six and walked none.\n Martinez gave up one run on five hits in 4 2/3 innings. The veteran right-hander struck out four and walked three.\n --Field Level Media\n\n Read This Next\n\n Shippers turn to unusual routes as cargo costs and delays rise\n\n Tourists still use Route 66, which turns 100, for classic US road trip \n\n US inflation jumps in March as oil surge clouds rate outlook\n\n US buyers snap up Spanish homes, led by luxury demand\n\n Techs lift Nasdaq 80 points Friday, Dow Jones dives\n\nBig News Network\n\nBig News Network News Agency\nMidwest Radio Network\nMainstream Media\n\nBIG NEWS NETWORK.COM\n\nContact & Support\nTerms & Conditions\n\nPRODUCTS & SERVICES\n\nNews Releases\n\nCopyright © 1998-2025 Big News Network All rights reserved. ISSN: 2616-6917",
+          "url": "https://www.bignewsnetwork.com/news/278978416/rays-3rd-rally-results-in-walk-off-win-over-yankees",
+          "image": "https://image.chitra.live/api/v1/wps/cb5416e/4ca43a50-89ba-4c7b-92a6-f6e36463d95b/0/ZmFiMGE2OTUtOWU-600x315.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 00:00:00",
+          "author": "Field Level Media",
+          "authors": [
+            "Field Level Media"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": -0.325
+        },
+        {
+          "id": 421796568,
+          "title": "Rays' third rally results in walk-off win over Yankees",
+          "text": "Jonathan Aranda chopped an infield single against a five-man infield with one out in the 10th inning and the Tampa Bay Rays outlasted the New York Yankees for a 5-4 victory on Saturday night in St. Petersburg, Fla.\n\nThe Rays scored twice off David Bednar (0-2) without hitting a ball out of the infield. The hosts forged a 4-4 tie when automatic runner Cedric Mullins scored on a soft bunt single as Bednar's throw to the plate was late.\n\nAfter Yandy Diaz was intentionally walked, Bednar struck out Hunter Feduccia. Aranda swung and missed at a fastball but on the next pitch he chopped a splitter to second baseman Jazz Chisholm Jr.\n\nChisholm charged in and bobbled the ball as he attempted to field it in the baseline and Chandler Simpson easily scored the game-winning run.\n\nAranda's hit capped a day when the Rays came back from three one-run deficits.\n\nCole Sulser (1-0) allowed Jose Caballero's two-out RBI single in the top half of the 10th but gave the Rays a chance to rally by retiring Amed Rosario on a groundout.\n\nCaballero also hit a two-run double in the eighth off Bryan Baker but the Rays tied it at 3 in the bottom half when Simpson scored on Diaz's infield single to first baseman Ben Rice.\n\nAranda lifted a sacrifice fly to give the Rays a 2-1 lead in the sixth and Jonny DeLuca hit a tying RBI single in the second.\n\nAustin Wells homered in the second but the Yankees went 2-for-12 with runners in scoring position, stranded 12 and lost their fourth straight while failing to come through in clutch spots.\n\nIn the fifth, the Yankees loaded the bases and chased Tampa Bay starter Nick Martinez, but. Giancarlo Stanton struck out with the bases loaded to end the inning against Kevin Kelly.\n\nCody Bellinger struck out on three pitches to end the seventh against Ian Seymour with Aaron Judge on first.\n\nNew York starter Max Fried allowed three runs on six hits in eight innings. Fried struck out six and walked one.\n\nMartinez gave up one run on five hits in 4 2/3 innings. The veteran right-hander struck out four and walked three.",
+          "summary": "Jonathan Aranda chopped an infield single against a five-man infield with one out in the 10th inning and the Tampa Bay Rays outlasted the New York Yankees for a 5-4 victory on Saturday night in St.",
+          "url": "https://www.yardbarker.com/mlb/articles/rays_third_rally_results_in_walk_off_win_over_yankees/s1_17044_43717357",
+          "image": "http://res.cloudinary.com/ybmedia/image/upload/c_crop,e_improve,h_618,w_1099,x_0,y_33/c_fill,f_auto,h_1215,q_auto,w_2160/v1/m/9/6/966dfb8bc25c911deb009342252a451e8ff302d9/28711383.jpg",
+          "video": null,
+          "publish_date": "2026-04-12 01:42:55",
+          "author": "Field Level Media",
+          "authors": [
+            "Field Level Media"
+          ],
+          "language": "en",
+          "source_country": "us",
+          "sentiment": -0.329
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421802206,
+          "title": "Rep. Swalwell's Congressional, Gubernatorial Campaign Staffers 'Horrified' Over Sexual Assault Allegations",
+          "text": "Staffers working in Rep. Eric Swalwell’s (D-CA) office, and on Swalwell’s gubernatorial campaign released a letter expressing that they were “horrified” by sexual assault allegations brought against him.\n\nIn a letter provided to Politico from a “senior staffer with Swalwell’s campaign who was granted anonymity,” the unnamed staffers expressed that they stood with their former co-worker, along with several other women who had come forward.\n\nThe senior staffer reportedly “attributed” the letter “to more than a dozen unnamed staffers,” according to the outlet.\n\nThe letter came after a former staffer for Swalwell told the San Francisco Chronicle that the California Democrat had allegedly sexually assaulted her on two separate occasions:\n\nShe said Swalwell, who is married and 17 years her senior at age 45, tried to kiss her in her car when she drove him home from a donor meeting one night. Driving him to another event weeks later, she said Swalwell pulled out his penis in the car and asked her to perform oral sex on him. She said she did so in a parking lot.\nIn September 2019, the woman said, Swalwell invited her out for drinks and she became so severely intoxicated that she does not remember the rest of the night. She said she woke up naked in Swalwell’s hotel bed and could feel the effect of vaginal intercourse. She said Swalwell distanced himself from her afterward and the relationship faded.\nFive years later, the woman said, she attended an April 2024 charity gala where Swalwell was honored. The woman, who no longer worked for Swalwell, said they met for drinks afterward, during which she became so inebriated that she remembers only snippets of the night, including pushing Swalwell away and telling him, “No,” while he allegedly forced himself on her.\n\nThe former staffer also told CNN about the two incidents. “Three other women” also told the outlet about “alleged various kinds of sexual misconduct” by Swalwell.\n\n“As leaders of teams working for Eric Swalwell, we’re horrified by the recent reporting in the San Francisco Chronicle and by CNN,” the staffers said in the letter. “We stand with our former colleague, and the other women who have come forward. We believe you should stand with them, too.”\n\nThe staffers continued to add that “The behavior detailed in these reports is abhorrent, beneath the dignity of those serving in public office and betrays the trust of all Californians.”\n\n“We also understand that we lead teams who need guidance and stability now, more than ever,” the letter continued. “We are focused on supporting our colleagues during this challenging time. Any decision of staff members to remain in their roles in the interim should not be viewed as support for Eric Swalwell.”\n\nSeveral Democrats, such as Sens. Adam Schiff (D-CA) and Ruben Gallego (D-AZ), and Reps. Ted Lieu (D-CA) and Jared Moskowitz (D-FL), issued statements withdrawing their endorsement of Swalwell’s campaign for governor, and called for him to end his campaign.\n\nFormer House Speaker Nancy Pelosi also issued a statement that the woman who “made serious allegations” against the Congressman “must be respected and heard.”\n\n“This extremely sensitive matter must be appropriately investigated with full transparency and accountability,” Pelosi added. “As I discussed with Congressman Swalwell, it is clear that is best done outside of a gubernatorial campaign.”",
+          "summary": "Staffers working in Rep. Eric Swalwell's (D-CA) office, and on Swalwell's gubernatorial campaign released a letter expressing that they were \"horrified\" by sexual assault allegations brought against him.\n\n\nThe post Rep. Swalwell&#8217;s Congressional, Gubernatorial Campaign Staffers &#8216;Horrified&#8217; Over Sexual Assault Allegations appeared first on Breitbart.",
+          "url": "https://www.breitbart.com/politics/2026/04/11/rrep-swalwells-congressional-gubernatorial-campaign-staffers-horrified-over-sexual-assault-allegations",
+          "image": "https://media.breitbart.com/media/2026/04/Swalwell-and-Staff-Member-640x335.jpeg",
+          "video": null,
+          "publish_date": "2026-04-12 02:36:20",
+          "author": "Elizabeth Weibel",
+          "authors": [
+            "Elizabeth Weibel"
+          ],
+          "language": "en",
+          "category": "politics",
+          "source_country": "US",
+          "sentiment": 0.032
+        },
+        {
+          "id": 421802584,
+          "title": "Swalwell staffers ‘horrified’ by sexual assault allegations",
+          "text": "“The behavior detailed in these reports is abhorrent, beneath the dignity of those serving in public office and betrays the trust of all Californians,” the unnamed staffers said.\n\nHowever, they signaled they’re still not ditching their jobs working for Swalwell, even if they no longer support him.\n\n“Any decision of staff members to remain in their roles in the interim should not be viewed as support for Eric Swalwell. We recognize that not everyone — in particular our junior staff — can immediately forfeit their income and benefits without significant personal risk or consequence. Our responsibility now is to them,” they said.\n\n“We, more than he, understand that we have obligations to the people we lead and to the constituents of California’s 14th Congressional District,” the statement added. “Those of us that remain on staff do so for the sole purpose of ensuring that as many of those obligations are fulfilled as possible.”\n\nMANHATTAN DA OPENS INVESTIGATION INTO SWALWELL OVER SEXUAL ASSAULT ALLEGATIONS\n\nThe allegations have upended Swalwell’s California gubernatorial campaign, a race he was leading. He has been bleeding support, including from the top three Democrats in the House, who have called on him to suspend his campaign. Swalwell is also due to face an expulsion effort from Rep. Anna Paulina Luna (R-FL), and is now under investigation from the Manhattan district attorney’s office.\n\nDespite the mounting controversy, Swalwell has maintained his innocence and has pledged to “fight” the allegations. He has called the claims “absolutely false” and has suggested they were politically motivated, given the gubernatorial primary is two months away.",
+          "summary": "Congressional and campaign staffers for Rep. Eric Swalwell (D-CA) have condemned the recent sexual assault allegations against their embattled boss, urging the public to support the four accusers. “As leaders of teams working for Eric Swalwell, we’re horrified by the recent reporting in the&#160;San Francisco Chronicle&#160;and by CNN,” more than a dozen staffers said in [&#8230;]",
+          "url": "https://www.washingtonexaminer.com/news/house/4525618/swalwell-staffers-horrified-sexual-assault-allegations",
+          "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/04/AP26098769833287.jpg?w=696",
+          "video": null,
+          "publish_date": "2026-04-12 03:14:45",
+          "author": "Zach LaChance",
+          "authors": [
+            "Zach LaChance"
+          ],
+          "language": "en",
+          "category": "politics",
+          "source_country": "US",
+          "sentiment": -0.342
+        }
+      ]
+    },
+    {
+      "news": [
+        {
+          "id": 421784938,
+          "title": "U.S. Vice President JD Vance says talks with Iran ended after 21 hours without reaching agreement",
+          "text": "ISLAMABAD (AP) — U.S. Vice President JD Vance said negotiations ended early Sunday between the United States and Iran without a peace deal after the Iranians refused to accept American terms to not develop a nuclear weapon.\n\nThe high-stakes talks ended after 21 hours, Vance said, with the vice president in constant communication with U.S. President Donald Trump and others in the administration.\n\n“But the simple fact is that we need to see an affirmative commitment that they will not seek a nuclear weapon, and they will not seek the tools that would enable them to quickly achieve a nuclear weapon,” Vance told reporters. “That is the core goal of the president of the United States. And that’s what we’ve tried to achieve through these negotiations.”\n\nThe vice president said he spoke with Trump “a half dozen times, a dozen times, over the past 21 hours” and also spoke with Secretary of State Marco Rubio, Treasury Secretary Scott Bessent and Adm. Brad Cooper, head of the United States Central Command.\n\n“We were constantly in communication with the team because we were negotiating in good faith,” Vance said, speaking at a podium in front of a pair of American flags with special envoy Steve Witkoff and Jared Kushner to his side. “And we leave here, and we leave here with a very simple proposal, a method of understanding that is our final and best offer. We’ll see if the Iranians accept it.”\n\nTrump had said he would suspend attacks against Iran for two weeks. Vance’s comments did not indicate what will happen after that time period expires or if the ceasefire will remain in place.\n\nWar enters seventh week\n\nThe historic talks ended days after a fragile, two-week ceasefire was announced, as the war that has killed thousands of people and shaken global markets entered its seventh week. Two Pakistani officials said discussions between the heads of the delegations will resume after a break.\n\nSome technical personnel from both teams are still meeting, said the officials, who spoke on condition of anonymity because they were not authorized to brief the press.\n\nMeanwhile, the U.S. military said two destroyers transited the Iran-gripped Strait of Hormuz ahead of mine-clearing work, a first since the war began. Iran’s state media, however, said the joint military command denied that.\n\n“We’re sweeping the strait. Whether we make a deal or not makes no difference to me,” Trump told journalists as talks continued and the time approached 2 a.m. in Islamabad. He called negotiations “very deep.” Iranian state TV noted what it called “serious” differences.\n\nThe U.S. delegation led by Vance and the Iranian one led by Parliament Speaker Mohammad Bagher Qalibaf discussed with Pakistan how to advance the ceasefire already threatened by deep disagreements and Israel's continued attacks against the Iranian-backed Hezbollah in Lebanon, whose health ministry said the death toll has surpassed 2,000.\n\nSince the Islamic Revolution in Iran in 1979, the most direct U.S. contact had been in 2013 when President Barack Obama called newly elected President Hassan Rouhani to discuss Iran’s nuclear program. Obama's secretary of state, John Kerry, and counterpart Mohammad Javad Zarif later met during negotiations toward the 2015 Iran nuclear deal — a process that lasted well over a year.\n\nNow the far broader talks feature Vance, a reluctant defender of the war who has little diplomatic experience and warned Iran not to “try and play us,” and Qalibaf, a former commander with Iran's powerful Revolutionary Guard who has issued some of Iran's most fiery statements since fighting began.\n\nIran sets ‘red lines’ including compensation for strikes\n\nIran’s state-run news agency said the three-party talks began after Iranian preconditions, including a reduction in Israeli strikes on southern Lebanon, were met.\n\nIran's delegation told state television it had presented “red lines” in meetings with Pakistani Prime Minister Shehbaz Sharif, including compensation for damage caused by U.S.-Israeli strikes that launched the war on Feb. 28 and releasing Iran’s frozen assets.\n\nThe war has killed at least 3,000 people in Iran, 2,020 in Lebanon, 23 in Israel and more than a dozen in Gulf Arab states, and caused lasting damage to infrastructure in half a dozen Middle Eastern countries. Iran's grip on the Strait of Hormuz has largely cut off the Persian Gulf and its oil and gas exports from the global economy, sending energy prices soaring.\n\nReflecting the high stakes, officials from the region said Chinese, Egyptian, Saudi and Qatari officials were in Islamabad to indirectly facilitate talks. The officials spoke on condition of anonymity to discuss the sensitive matter.\n\nIn Tehran, residents told The Associated Press they were skeptical yet hopeful after weeks of airstrikes left destruction across their country of some 93 million people.\n\n“Peace alone is not enough for our country because we’ve been hit very hard, there have been huge costs,” 62-year-old Amir Razzai Far said.\n\nIn his strongest words yet, Pope Leo XIV denounced the “delusion of omnipotence” fueling the war.\n\nUS sending forces to help mine-clearing on the strait\n\nIran’s closure of the Strait of Hormuz has proved its biggest strategic advantage in the war. Around a fifth of the world’s traded oil had typically passed through on over 100 ships a day. Only 12 have been recorded transiting since the ceasefire.\n\nOn Saturday, Trump said on social media that the U.S. had begun “clearing out” the strait.\n\n“Today, we began the process of establishing a new passage and we will share this safe pathway with the maritime industry soon,” U.S. Central Command commander Adm. Brad Cooper later said. The U.S. statement about the destroyers added: \"Additional U.S. forces, including underwater drones, will join the clearance effort in the coming days.”\n\nIranian Foreign Minister Abbas Araghchi had said Tehran was entering negotiations with “deep distrust” after strikes on Iran during previous talks. Araghchi, part of Iran’s delegation in Pakistan, said Saturday that his country was prepared to retaliate if attacked again.\n\nIran’s 10-point proposal ahead of the talks called for a guaranteed end to the war and sought control over the Strait of Hormuz. It included ending fighting against Iran’s “regional allies,\" explicitly calling for a halt to Israeli strikes on Hezbollah.\n\nThe United States’ 15-point proposal includes restricting Iran’s nuclear program and reopening the strait.\n\nIsrael and Lebanon will have direct negotiations\n\nIsrael pressed ahead with strikes in Lebanon after saying there is no ceasefire there. Iran and Pakistan have disagreed.\n\nNegotiations between Israel and Lebanon are expected to begin Tuesday in Washington, Lebanese President Joseph Aoun’s office has said, after Israel's surprise announcement authorizing talks despite the countries lack of official relations.\n\nBut as thousands in Lebanon protested the planned negotiations on Saturday, Prime Minister Nawaf Salam said he had postponed a planned trip to Washington “in light of the current internal circumstances.” His absence should not affect talks as the first round is expected to be at the ambassadorial level.\n\nIsrael wants Lebanon's government to assume responsibility for disarming Hezbollah, much like was envisaged in a November 2024 ceasefire. But the militant group has survived efforts to curb its strength for decades.\n\nHezbollah joined the war in support of Iran in the opening days. Israel followed with airstrikes and a ground invasion.\n\nThe day the Iran ceasefire deal was announced, Israel pounded Beirut with airstrikes, killing more than 300 people in the deadliest day in Lebanon since the war began, according to the country's Health Ministry.",
+          "url": "https://www.ms.now/news/us-vice-president-jd-vance-says-talks-with-iran-ended-after-21-hours-without-reaching-agreement",
+          "image": "https://www.ms.now/wp-content/uploads/2026/04/AP26101763410070.jpg?w=1200&h=630&crop=1",
+          "video": null,
+          "publish_date": "2026-04-12 02:37:13",
+          "author": "Steve Benen",
+          "authors": [
+            "Steve Benen"
+          ],
+          "language": "en",
+          "category": "politics",
+          "source_country": "us",
+          "sentiment": -0.312
+        },
+        {
+          "id": 421787682,
+          "title": "Vance says talks with Iran have ended without an agreement to end war",
+          "text": "U.S. Vice President JD Vance said negotiations ended early Sunday between the United States and Iran without a peace deal after the Iranians refused to accept American terms to not develop a nuclear weapon.The high-stakes talks ended after 21 hours, Vance said, with the vice president in constant communication with U.S. President Donald Trump and others in the administration.“But the simple fact is that we need to see an affirmative commitment that they will not seek a nuclear weapon, and they will not seek the tools that would enable them to quickly achieve a nuclear weapon,” Vance told reporters. “That is the core goal of the president of the United States. And that’s what we’ve tried to achieve through these negotiations.”RELATED STORY | Pope Leo XIV steps up criticism of US-Iran conflict, urges end to warThe vice president said he spoke with Trump “a half dozen times, a dozen times, over the past 21 hours” and also spoke with Secretary of State Marco Rubio, Treasury Secretary Scott Bessent and Adm. Brad Cooper, head of the United States Central Command.“We were constantly in communication with the team because we were negotiating in good faith,” Vance said, speaking at a podium in front of a pair of American flags with special envoy Steve Witkoff and Jared Kushner to his side. “And we leave here, and we leave here with a very simple proposal, a method of understanding that is our final and best offer. We’ll see if the Iranians accept it.”Trump had said he would suspend attacks against Iran for two weeks. Vance’s comments did not indicate what will happen after that time period expires or if the ceasefire will remain in place.War enters seventh weekThe historic talks ended days after a fragile, two-week ceasefire was announced, as the war that has killed thousands of people and shaken global markets entered its seventh week. Two Pakistani officials said discussions between the heads of the delegations will resume after a break.Some technical personnel from both teams are still meeting, said the officials, who spoke on condition of anonymity because they were not authorized to brief the press.Meanwhile, the U.S. military said two destroyers transited the Iran-gripped Strait of Hormuz ahead of mine-clearing work, a first since the war began. Iran’s state media, however, said the joint military command denied that.“We’re sweeping the strait. Whether we make a deal or not makes no difference to me,” Trump told journalists as talks continued and the time approached 2 a.m. in Islamabad. He called negotiations “very deep.” Iranian state TV noted what it called “serious” differences.The U.S. delegation led by Vance and the Iranian one led by Parliament Speaker Mohammad Bagher Qalibaf discussed with Pakistan how to advance the ceasefire already threatened by deep disagreements and Israel's continued attacks against the Iranian-backed Hezbollah in Lebanon, whose health ministry said the death toll has surpassed 2,000.Since the Islamic Revolution in Iran in 1979, the most direct U.S. contact had been in 2013 when President Barack Obama called newly elected President Hassan Rouhani to discuss Iran’s nuclear program. Obama's secretary of state, John Kerry, and counterpart Mohammad Javad Zarif later met during negotiations toward the 2015 Iran nuclear deal — a process that lasted well over a year.Now the far broader talks feature Vance, a reluctant defender of the war who has little diplomatic experience and warned Iran not to “try and play us,” and Qalibaf, a former commander with Iran's powerful Revolutionary Guard who has issued some of Iran's most fiery statements since fighting began.Iran sets ‘red lines’ including compensation for strikesIran’s state-run news agency said the three-party talks began after Iranian preconditions, including a reduction in Israeli strikes on southern Lebanon, were met.Iran's delegation told state television it had presented “red lines” in meetings with Pakistani Prime Minister Shehbaz Sharif, including compensation for damage caused by U.S.-Israeli strikes that launched the war on Feb. 28 and releasing Iran’s frozen assets.The war has killed at least 3,000 people in Iran, 2,020 in Lebanon, 23 in Israel and more than a dozen in Gulf Arab states, and caused lasting damage to infrastructure in half a dozen Middle Eastern countries. Iran's grip on the Strait of Hormuz has largely cut off the Persian Gulf and its oil and gas exports from the global economy, sending energy prices soaring.Reflecting the high stakes, officials from the region said Chinese, Egyptian, Saudi and Qatari officials were in Islamabad to indirectly facilitate talks. The officials spoke on condition of anonymity to discuss the sensitive matter.In Tehran, residents told The Associated Press they were skeptical yet hopeful after weeks of airstrikes left destruction across their country of some 93 million people.“Peace alone is not enough for our country because we’ve been hit very hard, there have been huge costs,” 62-year-old Amir Razzai Far said.In his strongest words yet, Pope Leo XIV denounced the “delusion of omnipotence” fueling the war.US sending forces to help mine-clearing on the straitIran’s closure of the Strait of Hormuz has proved its biggest strategic advantage in the war. Around a fifth of the world’s traded oil had typically passed through on over 100 ships a day. Only 12 have been recorded transiting since the ceasefire.On Saturday, Trump said on social media that the U.S. had begun “clearing out” the strait.RELATED STORY | Democrats grow bolder on talk about removing Trump from office after his Iran threats“Today, we began the process of establishing a new passage and we will share this safe pathway with the maritime industry soon,” U.S. Central Command commander Adm. Brad Cooper later said. The U.S. statement about the destroyers added: \"Additional U.S. forces, including underwater drones, will join the clearance effort in the coming days.”Iranian Foreign Minister Abbas Araghchi had said Tehran was entering negotiations with “deep distrust” after strikes on Iran during previous talks. Araghchi, part of Iran’s delegation in Pakistan, said Saturday that his country was prepared to retaliate if attacked again.Iran’s 10-point proposal ahead of the talks called for a guaranteed end to the war and sought control over the Strait of Hormuz. It included ending fighting against Iran’s “regional allies,\" explicitly calling for a halt to Israeli strikes on Hezbollah.The United States’ 15-point proposal includes restricting Iran’s nuclear program and reopening the strait.Israel and Lebanon will have direct negotiationsIsrael pressed ahead with strikes in Lebanon after saying there is no ceasefire there. Iran and Pakistan have disagreed.Negotiations between Israel and Lebanon are expected to begin Tuesday in Washington, Lebanese President Joseph Aoun’s office has said, after Israel's surprise announcement authorizing talks despite the countries lack of official relations.But as thousands in Lebanon protested the planned negotiations on Saturday, Prime Minister Nawaf Salam said he had postponed a planned trip to Washington “in light of the current internal circumstances.” His absence should not affect talks as the first round is expected to be at the ambassadorial level.Israel wants Lebanon's government to assume responsibility for disarming Hezbollah, much like was envisaged in a November 2024 ceasefire. But the militant group has survived efforts to curb its strength for decades.Hezbollah joined the war in support of Iran in the opening days. Israel followed with airstrikes and a ground invasion.The day the Iran ceasefire deal was announced, Israel pounded Beirut with airstrikes, killing more than 300 people in the deadliest day in Lebanon since the war began, according to the country's Health Ministry.",
+          "summary": "Vice President JD Vance said negotiations ended early Sunday between the U.S. and Iran without a peace deal after the Iranians refused to accept American terms to not develop a nuclear weapon.",
+          "url": "https://www.scrippsnews.com/us-news/iran-war/vance-says-talks-with-iran-have-ended-without-an-agreement",
+          "image": "https://ewscripps.brightspotcdn.com/dims4/default/842e2d5/2147483647/strip/true/crop/1920x1008+0+36/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2Fad%2F97%2F3d19d05f4631b57de35dd1823690%2Fall-brightspot-resize-templa",
+          "video": null,
+          "publish_date": "2026-04-12 01:58:13",
+          "author": "AP via Scripps News Group",
+          "authors": [
+            "AP via Scripps News Group"
+          ],
+          "language": "en",
+          "category": "politics",
+          "source_country": "us",
+          "sentiment": -0.284
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "country": "us"
+}
