@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Eric Swalwell suspended his campaign for California governor after facing allegations of sexual misconduct from multiple women, including claims of assault and sending unsolicited explicit messages. The allegations led to widespread condemnation from his own party, including Nancy Pelosi and other prominent Democrats, and an investigation by the Manhattan district attorney's office. Swalwell's campaign chairman and several unions withdrew their support, ultimately forcing him to end his bid for governor.",
+    "summary_length": 509,
+    "latency_seconds": 0.57,
+    "input_tokens": 1695,
+    "output_tokens": 83,
+    "total_tokens": 1778,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "President Donald Trump criticized Pope Leo XIV, saying he's \"not doing a very good job\" and is \"a very liberal person\" who \"should stop catering to the Radical Left.\" The pope had previously suggested that a \"delusion of omnipotence\" is fueling the US-Israel war in Iran, which prompted Trump's response. Trump's comments were met with criticism from Archbishop Paul S. Coakley, who defended the pope as the \"Vicar of Christ who speaks from the truth of the Gospel.\"",
+    "summary_length": 466,
+    "latency_seconds": 0.47,
+    "input_tokens": 1128,
+    "output_tokens": 105,
+    "total_tokens": 1233,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The US military struck two alleged drug boats in the eastern Pacific Ocean, killing five people and leaving one survivor. The attacks are part of the Trump administration's campaign against alleged traffickers in Latin America. This brings the total number of people killed in US boat strikes to at least 168 since the campaign began in early September.",
+    "summary_length": 353,
+    "latency_seconds": 0.248,
+    "input_tokens": 575,
+    "output_tokens": 66,
+    "total_tokens": 641,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The New York Times' Connections: Sports Edition is a daily word game that tests sports fans' knowledge by finding common threads between words. The game features 16 words, divided into four categories, and players must group four words that share something in common. The solution to today's Connections: Sports Edition #566 is: Field a Baseball — CATCH, FIELD, PICK, SCOOP; Work Hard — GRIND, LABOR, STRAIN, TOIL; Former MLB Stadiums — POLO, SHEA, TURNER, VETERANS; and ____ Day — DRAFT, GAME, OPENING, RYAN.",
+    "summary_length": 509,
+    "latency_seconds": 0.438,
+    "input_tokens": 1092,
+    "output_tokens": 128,
+    "total_tokens": 1220,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "Rory McIlroy has won his second consecutive Masters tournament, joining golf legends Jack Nicklaus, Nick Faldo, and Tiger Woods as repeat champions. McIlroy secured a one-shot victory over Scottie Scheffler with a 1-under 71, finishing at 12-under 276. This win builds on his playoff victory last season, which completed his career Grand Slam.",
+    "summary_length": 343,
+    "latency_seconds": 0.409,
+    "input_tokens": 1093,
+    "output_tokens": 79,
+    "total_tokens": 1172,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
