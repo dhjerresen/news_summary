@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The US military struck an alleged drug-trafficking boat in the eastern Pacific, killing four men on board. This marks the third consecutive day of such operations, with US forces sinking two suspected drug-trafficking boats in the past two days, killing a total of seven people. Since early September, the US military has conducted roughly 50 known airstrikes on suspected drug-trafficking boats, killing at least 174 people aboard.",
+    "summary_length": 432,
+    "latency_seconds": 0.375,
+    "input_tokens": 838,
+    "output_tokens": 87,
+    "total_tokens": 925,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The US Justice Department has asked a federal appeals court to throw out the seditious conspiracy convictions of Proud Boys and Oath Keepers leaders who were sentenced to prison terms for their roles in the January 6, 2021, attack on the US Capitol. The move would erase the convictions of extremist group leaders, including Oath Keepers founder Stewart Rhodes, who were found guilty of orchestrating violent plots to stop the peaceful transfer of power. The department's request is to vacate the convictions and permanently dismiss the indictments, citing that dismissal of the cases is in the interests of justice.",
+    "summary_length": 616,
+    "latency_seconds": 0.361,
+    "input_tokens": 798,
+    "output_tokens": 121,
+    "total_tokens": 919,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The New York Times game Pips, released in August 2025, offers a unique spin on dominoes with color-coded conditions to address. The game provides hints and answers for each difficulty level, including easy, medium, and hard, with specific conditions such as \"Equal\", \"Less Than\", and \"Greater Than\" to meet. The article provides piecemeal answers to help players navigate through each difficulty level.",
+    "summary_length": 402,
+    "latency_seconds": 0.547,
+    "input_tokens": 1429,
+    "output_tokens": 87,
+    "total_tokens": 1516,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Miami Heat star Bam Adebayo exited a play-in game against the Charlotte Hornets with a lower back injury after a fall in the second quarter. The injury occurred when Hornets player LaMelo Ball swiped at Adebayo's leg, causing him to fall, with Adebayo not returning for the remainder of the half. Adebayo's status to return is listed as \"questionable\" due to the injury.",
+    "summary_length": 370,
+    "latency_seconds": 0.439,
+    "input_tokens": 767,
+    "output_tokens": 86,
+    "total_tokens": 853,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Salt Lake County District Attorney's office has announced that 'Bachelorette' star Taylor Frankie Paul will not face new domestic violence charges. The decision was made due to the incident occurring outside the statute of limitations and a lack of sufficient evidence to support filing criminal charges. Paul had previously pleaded guilty to assaulting her ex-boyfriend, Dakota Mortensen, in 2023.",
+    "summary_length": 402,
+    "latency_seconds": 0.333,
+    "input_tokens": 966,
+    "output_tokens": 77,
+    "total_tokens": 1043,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
