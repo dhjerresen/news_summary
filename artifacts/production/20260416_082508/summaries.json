@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The Los Angeles Dodgers completed a series sweep with an 8-2 victory over the New York Mets, led by Shohei Ohtani's 10 strikeouts in six innings. Dalton Rushing hit a grand slam and Hyeseong Kim, Teoscar Hernandez, and Kyle Tucker also hit home runs for the Dodgers. The win extended the Mets' losing streak to eight games, with the Dodgers improving to 14-4 on the season.",
+    "summary_length": 373,
+    "latency_seconds": 0.467,
+    "input_tokens": 1304,
+    "output_tokens": 91,
+    "total_tokens": 1395,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The PGA Tour is set to host the RBC Heritage at Harbour Town Golf Links in South Carolina from April 16-19, with a $20M purse and 41 of the top 50 players in the world competing. The LPGA will also hold the LA Championship in Los Angeles, while the Champions Tour will host the Senior PGA Championship in Florida. Additionally, LIV Golf will take place in Mexico City from April 16-19 with a $30M individual purse and a $10M team purse.",
+    "summary_length": 436,
+    "latency_seconds": 0.835,
+    "input_tokens": 3668,
+    "output_tokens": 105,
+    "total_tokens": 3773,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Arizona Lottery has announced the results for its draw games on April 15, 2026, with the winning Powerball numbers being 13-21-27-43-45 and the Powerball number being 26. The winning numbers for other games, including The Pick, Pick 3, Fantasy 5, and Triple Twist, have also been released. Players can check if they have won and claim their prizes at Arizona Lottery retailers or offices, depending on the prize amount.",
+    "summary_length": 423,
+    "latency_seconds": 0.581,
+    "input_tokens": 956,
+    "output_tokens": 99,
+    "total_tokens": 1055,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Director of National Intelligence Tulsi Gabbard has referred the 2019 Trump impeachment whistleblower, believed to be Eric Ciaramella, and former Intelligence Community Inspector General Michael Atkinson for potential criminal investigation. The referrals to the Justice Department come after the declassification of transcripts and documents that raise questions about the origins and handling of the complaint. The declassified records show that Ciaramella had a prior professional relationship with a Democratic presidential candidate and relied on secondhand accounts of Trump's phone call with the Ukrainian president.",
+    "summary_length": 623,
+    "latency_seconds": 0.548,
+    "input_tokens": 1010,
+    "output_tokens": 104,
+    "total_tokens": 1114,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Golden State Warriors advanced in the NBA's play-in tournament with a 126-121 victory over the Los Angeles Clippers, overcoming a 13-point deficit in the fourth quarter. Stephen Curry scored 35 points, including 27 in the second half, and Al Horford hit four 3-pointers to lead the Warriors' comeback. The Warriors will now face Phoenix on Friday, with the winner moving on to the first round of the playoffs.",
+    "summary_length": 413,
+    "latency_seconds": 0.561,
+    "input_tokens": 691,
+    "output_tokens": 91,
+    "total_tokens": 782,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
