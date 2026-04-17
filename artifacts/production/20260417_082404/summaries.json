@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "ICE acting director Todd Lyons will resign at the end of May, according to Homeland Security Secretary Markwayne Mullin. Lyons' last day will be May 31, and the reason for his resignation has not been disclosed. The Department of Homeland Security has not announced who will replace Lyons as the head of the agency.",
+    "summary_length": 315,
+    "latency_seconds": 0.652,
+    "input_tokens": 799,
+    "output_tokens": 64,
+    "total_tokens": 863,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "Singer D4vd, whose real name is David Burke, has been arrested on suspicion of murder in connection with the death of 14-year-old Celeste Rivas Hernandez, whose decomposed body was found in his Tesla. The 21-year-old singer is being held without bail and investigators will present a case to prosecutors on Monday to determine whether to file charges. The body of Rivas Hernandez was discovered in September in the Tesla, which was registered in D4vd's name, with authorities finding a decomposed and dismembered body inside.",
+    "summary_length": 525,
+    "latency_seconds": 0.552,
+    "input_tokens": 845,
+    "output_tokens": 112,
+    "total_tokens": 957,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Here is a summary of the news article cluster in 2-3 concise sentences:\n\nThe Cleveland Guardians held on for a 4-2 victory over the Baltimore Orioles, despite rookie Parker Messick losing his no-hit bid in the 9th inning. The Detroit Tigers stretched their winning streak to six games with a 10-9 win over the Kansas City Royals, while the San Francisco Giants snapped a four-game losing streak with a 3-0 shutout of the Cincinnati Reds. Other notable wins included the Los Angeles Angels over the New York Yankees, the Washington Nationals over the Pittsburgh Pirates, and the Tampa Bay Rays over the Chicago White Sox.",
+    "summary_length": 620,
+    "latency_seconds": 0.705,
+    "input_tokens": 1354,
+    "output_tokens": 132,
+    "total_tokens": 1486,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Democrat Analilia Mejía has won the special election for the New Jersey seat formerly held by Gov. Mikie Sherrill, defeating Republican Joe Hathaway with 70% of the vote. Mejía, a progressive organizer with labor ties, will help Democrats regain a valuable House vote. She won the seat after clinching a narrow victory in the February 5 special election primary, and her victory was supported by prominent progressives including Bernie Sanders and Elizabeth Warren.",
+    "summary_length": 465,
+    "latency_seconds": 0.743,
+    "input_tokens": 1027,
+    "output_tokens": 94,
+    "total_tokens": 1121,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The New York Times' Connections: Sports Edition is a daily word game that tests sports fans' knowledge by finding common threads between words. Today's puzzle features 16 words, divided into four categories, and players must group four words that share something in common. The solution to today's Connections: Sports Edition #571 is provided, with categories including \"Things an Umpire Calls\", \"An Attacking Player in Soccer\", \"MLB Father-Son Duos\", and \"____ Range\".",
+    "summary_length": 469,
+    "latency_seconds": 0.609,
+    "input_tokens": 1119,
+    "output_tokens": 100,
+    "total_tokens": 1219,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
