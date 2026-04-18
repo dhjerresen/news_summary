@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The Trump administration has extended a temporary waiver of sanctions on Russian oil and petroleum products until May 16, despite Treasury Secretary Scott Bessent's previous statement that it would not be renewed. The waiver allows the sale of these products at sea and is intended to help offset the rising cost of oil resulting from the Iran conflict. The decision has been met with criticism from some US lawmakers, who argue that it sends the wrong message, particularly in light of Russia's recent military actions in Ukraine.",
+    "summary_length": 531,
+    "latency_seconds": 0.451,
+    "input_tokens": 644,
+    "output_tokens": 99,
+    "total_tokens": 743,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The Orlando Magic defeated the Charlotte Hornets 121-90 in a play-in game, securing their spot in the NBA playoffs for the third consecutive year. The Magic, led by a combined 84 points from their starting lineup, will face the top-seeded Detroit Pistons in the first round of the playoffs on Sunday. The Magic's dominant performance was fueled by their strong defensive effort, which held the Hornets to 33.7% shooting from the floor and forced 20 turnovers.",
+    "summary_length": 459,
+    "latency_seconds": 0.374,
+    "input_tokens": 984,
+    "output_tokens": 97,
+    "total_tokens": 1081,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Michigan Lottery has announced the results for its draw games on April 17, 2026, including the winning numbers for Daily 3, Daily 4, Poker Lotto, Fantasy 5, and Daily Keno. The winning numbers are: Daily 3 (Midday: 9-4-8, Evening: 6-7-8) and Daily 4 (Midday: 0-6-7-8, Evening: 1-6-8-2). Winners can claim their prizes at Michigan Lottery retailers or by mail, with larger prizes requiring in-person claims at a Regional Office or the Michigan Lottery Headquarters.",
+    "summary_length": 468,
+    "latency_seconds": 0.634,
+    "input_tokens": 921,
+    "output_tokens": 132,
+    "total_tokens": 1053,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The San Francisco Giants beat the Washington Nationals 10-5 on Friday night, led by Heliot Ramos' three-run home run and solo shots from Drew Gilbert and Casey Schmitt. Matt Chapman had three hits and drove in three runs for the Giants, who won their second straight game. Logan Webb earned the win, pitching six innings and allowing four runs on seven hits.",
+    "summary_length": 358,
+    "latency_seconds": 0.426,
+    "input_tokens": 1260,
+    "output_tokens": 76,
+    "total_tokens": 1336,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "President Donald Trump announced that the first releases from a Pentagon study on UFOs will come out \"very, very soon\". Trump made the statement at a rally in Phoenix, where he also mentioned that he had spoken with officials about releasing the study's findings to the public. The comments come as interest in Unidentified Aerial Phenomena (UAPs) continues to grow, with lawmakers pushing for greater transparency and the Department of Defense expanding efforts to investigate unexplained incidents.",
+    "summary_length": 500,
+    "latency_seconds": 0.331,
+    "input_tokens": 660,
+    "output_tokens": 96,
+    "total_tokens": 756,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
