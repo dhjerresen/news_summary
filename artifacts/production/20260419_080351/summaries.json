@@ -1,0 +1,54 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The Cincinnati Bengals have traded for New York Giants' Pro Bowl nose tackle Dexter Lawrence, giving up their No. 10 overall draft pick in exchange. Lawrence, who had requested a trade, is expected to receive a contract extension or raise, and the move is part of the Bengals' efforts to improve their defense. The Giants will receive the No. 10 pick, adding to their existing No. 5 pick, and will have two top-10 selections in the first round.",
+    "summary_length": 444,
+    "latency_seconds": 0.718,
+    "input_tokens": 654,
+    "output_tokens": 98,
+    "total_tokens": 752,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "North Korea launched multiple ballistic missiles toward the sea on Sunday, according to its neighbors, South Korea and Japan. The launches, which were detected by both countries' defense ministries, are the latest in a series of weapons testing activities by North Korea this year. The incident has prompted South Korea's National Security Council to hold an emergency meeting and Japan to strongly protest to Pyongyang, citing a violation of UN Security Council resolutions.",
+    "summary_length": 475,
+    "latency_seconds": 0.514,
+    "input_tokens": 584,
+    "output_tokens": 84,
+    "total_tokens": 668,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The New York Knicks beat the Atlanta Hawks 113-102 in Game 1 of their Eastern Conference playoff series, led by Jalen Brunson's 28 points and Karl-Anthony Towns' 25 points. The Knicks, who are the No. 3 seed in the East, will host Game 2 on Monday night. CJ McCollum had 26 points for the Hawks, who are the No. 6 seed in the East.",
+    "summary_length": 331,
+    "latency_seconds": 0.372,
+    "input_tokens": 596,
+    "output_tokens": 94,
+    "total_tokens": 690,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Arizona Lottery has announced the results for its draw games on April 18, 2026, with the winning Powerball numbers being 24-25-39-46-61 and the Powerball number being 01. The winning numbers for other games, including The Pick, Pick 3, Fantasy 5, and Triple Twist, have also been released. Players can check if they have won by matching their numbers to the announced results.",
+    "summary_length": 380,
+    "latency_seconds": 0.475,
+    "input_tokens": 956,
+    "output_tokens": 91,
+    "total_tokens": 1047,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
