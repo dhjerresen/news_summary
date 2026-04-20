@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The Montreal Canadiens stunned the Tampa Bay Lightning 4-3 in Game 1 of their Eastern Conference first-round series, with Juraj Slafkovsky scoring a hat-trick, including the game-winner 1:22 into overtime. Slafkovsky's goals were all scored on the power play, making him the first Montreal player to record a hat trick in the Stanley Cup playoffs since Rene Bourque in 2014. The win gives the Canadiens home-ice advantage in the best-of-seven series.",
+    "summary_length": 450,
+    "latency_seconds": 0.661,
+    "input_tokens": 1935,
+    "output_tokens": 105,
+    "total_tokens": 2040,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The Buffalo Sabres overcame a two-goal deficit in the final eight minutes to beat the Boston Bruins 4-3 in their first playoff game in 15 years. Mattias Samuelson scored the winning goal with 3:24 left in the game. The Sabres scored four goals in the third period to secure the comeback victory.",
+    "summary_length": 295,
+    "latency_seconds": 0.273,
+    "input_tokens": 885,
+    "output_tokens": 69,
+    "total_tokens": 954,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "A 31-year-old Louisiana father, Shamar Elkins, fatally shot eight children, including seven of his own, and critically wounded two women, including his wife, in a mass shooting at two houses in a Shreveport neighborhood. The children, ranging in age from 3 to 11, were killed in the same house, with one found dead on the roof and another surviving after jumping off. Elkins died after a police pursuit, with authorities describing the incident as a domestic violence case.",
+    "summary_length": 473,
+    "latency_seconds": 0.568,
+    "input_tokens": 1250,
+    "output_tokens": 102,
+    "total_tokens": 1352,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Arizona Lottery has announced the results for Sunday, April 19, 2026, with the winning Pick 3 numbers and Fantasy 5 numbers being 05-11-21-25-40. The winning Triple Twist numbers were also released as 11-22-23-25-27-32. For those who want to play Powerball, drawings are held on Mondays, Wednesdays, and Saturdays at 7:59 p.m. Arizona time.",
+    "summary_length": 344,
+    "latency_seconds": 0.417,
+    "input_tokens": 916,
+    "output_tokens": 97,
+    "total_tokens": 1013,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The US military has killed three men in a strike targeting a suspected drug-smuggling boat in the Caribbean, bringing the total number of people killed in six recent strikes to 17. The strike, which occurred on Sunday, was carried out by the US Southern Command against a boat operated by a designated terrorist organization. Since the first strike on September 2, the US military has killed at least 180 people and destroyed 55 boats in over 50 strikes.",
+    "summary_length": 454,
+    "latency_seconds": 0.535,
+    "input_tokens": 672,
+    "output_tokens": 93,
+    "total_tokens": 765,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
