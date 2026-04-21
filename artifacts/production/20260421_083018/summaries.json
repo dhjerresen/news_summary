@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Labor Secretary Lori Chavez-DeRemer is leaving President Donald Trump's Cabinet after multiple allegations of abusing her position's power, including having an affair with a subordinate and drinking alcohol on the job. She will be replaced by Deputy Labor Secretary Keith Sonderling, who will become acting labor secretary. Chavez-DeRemer's departure makes her the third Trump Cabinet member to leave their post in recent months.",
+    "summary_length": 429,
+    "latency_seconds": 0.566,
+    "input_tokens": 1315,
+    "output_tokens": 82,
+    "total_tokens": 1397,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "Haylie Duff and her fiancé Matthew Rosenberg have split after 14 years of dating, according to her spokesperson. The couple, who got engaged in 2014, share two daughters, Ryan, 10, and Lulu, 7. Duff has asked for privacy amid the breakup to protect her children.",
+    "summary_length": 262,
+    "latency_seconds": 0.325,
+    "input_tokens": 732,
+    "output_tokens": 66,
+    "total_tokens": 798,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Atlanta Hawks rallied from an 8-point deficit in the last 5 minutes to defeat the New York Knicks 107-106 in Game 2 of their Eastern Conference first-round series. CJ McCollum scored 32 points, including 6 in the final 2 minutes, to lead the Hawks to a comeback victory. The series is now tied 1-1, with Game 3 scheduled for Thursday night in Atlanta.",
+    "summary_length": 355,
+    "latency_seconds": 0.461,
+    "input_tokens": 1418,
+    "output_tokens": 88,
+    "total_tokens": 1506,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Onion is seeking a court-backed deal to take temporary control of Alex Jones' Infowars, with plans to transform it into a parody version of the conspiracy platform. The proposed six-month lease would cost $81,000 per month, with the goal of repurposing the Infowars website and social media accounts for satirical content. A hearing on the proposal is set for April 30 in Texas, with Alex Jones pushing back against the plan and threatening to continue broadcasting through alternative channels.",
+    "summary_length": 499,
+    "latency_seconds": 0.663,
+    "input_tokens": 1278,
+    "output_tokens": 101,
+    "total_tokens": 1379,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "Rep. Nancy Mace, R-S.C., has introduced a resolution to expel Rep. Cory Mills, R-Fla., from Congress over allegations of sexual misconduct and campaign finance violations. Mills is currently being investigated by the House Ethics Committee and has denied any wrongdoing. The resolution comes after Mace's previous attempt to censure Mills was referred to the Ethics Committee, and she has stated that she will not back down despite opposition from some Republicans, including Speaker Mike Johnson.",
+    "summary_length": 497,
+    "latency_seconds": 0.544,
+    "input_tokens": 858,
+    "output_tokens": 97,
+    "total_tokens": 955,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
