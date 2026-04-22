@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Virginia voters have approved a ballot measure to redraw the state's congressional districts, giving Democrats a significant edge and potentially flipping control of the House of Representatives. The move is seen as a major win for Democrats nationwide, following similar redistricting efforts in other states such as California. The outcome could give Democrats a one-seat edge in the midterm elections, based on past voting patterns, although the overall impact of the redistricting efforts remains uncertain.",
+    "summary_length": 511,
+    "latency_seconds": 0.641,
+    "input_tokens": 1592,
+    "output_tokens": 89,
+    "total_tokens": 1681,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "Spurs star Victor Wembanyama suffered a concussion after a hard fall during Game 2 of the playoff series against the Portland Trail Blazers. He was placed in the concussion protocol and ruled out for the remainder of the game, which the Spurs lost 106-103. Wembanyama's status for Game 3 on Friday is uncertain, as he will need to follow the league's concussion protocol guidelines and receive clearance from the team doctor.",
+    "summary_length": 425,
+    "latency_seconds": 0.517,
+    "input_tokens": 948,
+    "output_tokens": 91,
+    "total_tokens": 1039,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Dave Mason, a co-founder of the band Traffic and singer of the hit song \"We Just Disagree,\" has died at the age of 79. Mason was inducted into the Rock and Roll Hall of Fame as a member of Traffic and had a successful solo career, collaborating with numerous notable artists including Paul McCartney, George Harrison, and Eric Clapton. No cause of death was given, with his family stating that he \"lived a remarkable life devoted to the music and people he loved.\"",
+    "summary_length": 464,
+    "latency_seconds": 0.777,
+    "input_tokens": 2353,
+    "output_tokens": 102,
+    "total_tokens": 2455,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Secret Lives of Mormon Wives will resume production on season 5 after a hiatus caused by a domestic abuse investigation involving cast member Taylor Frankie Paul and her ex Dakota Mortensen. Taylor had been charged with several counts related to the incident, but will not face any charges. The show's production will continue, although details on who will be involved have not been revealed.",
+    "summary_length": 396,
+    "latency_seconds": 0.413,
+    "input_tokens": 969,
+    "output_tokens": 75,
+    "total_tokens": 1044,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The New York Yankees extended their winning streak to four games with a 4-0 win over the Boston Red Sox, led by Giancarlo Stanton's solo homer and two-run double. Yankees starter Luis Gil earned his first win of the season, holding the Red Sox to just two hits. The Yankees outhit the Red Sox 10-4, cruising to their major league-leading fifth shutout of the season.",
+    "summary_length": 366,
+    "latency_seconds": 0.385,
+    "input_tokens": 540,
+    "output_tokens": 86,
+    "total_tokens": 626,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
