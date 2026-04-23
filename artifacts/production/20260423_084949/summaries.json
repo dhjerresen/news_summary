@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Mets shortstop Francisco Lindor exited a game against the Minnesota Twins due to left calf tightness after the fourth inning. Lindor showed signs of discomfort while scoring on a double, grimacing and remaining on the ground for a few seconds. The injury occurred on the same day that teammate Juan Soto returned from a 15-game absence caused by a strained right calf.",
+    "summary_length": 368,
+    "latency_seconds": 0.714,
+    "input_tokens": 783,
+    "output_tokens": 76,
+    "total_tokens": 859,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "Mike Vrabel, the head coach of the New England Patriots, will miss Day 3 of the 2026 NFL Draft to attend counseling. Vrabel committed to seeking counseling after alleged risqué photos of him surfaced, stating that he wants to be the best version of himself for his family, team, and organization. He will remain in contact with the team during the draft, expressing confidence in his staff to lead the Patriots' draft room.",
+    "summary_length": 423,
+    "latency_seconds": 0.642,
+    "input_tokens": 733,
+    "output_tokens": 92,
+    "total_tokens": 825,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "President Trump has extended a ceasefire with Iran after peace talks were cancelled in Pakistan. The US will continue to blockade Iranian ports. The Department of Justice has also charged the Southern Poverty Law Center with fraud, alleging that the organization funneled millions of dollars to extremist groups.",
+    "summary_length": 312,
+    "latency_seconds": 0.363,
+    "input_tokens": 2372,
+    "output_tokens": 55,
+    "total_tokens": 2427,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Disney has greenlit a spinoff of \"The Secret Lives of Mormon Wives\" titled \"The Secret Lives of Mormon Wives: Orange County\", starring online personalities Aspyn Ovard and Bobbi Althoff. The series will follow a new group of young mothers in Orange County, exploring their lives and identities within their Mormon community. The show is produced by Jeff Jenkins Productions, in association with 3BMG and Walt Disney Television Alternative, and features a new cast, although cameos from the original series are possible.",
+    "summary_length": 519,
+    "latency_seconds": 0.387,
+    "input_tokens": 603,
+    "output_tokens": 107,
+    "total_tokens": 710,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "Darrell Sheets, a 67-year-old cast member of A&E's reality series \"Storage Wars,\" has died by suicide, according to the Lake Havasu City, Arizona, police. Sheets, also known as \"The Gambler,\" was an original cast member on the show and is survived by his son Brandon and daughter Tiffany. The \"Storage Wars\" cast, including Rene Nezhoda and Brandi Passante, have come together to mourn his death and pay tribute to his legacy.",
+    "summary_length": 426,
+    "latency_seconds": 0.511,
+    "input_tokens": 1111,
+    "output_tokens": 100,
+    "total_tokens": 1211,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
