@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The Las Vegas Raiders selected quarterback Fernando Mendoza with the No. 1 pick in the 2026 NFL draft, expecting him to lead the team to sustained success. To support Mendoza's development, the Raiders plan to build around him, focusing on strengthening their run game, defense, and overall roster. The team has shown patience with Mendoza's expected growth, signing veteran quarterback Kirk Cousins to provide insurance and mentorship.",
+    "summary_length": 436,
+    "latency_seconds": 0.59,
+    "input_tokens": 2086,
+    "output_tokens": 87,
+    "total_tokens": 2173,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The 2026 NFL Draft's first round saw several notable picks, including the Las Vegas Raiders selecting Fernando Mendoza with the No. 1 overall pick and the Los Angeles Rams choosing Alabama quarterback Ty Simpson at No. 13. The Dallas Cowboys traded up to select Ohio State safety Caleb Downs, considered a generational prospect, and also picked up UCF edge rusher Malachi Lawrence. The New York Giants, meanwhile, added Ohio State edge rusher Arvell Reese to bolster their pass rush.",
+    "summary_length": 483,
+    "latency_seconds": 0.475,
+    "input_tokens": 2146,
+    "output_tokens": 102,
+    "total_tokens": 2248,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Kansas City Chiefs traded up to select Delane at No. 6 in the NFL draft. This move is intended to shore up their defense. The selection occurred after other notable picks, including the Jets taking Bailey at No. 2 and the Cardinals taking Love at No. 3.",
+    "summary_length": 257,
+    "latency_seconds": 0.312,
+    "input_tokens": 1420,
+    "output_tokens": 60,
+    "total_tokens": 1480,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "An 18-year-old woman, Angelina Han Hicks, was arrested in North Carolina for allegedly plotting to attack a Jewish synagogue in Houston, Texas. Hicks, who is being held on $10 million bond, faces two counts of felony conspiracy and is accused of planning a mass-casualty event with two other individuals, one of whom is a 16-year-old in Texas who was also arrested. Authorities claim the group intended to \"kill as many Jews as possible\" by driving through the congregation.",
+    "summary_length": 474,
+    "latency_seconds": 0.421,
+    "input_tokens": 1085,
+    "output_tokens": 102,
+    "total_tokens": 1187,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "A US special forces soldier, Master Sgt. Gannon Ken Van Dyke, has been charged with using classified intelligence to place winning bets worth over $400,000 on the capture of Venezuelan President Nicolás Maduro. Van Dyke allegedly accessed nonpublic details about a US military operation targeting Maduro and used that information to make a series of wagers on the prediction market Polymarket. He faces five criminal charges, including theft of government information and wire fraud, and could face penalties and a permanent ban on trading activities.",
+    "summary_length": 551,
+    "latency_seconds": 0.318,
+    "input_tokens": 823,
+    "output_tokens": 105,
+    "total_tokens": 928,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
