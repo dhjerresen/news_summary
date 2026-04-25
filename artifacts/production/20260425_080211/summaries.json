@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Jonathan Greenard, a pass rusher, was traded from the Minnesota Vikings to the Philadelphia Eagles in exchange for draft picks. Greenard then agreed to a four-year, $100 million extension with the Eagles, including $50 million in guaranteed money. The 28-year-old has 38 sacks in 77 NFL games and is coming off a season with the Vikings where he managed just three sacks.",
+    "summary_length": 371,
+    "latency_seconds": 0.467,
+    "input_tokens": 905,
+    "output_tokens": 81,
+    "total_tokens": 986,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "Mississippi Governor Tate Reeves has announced a special session to redraw judicial districts, which will be called 21 days after the US Supreme Court rules on a Voting Rights Act case. The session is in response to a federal judge's order to redraw the Mississippi Supreme Court electoral map, which was found to have diluted the power of Black voters. The Supreme Court's decision in the case, expected by June, will determine the next steps for the special session.",
+    "summary_length": 468,
+    "latency_seconds": 0.349,
+    "input_tokens": 445,
+    "output_tokens": 91,
+    "total_tokens": 536,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Helena Bonham Carter has exited the upcoming fourth season of 'The White Lotus', with her role to be reworked and recast. According to an HBO spokesperson, the character created for Carter did not align with the production once filming began, prompting the decision to rework and recast the role. The recasting is not expected to impact production timing, with schedules being reworked to focus on the rest of the cast while the changes are made.",
+    "summary_length": 446,
+    "latency_seconds": 0.39,
+    "input_tokens": 663,
+    "output_tokens": 92,
+    "total_tokens": 755,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Carson Beck, the quarterback from the Miami Hurricanes, was drafted by the Arizona Cardinals in the third round of the 2026 NFL Draft, 65th overall. Beck had a notable season with the Hurricanes, leading the team to the College Football Playoff National Championship Game and setting a single-season record for completion percentage. He finished his college career with 11,725 yards and 88 touchdowns, and will now play for the Cardinals at State Farm Stadium, where he previously made a game-winning play in the Fiesta Bowl.",
+    "summary_length": 525,
+    "latency_seconds": 0.414,
+    "input_tokens": 1072,
+    "output_tokens": 106,
+    "total_tokens": 1178,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Philadelphia Eagles have made three selections in the 2026 NFL draft, choosing USC WR Makai Lemon, Vanderbilt TE Eli Stowers, and Miami OT Markel Bell. The team holds three picks on Day 3 of the draft and is considering 15 players, including defensive players like Dani Dennis-Sutton and Keionte Scott, and offensive players like Jude Bowry and Garrett Nussmeier. These players have various skills and traits that could make them a good fit for the Eagles.",
+    "summary_length": 460,
+    "latency_seconds": 0.659,
+    "input_tokens": 1583,
+    "output_tokens": 101,
+    "total_tokens": 1684,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
