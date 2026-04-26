@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "A suspect, identified as 31-year-old Cole Tomas Allen of Torrance, California, was taken into custody after interrupting the White House correspondents' dinner with gunshots, prompting the evacuation of Donald and Melania Trump. The suspect, who was armed with a shotgun, handgun, and multiple knives, was being evaluated in a hospital and faces preliminary firearms and assault charges. One officer was shot but saved by a bulletproof vest, according to Trump.",
+    "summary_length": 461,
+    "latency_seconds": 0.757,
+    "input_tokens": 1759,
+    "output_tokens": 92,
+    "total_tokens": 1851,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The Boston Red Sox have fired manager Alex Cora and five coaches after a 10-17 start to the season. Cora, who led the team to a World Series title in 2018, was let go along with hitting coach Peter Fatse, assistant hitting coach Dillon Lawson, third base coach Kyle Hudson, bench coach Ramon Vasquez, and hitting strategy coach Joe Cronin. Chad Tracy has been named interim manager, replacing Cora.",
+    "summary_length": 398,
+    "latency_seconds": 0.792,
+    "input_tokens": 1421,
+    "output_tokens": 92,
+    "total_tokens": 1513,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Texas Rangers beat the Athletics 4-3 on Saturday, with Josh Jung hitting a go-ahead, two-run homer in the sixth inning. The win evened the three-game series after the Rangers lost the opener 8-1 on Friday. The Athletics and Rangers are now tied for first place in the American League West.",
+    "summary_length": 293,
+    "latency_seconds": 0.514,
+    "input_tokens": 588,
+    "output_tokens": 67,
+    "total_tokens": 655,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "A shooting occurred at the White House Correspondents' Dinner, where a man penetrated security and fired at a Secret Service agent, who was hit in the bulletproof vest and returned fire. The suspect, identified as 31-year-old Cole Tomas Allen of Torrance, California, was taken into custody. President Trump, the First Lady, the Vice President, and Cabinet members were evacuated and reported to be safe.",
+    "summary_length": 404,
+    "latency_seconds": 0.683,
+    "input_tokens": 1925,
+    "output_tokens": 83,
+    "total_tokens": 2008,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "D.C. United rallied to defeat Orlando City SC 3-2 with two late goals, snapping a six-game winless run. Kye Rowles scored the winning goal in the 90th minute, while Jackson Hopkins and Louis Munteanu also scored for D.C. United. Orlando City's Justin Ellis and Tyrese Spicer scored in the second half, but ultimately fell short, remaining winless on the road.",
+    "summary_length": 359,
+    "latency_seconds": 0.579,
+    "input_tokens": 1365,
+    "output_tokens": 87,
+    "total_tokens": 1452,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
