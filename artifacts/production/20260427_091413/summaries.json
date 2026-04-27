@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Monte Coleman, a 3-time Super Bowl champion and former linebacker for the Washington franchise, has died at the age of 68. Coleman played 16 seasons with Washington, totaling 1,002 tackles and 49.5 sacks, and was inducted into the Arkansas Sports Hall of Fame and Washington's Ring of Fame. He is survived by his wife and children, and was remembered by the Washington Commanders and Arkansas Pine Bluff, where he was a head coach, for his excellence, integrity, and commitment to developing student-athletes.",
+    "summary_length": 509,
+    "latency_seconds": 0.659,
+    "input_tokens": 1368,
+    "output_tokens": 113,
+    "total_tokens": 1481,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "President Donald Trump is using the recent shooting incident at the White House Correspondents' Association dinner to push for a fortified White House ballroom, arguing that it would provide better security for the president and government officials. A federal judge had previously blocked construction of the ballroom, but a federal appeals court allowed it to continue, and Trump's allies are now stepping in to eliminate judicial roadblocks. Senators Lindsey Graham and Tim Sheehy, and Rep. Lauren Boebert, have announced plans to introduce legislation to authorize and fund the ballroom project.",
+    "summary_length": 599,
+    "latency_seconds": 0.589,
+    "input_tokens": 1934,
+    "output_tokens": 111,
+    "total_tokens": 2045,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The US military has carried out a strike on a vessel in the Eastern Pacific Ocean, killing three people, after intelligence confirmed it was engaged in narco-trafficking operations. The strike is part of the US military campaign Operation Southern Spear, which has resulted in at least 186 deaths since September. This marks the 54th attack conducted by the US since the operation began in September 2025.",
+    "summary_length": 405,
+    "latency_seconds": 0.793,
+    "input_tokens": 1478,
+    "output_tokens": 82,
+    "total_tokens": 1560,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Nedra Talley Ross, the last surviving member of the 1960s pop band the Ronettes, has died at the age of 80. She passed away at her home on Sunday morning, surrounded by her family. The Ronettes, which also included her cousins Ronnie Spector and Estelle Bennett, were known for their hits such as \"Be My Baby\" and were inducted into the Rock and Roll Hall of Fame in 2007.",
+    "summary_length": 372,
+    "latency_seconds": 0.723,
+    "input_tokens": 920,
+    "output_tokens": 94,
+    "total_tokens": 1014,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "North Korean leader Kim Jong Un has vowed to continue supporting Russia's policies and discussed bolstering military ties with Moscow. A memorial museum has been opened in North Korea to honor the country's soldiers killed while fighting alongside Russian forces in Ukraine. Kim and Russian Defense Minister Andrei Belousov have agreed to sign a five-year military cooperation plan, indicating a long-term alliance between the two countries.",
+    "summary_length": 441,
+    "latency_seconds": 0.724,
+    "input_tokens": 812,
+    "output_tokens": 79,
+    "total_tokens": 891,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
