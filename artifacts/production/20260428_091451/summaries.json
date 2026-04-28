@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "The New York Times offers a game called Pips, a unique spin on dominoes, which was released in August 2025. The game has various difficulty levels with color-coded conditions that must be met, such as adding up to a specific number or having equal or unequal numbers of pips. The article provides hints and answers for the easy, medium, and hard difficulty levels of Pips for April 28, 2026.",
+    "summary_length": 391,
+    "latency_seconds": 0.789,
+    "input_tokens": 1626,
+    "output_tokens": 90,
+    "total_tokens": 1716,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The Cleveland Guardians are expected to call up second baseman Travis Bazzana, the 2024 No. 1 overall draft pick, on Tuesday. Bazzana, 23, has batted .287 with 2 homers and 10 RBIs in 24 games for Triple-A Columbus. Rookie Juan Brito will be optioned to Triple-A Columbus in a corresponding move to make room for Bazzana.",
+    "summary_length": 321,
+    "latency_seconds": 0.392,
+    "input_tokens": 929,
+    "output_tokens": 85,
+    "total_tokens": 1014,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Pittsburgh Penguins won Game 5 of their first-round playoff series against the Philadelphia Flyers with a 3-2 score. Kris Letang's goal in the second period proved to be the difference, and Arturs Silovs made 18 saves to help the Penguins stay alive in the series. The Flyers will have another chance to win the series in Game 6 on Wednesday in Philadelphia.",
+    "summary_length": 362,
+    "latency_seconds": 0.347,
+    "input_tokens": 1267,
+    "output_tokens": 80,
+    "total_tokens": 1347,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Erika Kirk, the widow of late right-wing commentator Charlie Kirk, has broken her silence after a viral video showed her crying during the shooting at the White House Correspondents' Dinner. She stated that the incident was \"another traumatic example of the evil in our country\" and will address the matter on The Charlie Kirk Show. A gunman was apprehended and charged with federal gun crimes and attempting to assassinate President Trump after shots rang out at the event, injuring a Secret Service agent.",
+    "summary_length": 507,
+    "latency_seconds": 0.396,
+    "input_tokens": 685,
+    "output_tokens": 98,
+    "total_tokens": 783,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "Melania Trump has criticized Jimmy Kimmel for a joke he made about her on his show, calling his comments \"hateful and violent rhetoric\" and urging ABC to take action. Kimmel had joked that Melania Trump looked like an \"expectant widow\" in a mock speech on his show. President Donald Trump also responded, calling for Kimmel to be fired by Disney and ABC.",
+    "summary_length": 354,
+    "latency_seconds": 0.368,
+    "input_tokens": 649,
+    "output_tokens": 78,
+    "total_tokens": 727,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
