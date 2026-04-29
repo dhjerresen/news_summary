@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Trey Yesavage made a strong season debut, pitching 5 1/3 sharp innings to help the Toronto Blue Jays shut out the Boston Red Sox 3-0. Vladimir Guerrero Jr. and Kazuma Okamoto contributed to the win with key hits, including a two-run single by Okamoto. The Blue Jays ended Boston's three-game winning streak, setting up a decisive match on Wednesday afternoon.",
+    "summary_length": 359,
+    "latency_seconds": 0.465,
+    "input_tokens": 1222,
+    "output_tokens": 83,
+    "total_tokens": 1305,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "David Pastrnak scored a breakaway goal in overtime to lift the Boston Bruins to a 2-1 win over the Buffalo Sabres in Game 5 of their playoff series. The win forces a Game 6 on Friday, keeping the Bruins' season alive. Additionally, the Edmonton Oilers and Minnesota Wild also earned wins in their respective playoff series, with the Oilers beating the Anaheim Ducks 4-1 and the Wild defeating the Dallas Stars 4-2.",
+    "summary_length": 414,
+    "latency_seconds": 0.58,
+    "input_tokens": 1326,
+    "output_tokens": 95,
+    "total_tokens": 1421,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The New York Yankees won their 10th game in 11 attempts, defeating the Texas Rangers 3-2 on Tuesday night. Cam Schlittler pitched six stellar innings, allowing three hits and striking out eight, while Aaron Judge homered for the third straight game. The Yankees' victory was secured by David Bednar, who earned his ninth save despite allowing two runs in the ninth inning.",
+    "summary_length": 372,
+    "latency_seconds": 0.357,
+    "input_tokens": 1339,
+    "output_tokens": 81,
+    "total_tokens": 1420,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Miami Marlins edged the Los Angeles Dodgers 2-1 on Tuesday, with Janson Junk pitching six scoreless innings to outduel Shohei Ohtani. Owen Caissie and Kyle Stowers each drove in a run for the Marlins, who improved to 2-3 on their six-game West Coast road trip. The Dodgers pulled within 2-1 in the eighth inning but were unable to overcome the deficit.",
+    "summary_length": 356,
+    "latency_seconds": 0.469,
+    "input_tokens": 1229,
+    "output_tokens": 88,
+    "total_tokens": 1317,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "King Charles and Queen Camilla attended a state dinner at the White House, where they were greeted by President Donald Trump and first lady Melania Trump. Queen Camilla wore a deep fuchsia pink evening gown and an amethyst and diamond necklace, but did not wear a tiara. During the dinner, King Charles gifted President Trump a historic naval artifact, the original bell from the HMS Trump, as a symbol of friendship and shared history.",
+    "summary_length": 436,
+    "latency_seconds": 0.543,
+    "input_tokens": 1656,
+    "output_tokens": 88,
+    "total_tokens": 1744,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
