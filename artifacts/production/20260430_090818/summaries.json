@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Matt Olson hit a walk-off two-run homer in the ninth inning to lift the Atlanta Braves to a 4-3 win over the Detroit Tigers. The winning pitcher was Reynaldo Lopez, who worked two innings of scoreless relief, and the loss was the second straight outing in which Detroit's Kenley Jansen allowed a walk-off homer. The win extended Atlanta's winning streak over Detroit to nine games.",
+    "summary_length": 381,
+    "latency_seconds": 0.532,
+    "input_tokens": 1248,
+    "output_tokens": 83,
+    "total_tokens": 1331,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The Philadelphia Flyers have eliminated the Pittsburgh Penguins from the playoffs with a 1-0 overtime win in Game 6, thanks to Cam York's goal. York's winner came after a scoreless regulation period, with Dan Vladar making 32 saves for the Flyers and Arturs Silovs making 26 saves for the Penguins. The Flyers will now move on to the second round to face the Carolina Hurricanes.",
+    "summary_length": 379,
+    "latency_seconds": 0.334,
+    "input_tokens": 687,
+    "output_tokens": 84,
+    "total_tokens": 771,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Austin Reaves is returning to the Los Angeles Lakers' lineup for Game 5 after missing 9 games due to an oblique injury. The Lakers will attempt to finish their first-round playoff series with the Houston Rockets in Game 5. Reaves' return is expected to happen on the night of the game.",
+    "summary_length": 285,
+    "latency_seconds": 0.279,
+    "input_tokens": 886,
+    "output_tokens": 64,
+    "total_tokens": 950,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The New York Times offers a game called Pips, a unique spin on dominoes, which was released in August 2025. The game has color-coded conditions that must be met, such as adding up to a specific number or having equal or unequal numbers of pips. The article provides hints and answers for Pips on April 30, 2026, covering easy, medium, and hard difficulty levels.",
+    "summary_length": 362,
+    "latency_seconds": 0.514,
+    "input_tokens": 1576,
+    "output_tokens": 86,
+    "total_tokens": 1662,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Houston Rockets have forced a Game 6 against the Los Angeles Lakers, winning 99-93 on the road and trailing 3-2 in the series. Jabari Smith Jr. led the Rockets with 22 points, while LeBron James scored 25 points for the Lakers. The Lakers will have a third chance to clinch the series on Friday in Houston.",
+    "summary_length": 310,
+    "latency_seconds": 0.388,
+    "input_tokens": 1349,
+    "output_tokens": 75,
+    "total_tokens": 1424,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
