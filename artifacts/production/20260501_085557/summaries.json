@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Emily Blunt and Stanley Tucci, stars of the upcoming film \"The Devil Wears Prada 2\", have been honored with stars on the Hollywood Walk of Fame in the motion pictures category. The ceremony, which took place on Thursday, was attended by a crowd of fans, family, and industry colleagues, including renowned actors such as Robert Downey Jr., Dwayne \"The Rock\" Johnson, Matt Damon, and Meryl Streep. The film \"The Devil Wears Prada 2\" is set to premiere in theaters on Friday.",
+    "summary_length": 473,
+    "latency_seconds": 0.889,
+    "input_tokens": 706,
+    "output_tokens": 112,
+    "total_tokens": 818,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The Steelers have declined the fifth-year option for Broderick Jones, indicating he will need to earn his long-term future with the team on a year-to-year basis. This decision adds uncertainty to Jones' development and availability, particularly after a neck injury in 2025. The team's recent investments in other young offensive tackles suggest they are preparing for multiple possible outcomes at the position.",
+    "summary_length": 412,
+    "latency_seconds": 0.382,
+    "input_tokens": 557,
+    "output_tokens": 78,
+    "total_tokens": 635,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Michigan Lottery has announced the results for its draw games on April 30, 2026, including the winning numbers for Daily 3, Daily 4, Poker Lotto, Fantasy 5, and Daily Keno. The winning numbers are: Daily 3 (Midday: 7-9-2, Evening: 2-4-6) and Daily 4 (Midday: 7-4-8-3, Evening: 6-1-5-6). Winners can claim their prizes at Michigan Lottery retailers or by mail/in person at Regional Offices, with specific requirements depending on the prize amount.",
+    "summary_length": 451,
+    "latency_seconds": 0.619,
+    "input_tokens": 921,
+    "output_tokens": 129,
+    "total_tokens": 1050,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "US Attorney Jeanine Ferris Pirro has released new footage of Cole Allen, the suspect in the alleged assassination attempt against President Donald Trump at the White House Correspondents' Dinner. The footage shows Allen shooting a US Secret Service officer and \"casing the area\" the day before the attack, suggesting the incident was premeditated. Allen has been charged with three federal counts, including attempting to assassinate the President, with more charges expected.",
+    "summary_length": 476,
+    "latency_seconds": 0.416,
+    "input_tokens": 1541,
+    "output_tokens": 90,
+    "total_tokens": 1631,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "Federal prosecutors have released a video showing a man, Cole Tomas Allen, attempting to storm the White House Correspondents' Association dinner with guns and knives, allegedly trying to kill President Donald Trump. The video appears to show Allen running through security and pointing his weapon at a Secret Service agent, who fired back. Allen was injured but not shot, and has been charged with attempted assassination of the president, among other crimes, and will remain jailed while awaiting trial.",
+    "summary_length": 505,
+    "latency_seconds": 0.418,
+    "input_tokens": 872,
+    "output_tokens": 92,
+    "total_tokens": 964,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
