@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Always a Runner, a filly trained by Chad Brown, has won the Kentucky Oaks. This victory marks Brown's first Kentucky Oaks win, thanks to a strong push down the final stretch by Always a Runner. The win came on May 1, 2026.",
+    "summary_length": 222,
+    "latency_seconds": 0.484,
+    "input_tokens": 1452,
+    "output_tokens": 55,
+    "total_tokens": 1507,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The US Department of Justice has indicted four noncitizens in New Jersey for allegedly voting illegally in federal elections and providing false information during their US citizenship applications. The individuals, from Liberia, Jamaica, Israel, and India, are charged with various crimes, including voting by an alien in a federal election and making false statements in relation to naturalization. If convicted, they face prison sentences ranging from 10 to 16 years.",
+    "summary_length": 470,
+    "latency_seconds": 0.466,
+    "input_tokens": 785,
+    "output_tokens": 86,
+    "total_tokens": 871,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Boston Red Sox beat the Houston Astros 3-1 on Friday night, with Jarren Duran hitting a three-run homer and Jake Bennett earning the win in his major league debut. Bennett, a 25-year-old left-hander, gave up a run on five hits over five innings, while Duran's homer in the third inning put the Red Sox ahead 3-1. Aroldis Chapman secured the win with his sixth save of the season.",
+    "summary_length": 383,
+    "latency_seconds": 0.735,
+    "input_tokens": 534,
+    "output_tokens": 96,
+    "total_tokens": 630,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The NBA has announced punishments for the scuffle between Mitchell Robinson and Dyson Daniels, with Robinson receiving a $50,000 fine and Daniels a $25,000 fine. The fines were handed down due to the altercation during Game 6 between the New York Knicks and Atlanta Hawks, which resulted in technical fouls and ejections for both players. Robinson's higher fine was attributed to a postgame social media post in which he harshly trolled Daniels.",
+    "summary_length": 445,
+    "latency_seconds": 0.438,
+    "input_tokens": 643,
+    "output_tokens": 93,
+    "total_tokens": 736,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "A New Orleans appeals court has blocked the distribution of the abortion pill mifepristone by mail, citing a lack of basis in data and scientific literature for the FDA's decision to allow mail distribution. Pro-choice advocates have criticized the decision, calling it \"junk science\" and a step towards limiting abortion access. The decision is a temporary measure that remains in effect while the court considers the challenge, which could take months to resolve.",
+    "summary_length": 465,
+    "latency_seconds": 0.42,
+    "input_tokens": 1092,
+    "output_tokens": 89,
+    "total_tokens": 1181,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
