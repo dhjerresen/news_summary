@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Atlanta Braves right fielder Ronald Acuña Jr. left Saturday's game against the Colorado Rockies in the second inning due to left hamstring tightness. He was replaced by Eli White in right field after being examined by team medical personnel. There is no immediate update on Acuña's condition.",
+    "summary_length": 292,
+    "latency_seconds": 0.338,
+    "input_tokens": 330,
+    "output_tokens": 60,
+    "total_tokens": 390,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The Philadelphia 76ers defeated the Boston Celtics 109-100 in Game 7 of their Eastern Conference first-round playoff series, overcoming a 3-1 series deficit for the first time in franchise history. Joel Embiid led the 76ers with 34 points, 12 rebounds, and six assists, while Tyrese Maxey added 30 points and 11 rebounds. The 76ers' win eliminated the second-seeded Celtics from the playoffs.",
+    "summary_length": 392,
+    "latency_seconds": 0.456,
+    "input_tokens": 1470,
+    "output_tokens": 94,
+    "total_tokens": 1564,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Golden Tempo, trained by Cherie DeVaux, won the 152nd Kentucky Derby, making DeVaux the first woman to train a winner of the event. Ridden by Jose Ortiz, Golden Tempo finished the 1 1/4-mile race in 2:02.27, passing favorite Renegade just before the wire. DeVaux's historic win came in her first Kentucky Derby opportunity, eight years after starting her own stable.",
+    "summary_length": 366,
+    "latency_seconds": 0.425,
+    "input_tokens": 776,
+    "output_tokens": 89,
+    "total_tokens": 865,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The Arizona Lottery has announced the results for its draw games on May 2, 2026, with the winning Powerball numbers being 25-37-42-52-65 and the Powerball number being 14. The winning numbers for other games, including The Pick, Pick 3, Fantasy 5, and Triple Twist, have also been released. Players can check if they have won by matching their numbers to the announced results.",
+    "summary_length": 377,
+    "latency_seconds": 0.511,
+    "input_tokens": 956,
+    "output_tokens": 91,
+    "total_tokens": 1047,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The Carolina Hurricanes opened their playoff series against the Philadelphia Flyers with a 3-0 victory, led by Logan Stankoven's two goals and Frederik Andersen's second shutout of the playoffs. Stankoven, 23, became the youngest player in history to score goals in five consecutive games to open the playoffs. The Hurricanes will look to continue their streak when the series resumes Monday in Raleigh.",
+    "summary_length": 403,
+    "latency_seconds": 0.349,
+    "input_tokens": 1466,
+    "output_tokens": 82,
+    "total_tokens": 1548,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
