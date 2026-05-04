@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Rudy Giuliani, the 81-year-old former mayor of New York City, has been hospitalized in Florida and is in \"critical but stable condition\", according to his spokesman. Giuliani's spokesman, Ted Goodman, described him as a \"fighter\" and asked the public to \"join us in prayer\" for his recovery. US President Donald Trump reacted to the news, praising Giuliani and blaming his political opponents for his condition.",
+    "summary_length": 411,
+    "latency_seconds": 0.521,
+    "input_tokens": 1424,
+    "output_tokens": 85,
+    "total_tokens": 1509,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The New York Yankees have reinstated shortstop Anthony Volpe from his rehab assignment, but optioned him to Triple-A Scranton/Wilkes-Barre. Volpe was working his way back from offseason shoulder surgery and played 12 minor league rehab games, but the team opted not to rush his return with Jose Caballero playing well as the everyday shortstop. Caballero has been a key part of the Yankees' success, batting .259 with four homers and 12 RBIs through 32 games.",
+    "summary_length": 459,
+    "latency_seconds": 0.449,
+    "input_tokens": 1355,
+    "output_tokens": 105,
+    "total_tokens": 1460,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Montreal Canadiens earned their first playoff series win since 2021, defeating the Tampa Bay Lightning 2-1 in Game 7. Alex Newhook scored the game-winning goal with 8:53 remaining in regulation, and Montreal goaltender Jakub Dobes made 28 saves to secure the win. The Canadiens will now face the Buffalo Sabres in the second round of the playoffs, starting Wednesday in Buffalo.",
+    "summary_length": 382,
+    "latency_seconds": 0.528,
+    "input_tokens": 1994,
+    "output_tokens": 85,
+    "total_tokens": 2079,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The NYT Connections puzzle for May 4, 2026, requires players to find common threads between 16 words, divided into four categories. The categories for today's puzzle are: tender-hearted person, pellet-filled things, things with knobs, and names starting with familiar dog breeds. The solution to today's Connections puzzle is provided, with the correct groupings being: MARSHMALLOW, SOFTIE, SWEETHEART, TEDDY BEARS; BEANIE BABY, DESSICANT PACKET, EYE PILLOW, HACKY SACK; CONTROL PANEL, ETCH A SKETCH, RADIO, STOVE; and CHOWDER, DOODLEBUG, LABUBU, PITTER-PATTER.",
+    "summary_length": 561,
+    "latency_seconds": 0.672,
+    "input_tokens": 1142,
+    "output_tokens": 150,
+    "total_tokens": 1292,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "President Donald Trump has announced that the US will launch an effort, called \"Project Freedom\", to guide stranded ships from the Strait of Hormuz, which has been effectively closed by Iran. The initiative, set to begin on Monday, will involve US military assets, including guided-missile destroyers and aircraft, to help hundreds of vessels and around 20,000 seafarers. Iran has denounced the move as a ceasefire violation, warning that any interference in the strait will be met with force.",
+    "summary_length": 493,
+    "latency_seconds": 0.412,
+    "input_tokens": 1501,
+    "output_tokens": 103,
+    "total_tokens": 1604,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
