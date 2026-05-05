@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Blake Lively attended the Met Gala just hours after settling a lawsuit related to her film \"It Ends With Us\". The settlement resolves a retaliation lawsuit against her co-star Justin Baldoni, his company, and a PR firm, bringing an end to a dispute that began in late 2024. Lively walked the red carpet in a pastel-toned gown, marking her appearance at the high-profile event.",
+    "summary_length": 376,
+    "latency_seconds": 0.52,
+    "input_tokens": 1201,
+    "output_tokens": 83,
+    "total_tokens": 1284,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "An explosion at a fireworks plant in Liuyang, Hunan province, China, killed at least 26 people and injured 61 others on Monday. The blast occurred at a plant operated by the Huasheng Fireworks Manufacturing and Display Co., and authorities have detained the person in charge of the company as they investigate the cause. Search and rescue operations have largely been completed, with nearly 500 rescuers deployed to the scene and residents in danger zones evacuated.",
+    "summary_length": 466,
+    "latency_seconds": 0.317,
+    "input_tokens": 581,
+    "output_tokens": 94,
+    "total_tokens": 675,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "The Minnesota Timberwolves defeated the San Antonio Spurs 104-102 in Game 1 of their Western Conference semifinal series, with Julius Randle scoring 21 points and Anthony Edwards adding 18 points off the bench. The Timberwolves were bolstered by Edwards' return from a bone bruise in his left knee that was supposed to keep him out for multiple weeks. The Timberwolves will take a 1-0 lead into Game 2, which will be contested on Wednesday in San Antonio.",
+    "summary_length": 455,
+    "latency_seconds": 0.382,
+    "input_tokens": 1767,
+    "output_tokens": 104,
+    "total_tokens": 1871,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "Seth Jarvis scored midway through the third period to tie the game 2-2 and force overtime against the Philadelphia Flyers. The Carolina Hurricanes had trailed by two goals early in the game, with Jamie Drysdale and Sean Couturier scoring for the Flyers in the first period. Jarvis' goal came after Nikolaj Ehlers had scored the Hurricanes' first goal in the first period, and the game is now headed to overtime with the series 1-0 in favor of the Hurricanes.",
+    "summary_length": 458,
+    "latency_seconds": 0.422,
+    "input_tokens": 341,
+    "output_tokens": 99,
+    "total_tokens": 440,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "The New York Mets beat the Colorado Rockies 4-2 in Denver on Monday, thanks to a big sixth inning where Carson Benge homered to break up Tomoyuki Sugano's no-hit bid. The Mets' five pitchers combined to strike out 11, with David Peterson fanning six in four innings and Devin Williams picking up his fourth save. Mickey Moniak extended his hitting streak to 17 games for the Rockies, who have dropped the first four games of their six-game homestand.",
+    "summary_length": 450,
+    "latency_seconds": 0.429,
+    "input_tokens": 1414,
+    "output_tokens": 104,
+    "total_tokens": 1518,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
