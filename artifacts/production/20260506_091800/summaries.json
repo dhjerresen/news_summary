@@ -1,0 +1,67 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "Donald Trump has announced that he is pausing 'Project Freedom', the US effort to guide vessels out of the Strait of Hormuz, in order to finalize a deal with Iran. The US blockade of Iranian ports will remain in place, and the US has made demands that Iran agree to reopen the Strait of Hormuz and make concessions on its nuclear program. The move comes as the US and Iran continue to negotiate, with the US seeking to break Iran's grip on the strait, which has sent fuel prices skyrocketing and rattled the global economy.",
+    "summary_length": 523,
+    "latency_seconds": 0.739,
+    "input_tokens": 1117,
+    "output_tokens": 112,
+    "total_tokens": 1229,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_002",
+    "summary": "The NBA has fined Jaylen Brown $50,000 for public criticism of officiating after he made comments on a Twitch stream questioning the \"agenda\" of referees. Brown's comments were made shortly after the Celtics' season ended with a loss to the Sixers in Game 7 of their first-round series. This is not the first time Brown has been fined for criticizing officials, having previously been fined $35,000 for similar comments made in January.",
+    "summary_length": 436,
+    "latency_seconds": 0.451,
+    "input_tokens": 709,
+    "output_tokens": 92,
+    "total_tokens": 801,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_003",
+    "summary": "Democrat Chedrick Greene has won a special election in Michigan's 35th Senate District, securing his party's control of the state Senate through the remainder of Gov. Gretchen Whitmer's term. Greene, a firefighter and Marine veteran, defeated Republican Jason Tunney, a former prosecutor, in the closely watched election. This win maintains the Democrats' slim majority in the state Senate, with 19 seats to the Republicans' 18.",
+    "summary_length": 428,
+    "latency_seconds": 0.511,
+    "input_tokens": 1345,
+    "output_tokens": 91,
+    "total_tokens": 1436,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_004",
+    "summary": "The US military carried out a lethal strike on a vessel in the Eastern Pacific, killing three suspected narco-terrorists who were engaged in narco-trafficking activity. The strike was conducted by Joint Task Force Southern Spear and no US service members were injured. This is the latest in a series of strikes by the US military targeting suspected drug-smuggling vessels in the region.",
+    "summary_length": 387,
+    "latency_seconds": 0.37,
+    "input_tokens": 590,
+    "output_tokens": 77,
+    "total_tokens": 667,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  },
+  {
+    "cluster_id": "cluster_005",
+    "summary": "Detroit Tigers pitcher Framber Valdez was ejected from a game against the Boston Red Sox after hitting shortstop Trevor Story with a 94 mph fastball, leading to the benches clearing. Red Sox interim manager Chad Tracy accused Valdez of throwing at Story intentionally, calling it \"weak\". Valdez had allowed 10 runs and three homers before being ejected in the 10-3 loss for the Tigers.",
+    "summary_length": 385,
+    "latency_seconds": 0.434,
+    "input_tokens": 552,
+    "output_tokens": 81,
+    "total_tokens": 633,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
