@@ -1,0 +1,15 @@
+[
+  {
+    "cluster_id": "cluster_001",
+    "summary": "A federal judge has released a suicide note allegedly written by Jeffrey Epstein, in which he suggests his innocence and claims the charges against him were unfounded. The note was discovered by Epstein's cellmate, Nicholas Tartaglione, after a failed suicide attempt, and was made public after The New York Times petitioned the court to unseal the document. The authenticity of the note has not been verified by The New York Times.",
+    "summary_length": 432,
+    "latency_seconds": 0.534,
+    "input_tokens": 588,
+    "output_tokens": 88,
+    "total_tokens": 676,
+    "success": true,
+    "error": null,
+    "model_name": "llama-3.3-70b-versatile",
+    "prompt_version": "summary_prompt_v1"
+  }
+]
